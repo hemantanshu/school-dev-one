@@ -15,6 +15,7 @@ $body->startBody ( 'global', 'LMENUL7', 'User Menu Assignment' );
     </div>
     <div id="contentHeader">User Group Menu Assignment Form</div>
 </div>
+<div class="clear"></div>
 <div class="inputs">
     <form id="insertForm" class="insertForm"
           onsubmit="return valid.validateForm(this) ? processInsertForm() : false;">

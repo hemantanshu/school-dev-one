@@ -52,6 +52,7 @@ class body extends menu {
 	<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"" . $this->getBaseServer() . "css/global/footerpanel.css\" />
 	<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"" . $this->getBaseServer() . "css/global/menu.css\" />
 	<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"" . $this->getBaseServer() . "css/global/common.css\" />
+	<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"" . $this->getBaseServer() . "css/global/datepicker.css\" />
 	<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"" . $this->getBaseServer() . "css/global/form.css\" />
 	<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"" . $this->getBaseServer() . "css/global/demo_table_jui.css\" />
 	<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"" . $this->getBaseServer() . "css/global/jquery.ui.custom.css\" />

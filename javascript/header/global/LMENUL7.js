@@ -1,8 +1,12 @@
 var valid = new validate();
+var oTable, formGlobalPath;
 $(document).ready(function () {
     oTable = $('#groupMenus').dataTable({
         "bJQueryUI":true,
         "sPaginationType":"full_numbers"
+    });
+    $(".date").dateinput({
+        format: 'yyyy-mm-dd'
     });
     formGlobalPath = getFormGlobalPath();
 
