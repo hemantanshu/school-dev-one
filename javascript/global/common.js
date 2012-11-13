@@ -1,3 +1,4 @@
+//adding few inline comments to test the validity of the git hub connection
 var notificationCounter = 0;
 var previousPage = '';
 var currentPage = '';
