@@ -1,0 +1,195 @@
+
+@CHARSET "ISO-8859-1";
+#navcontainer {
+    background: url(../../images/global/header.gif) repeat;
+    height: auto;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+}
+
+
+
+#mainContainer .test {
+    background-image: url(../../images/global/header.gif);
+}
+
+.sgmenu{
+    font: bold 12px Verdana;
+    background: #414141; /*background of menu bar (default state)*/
+    width: 100%;
+}
+
+.sgmenu ul{
+    z-index:100;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/*Top level list items*/
+.sgmenu ul li{
+    position: relative;
+    display: inline;
+    float: left;
+}
+
+/*Top level menu link items style*/
+.sgmenu ul li a{
+    display: block;
+    background: #414141; /*background of menu items (default state)*/
+    color: #ffffff;
+    padding: 6px 10px;
+    border-right: 1px solid #778;
+    color: #2d2b2b;
+    text-decoration: none;
+}
+
+* html .sgmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+    display: inline-block;
+}
+
+.sgmenu ul li a:link, .sgmenu ul li a:visited{
+    color: white;
+}
+
+.sgmenu ul li a.selected{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+    background: black;
+    color: white;
+}
+
+.sgmenu ul li a:hover{
+    background: black; /*background of menu items during onmouseover (hover state)*/
+    color: white;
+}
+
+/*1st sub level menu*/
+.sgmenu ul li ul{
+    position: absolute;
+    left: 0;
+    display: none; /*collapse all sub menus to begin with*/
+    visibility: hidden;
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.sgmenu ul li ul li{
+    display: list-item;
+    float: none;
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.sgmenu ul li ul li ul{
+    top: 0;
+}
+
+/* Sub level menu links style */
+.sgmenu ul li ul li a{
+    font: normal 13px Verdana;
+    width: 200px; /*width of sub menus*/
+    padding: 5px;
+    margin: 0;
+    border-top-width: 0;
+    border-bottom: 1px solid gray;
+}
+
+/* Holly Hack for IE \*/
+* html .sgmenu{height: 1%;} /*Holly Hack for IE7 and below*/
+
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.downarrowclass{
+    position: absolute;
+    top: 12px;
+    right: 7px;
+}
+
+.rightarrowclass{
+    position: absolute;
+    top: 6px;
+    right: 5px;
+}
+
+/* ######### CSS for shadow added to sub menus  ######### */
+
+.ddshadow{ /*shadow for NON CSS3 capable browsers*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    background: silver;
+}
+
+.toplevelshadow{ /*shadow opacity for NON CSS3 capable browsers. Doesn't work in IE*/
+    opacity: 0.8;
+}
+
+
+/*additional single line menu at the page*/
+.mh_wrapper{
+    height:20px;
+    line-height:20px;
+    font-family: "Myriad Pro", "Trebuchet MS", Helvetica, sans-serif;
+    font-size:12px;
+}
+.mh_itemMain{
+    color:#f0f0f0;
+    z-index:10;
+    border:1px solid #222;
+    background-color:#222;
+    cursor:pointer;
+    text-align:left;
+    font-weight:bold;
+    text-indent:20px;
+    width:100px;
+    position:absolute;
+    left: 0px;
+    text-shadow:1px 1px 1px #000;
+}
+.mh_itemMain:hover{
+    color:#fff;
+}
+.mh_right{
+    width:40px;
+    height:20px;
+    left:60px;
+    cursor:pointer;
+    border:1px solid #000;
+    position: absolute;
+    left: 100px;
+    background:#000 url(../../images/global/right.png) no-repeat center center;
+}
+.mh_wrapper ul {
+    width:1024px;
+    list-style:none;
+    padding:0px;
+    height:20px;
+    position: absolute;
+    left:105px;
+}
+.mh_wrapper ul li a{
+    text-decoration:none;
+    cursor:pointer;
+    display:block;
+    float:left;
+    margin:0px;
+    text-indent:0px;
+    padding:0px 10px 0px 3px;
+    line-height:20px;
+    height:20px;
+    text-indent:10px;
+    letter-spacing:1px;
+    color:#ddd;
+    background-color:#525252;
+    text-shadow:1px 1px 1px #000;
+    border:1px solid #333;
+    border-left:none;
+}
+.mh_wrapper ul li a.hover{
+    background:#333;
+    color:#fff;
+    -moz-box-shadow:0px 0px 3px #000 inset;
+    -webkit-box-shadow:0px 0px 3px #000 inset;
+    box-shadow:0px 0px 3px #000 inset;
+}

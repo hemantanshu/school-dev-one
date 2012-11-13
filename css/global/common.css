@@ -1,0 +1,417 @@
+body {
+	background: url(../../images/global/bg.jpg) repeat;
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+	height: 100%;
+	width: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+h1 {
+	color: #263356;
+	font-size: 20px;
+	margin: 0 0 5px;
+	padding: 0 0 5px;
+}
+
+#nav {
+	font: 12px;
+	border-top: 1px solid #ffffff;
+	/*background-image: url(../../images/global/header.gif);
+	background-repeat: repeat;*/
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	position: fixed;
+}
+
+#nav img.menuIcon {
+	margin: 0 3px -3px 0 !important;
+	padding: 0;
+	border: none;
+	width: 16px;
+	height: 16px;
+}
+
+#contentBoxContainer {
+	font: 14px;
+	margin-top: 30px;
+	width: 95%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	background-color: #FFF;
+}
+
+#DHTMLgoodies_formTooltipDiv {
+	color: #FFF;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 120%;
+}
+
+.DHTMLgoodies_formTooltip_closeMessage {
+	color: #FFF;
+	font-weight: normal;
+	font-size: 8px;
+}
+
+input:focus,textarea:focus,select:focus {
+	background-color: #CAD7EE;
+}
+
+#displayRegion {
+	width: 99%;
+	float: left;
+	margin-right: 0.5%;
+	margin-left: 0.5%;
+}
+
+#loading {
+	display: block;
+	background-color: #606060;
+	position: absolute;
+	bottom: 30px;
+	font-size: 13px;
+	right: 0;
+	width: auto;
+	padding: 5px 10px 0px 5px;
+	border-bottom: 1px #ffffff;
+}
+
+#loading img {
+	float: left;
+}
+
+#loading span {
+	color: #ffffff;
+	padding: 5px 0 0 10px;
+	font-size: 14px;
+	font-weight: bolder;
+}
+
+#instituteName {
+	color: white;
+	left: 25%;
+	font-size: 14px;
+	font-weight: bold;
+	text-indent: 0;
+}
+
+.green {
+	color: green;
+	font-weight: bolder;
+}
+
+.red {
+	color: red;
+	font-weight: bolder;
+}
+
+#content_header {
+	height: 20px;
+}
+
+#contentHeader {
+	font-size: 14px;
+	font-weight: bolder;
+	text-align: center;
+	line-height: 20px;
+	color: #D12F19;
+	font-stretch: expanded;
+	text-align: center;
+}
+
+#pageButton {
+	float: right;
+}
+
+.displayborder {
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+.displayborder1 {
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	padding: 20px 20px 20px 40px;
+}
+
+/* start of the css related to the jprompts*/
+#popup_container {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	min-width: 300px; /* Dialog will be no smaller than this */
+	max-width: 600px; /* Dialog will wrap after this width */
+	background: #FFF;
+	border: solid 5px #999;
+	color: #000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#popup_title {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.75em;
+	color: #666;
+	background: #CCC url('../../images/global/title.gif') top repeat-x;
+	border: solid 1px #FFF;
+	border-bottom: solid 1px #999;
+	cursor: default;
+	padding: 0em;
+	margin: 0em;
+}
+
+#popup_content {
+	background: 16px 16px no-repeat url('../../images/global/info.gif');
+	padding: 1em 1.75em;
+	margin: 0em;
+}
+
+#popup_content.alert {
+	background-image: url('../../images/global/info.gif');
+}
+
+#popup_content.confirm {
+	background-image: url('../../images/global/info.gif');
+}
+
+#popup_content.prompt {
+	background-image: url('../../images/global/info.gif');
+}
+
+#popup_message {
+	padding-left: 48px;
+}
+
+#popup_panel {
+	text-align: center;
+	margin: 1em 0em 0em 1em;
+}
+
+#popup_panel input {
+	font-size: 10px;
+}
+
+#popup_prompt {
+	margin: .5em 0em;
+}
+/* end of the css related to the jprompts*/
+
+/* start of the css related to the inline login page*/
+.logoMessage {
+	font-size: 22px;
+	font-weight: bolder;
+	color: green;
+	text-align: center;
+	border: 1px solid #AAA;
+	padding: 10px 10px 10px 10px;
+	background-color: #F4F4F4;
+}
+
+.loginMessage {
+	font-size: 15px;
+	font-weight: bold;
+	color: red;
+	height: 30px;
+	display: block;
+	text-align: center;
+	padding: 15px 5px 5px 5px;
+}
+
+.login-box {
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+.centerBox {
+	margin: -185px auto 0 -175px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: #F4F4F4;
+	border: 1px solid #AAA;
+}
+
+.insideBox {
+	margin: 10px 10px 10px 10px;
+	background-color: #FFFFFF;
+	border: 1px solid #AAA;
+	height: 250px;
+}
+
+.loginSeparator {
+	clear: both;
+	height: 10px;
+}
+
+#loginForm {
+	border: 1px solid #AAA;
+}
+
+.preview {
+	width: 200px;
+	border: solid 1px #dedede;
+	padding: 10px;
+}
+
+#preview {
+	color: #cc0000;
+	font-size: 12px
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+font.printTableRow {
+	font-size: 10px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	line-height: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+font.printCandidateInfo {
+	font-size: 12px;
+	letter-spacing: 1.5px;
+	word-spacing: 2px;
+	line-height: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+font.printMark {
+	font-size: 12px;
+	letter-spacing: 2.5px;
+	word-spacing: 3px;
+	line-height: 20px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+font.printSmall {
+	font-size: 50px;
+	letter-spacing: 4px;
+	word-spacing: 3px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+font.printAssessmentNames {
+	font-family: Arial, "Arabic Typesetting";
+	font-size: 17px;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	line-height: 40px;
+	font-weight: bolder;
+}
+
+font.printTopHeaderNames {
+	font-family: Arial, "Arabic Typesetting";
+	font-size: 20px;
+	letter-spacing: 3px;
+	word-spacing: 4px;
+	font-weight: bolder;
+	text-decoration: underline;
+	text-align: center;
+}
+
+font.printSubjectHeader {
+	font-family: Arial, "Arabic Typesetting";
+	font-size: 16px;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	line-height: 25px;
+	font-weight: bolder;
+}
+/* end of the css related to the inline login page*/
+font.printTableRow {
+		font-size: 12px;
+		letter-spacing: 1px;
+		word-spacing: 2px;
+		line-height: 12px;
+		font-weight: bold;
+		text-align: center;
+	}
+	font.printCandidateInfo {
+		font-size: 12px;
+		letter-spacing: 1.5px;
+		word-spacing: 2px;
+		line-height: 12px;
+		font-weight: bold;
+		text-align: center;
+	}
+	font.printMark {
+		font-size: 12px;
+		letter-spacing: 2.5px;
+		word-spacing: 3px;
+		line-height: 20px;
+		font-weight: bolder;
+		text-align: center;
+	}
+	font.printSmall {
+		font-size: 50px;
+		letter-spacing: 4px;
+		word-spacing: 3px;
+		line-height: 30px;
+		font-weight: bold;
+	}
+	font.printAssessmentNames {
+		font-family: Arial, "Arabic Typesetting";
+		font-size: 17px;
+		letter-spacing: 2px;
+		word-spacing: 4px;
+		line-height: 40px;
+		font-weight: bolder;
+	}
+	font.printTopHeaderNames {
+		font-family: Arial, "Arabic Typesetting";
+		font-size: 20px;
+		letter-spacing: 3px;
+		word-spacing: 4px;
+		font-weight: bolder;
+		text-decoration: underline;
+		text-align: center;
+	}
+	font.printSubjectHeader {
+		font-family: Arial, "Arabic Typesetting";
+		font-size: 16px;
+		letter-spacing: 2px;
+		word-spacing: 4px;
+		line-height: 25px;
+		font-weight: bolder;
+	}
+
+.no-border-top{
+    border-top: none;
+}
+
+.tooltip {
+    background-color:#000;
+    border:1px solid #fff;
+    padding:10px 15px;
+    width:200px;
+    display:none;
+    color:#fff;
+    text-align:left;
+    font-size:12px;
+
+    /* outline radius for mozilla/firefox only */
+    -moz-box-shadow:0 0 10px #000;
+    -webkit-box-shadow:0 0 10px #000;
+}

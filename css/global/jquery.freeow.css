@@ -1,0 +1,175 @@
+/*
+
+This stylesheet provides some sample styles to use with Freeow! You may use
+these in your project or create your own! If you plan to make your own!
+
+For my samples, I'm assuming that you will call freeow() on a container with
+the class .freeow applied to it.
+
+The default template function produces markup matching this outline:
+
+	div (classes passed in options get applied here)
+		div.background
+			div.content
+				h2
+				p
+		span.icon
+		span.close
+		
+Don't forget: You can make your template function if this markup doesn't work
+for your project. The function must accept the title and message as arguments
+and return a DOM element (the message box). 
+
+Update $.fn.freeow.defaults.template or pass the function as the template
+member of the options object when calling freeow().
+		
+*/
+
+
+/* Boilerplate -------------------------------------------------------------- */
+
+/* Outermost Container */
+.freeow {
+    position: fixed;
+    width: auto;
+    z-index: 9999;  
+}
+.freeow-bottom-right {
+    bottom: 50px;
+    right: 10px; 
+}
+
+/* Message */
+.freeow > div {
+    position: relative;
+    margin-bottom: 5px;
+	cursor: pointer;
+}
+.freeow .content {
+    margin: 5px 5px 5px 69px;
+}
+.freeow h2,
+.freeow p {
+    margin: 0;
+    padding: 0;
+
+}
+.freeow .icon {
+    position: absolute;
+    display: block;
+    width: 32px;
+    height: 32px;
+    top: 2px;
+    left: 10px;
+    z-index: 1;
+}
+.freeow .close {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    top: 8px;
+    left: 8px;
+    background: none;
+    z-index: 2;
+}
+.freeow div:hover .close {
+    background: transparent url(../../images/global/close.png) no-repeat 0 0;
+}
+
+/* Icons */
+.freeow .success .icon   { background-image: url(../../images/global/success.png); background-repeat: no-repeat; }
+.freeow .error .icon { background-image: url(../../images/global/error.png); background-repeat: no-repeat;}
+.freeow .info .icon { background-image: url(../../images/global/info.png); background-repeat: no-repeat;}
+.freeow .warning .icon { background-image: url(../../images/global/warning.png); background-repeat: no-repeat;}
+
+/* Specific Styles ---------------------------------------------------------- */
+.freeow p {
+    padding-top: 8px;
+    font-family: Helvetica, arial, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+
+/* sucecss */
+.freeow .success {
+    color: black;
+}
+.freeow .success .background {
+    border: 3px solid #eee;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    background: #eee;
+    -moz-box-shadow: 2px 2px 3px #888;
+    -webkit-box-shadow: 2px 2px 3px #888;
+    box-shadow: 2px 2px 3px #888;
+}
+.freeow .success:hover .background {
+    border-color: #009bc5;
+}
+.freeow .success .content {
+    margin: 5px 5px 5px 69px;
+}
+
+/* error */
+.freeow .error {
+    color: #D8000C;
+}
+.freeow .error .background {
+    border: 3px solid #eee;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    background: #FFBABA;
+    -moz-box-shadow: 2px 2px 3px #888;
+    -webkit-box-shadow: 2px 2px 3px #888;
+    box-shadow: 2px 2px 3px #888;
+}
+.freeow .error:hover .background {
+    border-color: #009bc5;
+}
+.freeow .error .content {
+    margin: 5px 5px 5px 69px;
+}
+
+/* info */
+.freeow .info {
+    color: #00529B;
+}
+.freeow .info .background {
+    border: 3px solid #eee;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    background: #BDE5F8;
+    -moz-box-shadow: 2px 2px 3px #888;
+    -webkit-box-shadow: 2px 2px 3px #888;
+    box-shadow: 2px 2px 3px #888;
+}
+.freeow .info:hover .background {
+    border-color: #009bc5;
+}
+.freeow .info .content {
+    margin: 5px 5px 5px 69px;
+}
+
+
+/* warning */
+.freeow .warning {
+    color: #9F6000;
+}
+.freeow .warning .background {
+    border: 3px solid #eee;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    background: #FEEFB3;
+    -moz-box-shadow: 2px 2px 3px #888;
+    -webkit-box-shadow: 2px 2px 3px #888;
+    box-shadow: 2px 2px 3px #888;
+}
+.freeow .warning:hover .background {
+    border-color: #009bc5;
+}
+.freeow .warning .content {
+    margin: 5px 5px 5px 69px;
+}

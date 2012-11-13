@@ -1,0 +1,46 @@
+.logoMessage{
+    font-size: 22px;
+    font-weight: bolder;
+    color: green;
+    text-align: center;
+    border: 1px solid #AAA;
+    padding: 10px 10px 10px 10px;
+    background-color: #F4F4F4;
+}
+
+.loginMessage{
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+    height: 30px;
+    display: block;
+    text-align: center;
+    padding: 15px 5px 5px 5px;
+}
+.login-box{
+    vertical-align: center;
+    margin: 0 auto;
+}
+.centerBox{
+    margin: -185px auto 0 -175px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #F4F4F4;
+    border: 1px solid #AAA;
+}
+
+.insideBox{
+    margin: 10px 10px 10px 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #AAA;
+    height: 250px;
+}
+.loginSeparator{
+    clear: both;
+    height: 10px;
+}
+
+#loginForm{
+    border: 1px solid #AAA;
+}

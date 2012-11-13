@@ -1,0 +1,345 @@
+
+@CHARSET "ISO-8859-1";
+#footpanel {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	background-color: #606060;
+	height: 30px;
+	font-size: 9px;
+	font-weight: bold;
+}
+#footpanel img {border: none;}
+
+*html #footpanel { /*--IE6 Hack - Fixed Positioning to the Bottom--*/
+	margin-top: -1px; /*--prevents IE6 from having an infinity scroll bar - due to 1px border on #footpanel--*/
+	position: absolute;
+	top:expression(eval(document.compatMode &&document.compatMode=='CSS1Compat') ?documentElement.scrollTop+(documentElement.clientHeight-this.clientHeight) : document.body.scrollTop +(document.body.clientHeight-this.clientHeight));
+}
+
+#footpanel ul {
+	padding: 0; margin: 0;
+	float: left;
+	width: 100%;
+	list-style: none;
+	border-top: 1px solid #fff; /*--Gives the bevel feel on the panel--*/
+	font-size: 1.1em;
+}
+#footpanel ul li{
+	padding: 0; margin: 0;
+	float: left;
+	position: relative;
+}
+#footpanel ul li a{
+	padding: 5px;
+	float: left;
+	text-indent: -9999px;
+	height: 16px;
+	width: 16px;
+	text-decoration: none;
+	color: #FFF;
+	position: relative;
+}
+#footpanel ul li a:hover{
+	background-color: #263A64;
+}
+#footpanel ul li a.active { /*--Active state when subpanel is open--*/
+	background-color: #152139;
+	height: 17px;
+	margin-top: -2px; /*--Push it up 2px to attach the active button to subpanel--*/
+	border: 1px solid #555;
+	border-top: none;
+	z-index: 200; /*--Keeps the active area on top of the subpanel--*/
+	position: relative;
+}
+
+
+#footpanel a.home{
+	background: url(../../images/global/b_home.png) no-repeat 15px center;
+	width: auto;
+	padding-left: 40px;
+    font-size: 14px;
+	border-right: 1px solid #bbb;
+	text-indent: 0; /*--Reset text indent--*/
+}
+
+#footpanel a.profile{	background: url(../../images/global/user.png) no-repeat center center;  }
+#footpanel a.bookmark{	background: url(../../images/global/icons/Bookmark.png) no-repeat center center; }
+#footpanel a.refresh{	background: url(../../images/global/icons/Refresh.png) no-repeat center center; }
+#footpanel a.logout{	background: url(../../images/global/icons/logoff.png) no-repeat center center; }
+#footpanel a.back{	background: url(../../images/global/icons/Go_back.png) no-repeat center center; }
+#footpanel a.lock{	background: url(../../images/global/icons/Lock.png) no-repeat center center; }
+#footpanel a.additionalMenus{	background: url(../../images/global/icons/menuListing.png) no-repeat center center; }
+
+#footpanel a.instituteName{	background: url(../../images/global/icons/logoff.png) no-repeat center center; }
+
+#footpanel a.chat{
+	background: url(../../images/global/icons/Favourites.png) no-repeat 15px center;
+	width: 60px;
+	border-left: 1px solid #bbb;
+	border-right: 1px solid #bbb;
+	padding-left: 40px;
+	text-indent: 0; /*--Reset text indent--*/
+}
+#footpanel a.extraMenu{
+    background: url(../../images/global/icons/menuListing.png) no-repeat 15px center;
+    width: 100px;
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+    padding-left: 40px;
+    text-indent: 0; /*--Reset text indent--*/
+}
+#footpanel a.pending{
+    background: url(../../images/global/icons/Disaster.png) no-repeat 15px center;
+    width: 100px;
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+    padding-left: 40px;
+    text-indent: 0; /*--Reset text indent--*/
+}
+#footpanel a.alert{
+    background: url(../../images/global/icons/Alert.png) no-repeat 15px center;
+    width: 50px;
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+    padding-left: 40px;
+    text-indent: 0; /*--Reset text indent--*/
+}
+
+#footpanel a.blog{	background: url(../../images/global/icons/Blog.png) no-repeat center center;	 }
+
+#footpanel li#chatpanel, #footpanel li#notificationPanel, #footpanel li#alertPanel, #footpanel li#extraMenuPanel, #footpanel li#pendingTasks {	float: right; }  /*--Right align the chat and alert panels--*/
+
+#footpanel a small {  /*--panel tool tip styles--*/
+	text-align: center;
+	width: 70px;
+	background: url(../../images/global/pop_arrow.gif) no-repeat center bottom;
+	padding: 5px 5px 11px;
+	display: none; /*--Hide by default--*/
+	color: #fff;
+	font-size: 1em;
+	text-indent: 0;
+}
+#footpanel a:hover small{
+	display: block; /*--Show on hover--*/
+	position: absolute;
+	top: -35px; /*--Position tooltip 35px above the list item--*/
+	left: 50%;
+	margin-left: -40px; /*--Center the tooltip--*/
+	z-index: 9999;
+}
+#footpanel ul li div a { /*--Reset link style for subpanel links--*/
+	text-indent: 0;
+	width: auto;
+	height: auto;
+	padding: 0;
+	float: none;
+	color: #00629a;
+	position: static;
+}
+#footpanel ul li div a:hover {	text-decoration: underline; } /*--Reset link style for subpanel links--*/
+
+#footpanel .subpanel {
+	position: absolute;
+	left: 0;
+    bottom: 27px;
+	display: none;	/*--Hide by default--*/
+	border: 1px solid #555;
+	background: #fff;
+	overflow: hidden;
+	padding-bottom: 2px;
+}
+#footpanel h3 {
+	background: #606060;
+	padding: 5px 10px;
+	color: #fff;
+	font-size: 12px;
+	cursor: pointer;
+}
+#footpanel h3 span {
+	font-size: 1.5em;
+	float: right;
+	line-height: 0.6em;
+	font-weight: normal;
+}
+#footpanel .subpanel ul{
+	padding: 0;
+    margin: 0;
+	background: #fff;
+	width: 100%;
+	overflow: auto;
+}
+#footpanel .subpanel li{
+	float: none; /*--Reset float--*/
+	display: block;
+	padding: 0;
+    margin: 0;
+	overflow: hidden;
+	clear: both;
+	background: #fff;
+	position: relative;  /*--Reset relative positioning--*/
+	font-size: 0.9em;
+}
+
+#chatpanel .subpanel{ width: 198px;}
+#chatpanel .subpanel li { background: url(../../images/global/b_selboard.png) no-repeat left center; }
+#chatpanel .subpanel li span {
+	padding: 5px;
+	background: #fff;
+	color: #777;
+	float: left;
+}
+#chatpanel .subpanel li a img {
+	float: left;
+	margin: 0 5px;
+}
+#chatpanel .subpanel li a{
+	padding: 3px 0;	margin: 0;
+	line-height: 22px;
+    font-size: 11px;
+	height: 22px;
+	background: #fff;
+	display: block;
+}
+#chatpanel .subpanel li a:hover {
+	background: #3b5998;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+#notificationPanel .subpanel { right: 0; left: auto; width: 400px; /*--Reset left positioning and make it right positioned--*/ }
+#notificationPanel .subpanel li {
+	border-top: 1px solid #f0f0f0;
+	display: block;
+}
+#notificationPanel .subpanel li p {padding: 5px 10px;}
+#notificationPanel .subpanel li a.delete{
+	background: url(../../images/global/delete_x.gif) no-repeat;
+	float: right;
+	width: 13px;
+    height: 14px;
+	margin: 5px;
+	text-indent: -9999px;
+    /*visibility: hidden; --Hides by default but still takes up space (not completely gone like display:none;)--*/
+}
+#notificationPanel .subpanel li a.delete:hover { background-position: left bottom; }
+#footpanel #notificationPanel li.view {
+	text-align: right;
+	padding: 5px 10px 5px 0;
+}
+
+#alertPanel .subpanel { right: 0; left: auto; width: 300px; /*--Reset left positioning and make it right positioned--*/ }
+#alertPanel .subpanel li {
+    border-top: 1px solid #f0f0f0;
+    display: block;
+}
+#alertPanel .subpanel li p {padding: 5px 10px;}
+#alertPanel .subpanel li a.delete{
+    background: url(../../images/global/delete_x.gif) no-repeat;
+    float: right;
+    width: 13px;
+    height: 14px;
+    margin: 5px;
+    text-indent: -9999px;
+    /*visibility: hidden; --Hides by default but still takes up space (not completely gone like display:none;)--*/
+}
+#alertPanel .subpanel li a.delete:hover { background-position: left bottom; }
+#footpanel #alertPanel li.view {
+    text-align: right;
+    padding: 5px 10px 5px 0;
+}
+
+#toppanel {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 30px;
+	z-index: 9999; /*--Keeps the panel on top of all other elements--*/
+	border: 0 1px 1px 1px solid #c3c3c3;
+	background-color: #606060;
+	border-bottom: none;
+	width: 95%;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+}
+#loading{
+    margin: 0px auto;
+    height: 30px;
+    width: 400px;
+
+}
+#loading img{
+	float:left;
+	margin:5px 10px 0px 10px;
+}
+#loading p{
+	color: #ffffff;
+	padding: 5px 0 0 10px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+#toppanel img {border: none;}
+
+*html #toppanel { /*--IE6 Hack - Fixed Positioning to the Bottom--*/
+	margin-top: -1px; /*--prevents IE6 from having an infinity scroll bar - due to 1px border on #toppanel--*/
+	position: absolute;
+	top:expression(eval(document.compatMode &&document.compatMode=='CSS1Compat') ?documentElement.scrollTop+(documentElement.clientHeight-this.clientHeight) : document.body.scrollTop +(document.body.clientHeight-this.clientHeight));
+}
+
+#extraMenuPanel .subpanel{ width: 198px;}
+#extraMenuPanel .subpanel li { background: url(../../images/global/b_selboard.png) no-repeat left center; }
+#extraMenuPanel .subpanel li span {
+    padding: 5px;
+    background: #fff;
+    color: #777;
+    float: left;
+}
+#extraMenuPanel .subpanel li a img {
+    float: left;
+    margin: 0 5px;
+}
+#extraMenuPanel .subpanel li a{
+    padding: 3px 0;	margin: 0;
+    line-height: 22px;
+    font-size: 11px;
+    height: 22px;
+    background: #fff;
+    display: block;
+}
+#extraMenuPanel .subpanel li a:hover {
+    background: #3b5998;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* */
+#pendingTasks .subpanel{ width: 300px;}
+#pendingTasks .subpanel li { background: url(../../images/global/b_selboard.png) no-repeat left center; }
+#pendingTasks .subpanel li span {
+    padding: 5px;
+    background: #fff;
+    color: #777;
+    float: left;
+}
+#pendingTasks .subpanel li a img {
+    float: left;
+    margin: 0 5px;
+}
+#pendingTasks .subpanel li a{
+    padding: 3px 0;	margin: 0;
+    line-height: 22px;
+    font-size: 11px;
+    height: 22px;
+    background: #fff;
+    display: block;
+}
+#pendingTasks .subpanel li a:hover {
+    background: #3b5998;
+    color: #fff;
+    text-decoration: none;
+}

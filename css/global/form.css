@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+
+fieldset {
+    border: 1px solid #000000;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+
+input,textarea{
+    padding: 0;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 15px;	
+    background-color: #FFFFFF;
+}
+select{
+    font-size: 13px;
+    font-weight: bold;
+}
+input {
+	height: 16px;
+}
+.required {
+    background-color: #FFC;
+}
+
+fieldset.action {
+    float: right;
+	display: block;    
+    border-color: transparent;
+    background-color: transparent;
+	padding-bottom: 20px;
+}
+fieldset.formelements{
+    width: 100%;
+}
+fieldset.displayElements{
+    width: 100%;
+}
+fieldset.tableElements{
+    width: 100%;
+}
+
+
+
+.legend {
+    color: white;
+    background-color: #666;
+    font-size: 15px;
+    padding: 5px 0px 5px 50px;
+    font-weight: normal;
+    display: block;
+}
+#dashboard {
+    color: #00000;  
+    width: 100%; 
+    height: 25px;
+    display: block; 
+    text-align: right;
+    font-size:10px;
+    font-weight: bold;
+    background-color: #a7a7a7;
+}
+
+label {
+    font-size: 13px;
+    font-weight: bold;
+    color: #333;
+}
+
+label.opt {
+    font-weight: normal;
+    padding-left: 4px;
+}
+
+.inputs dl {
+    clear: both;
+	margin-top: 5px;
+    line-height: 25px;
+}
+
+.inputs dt {
+    float: left;
+    text-align: right;
+    line-height: 25px;
+    margin: 0 10px 10px 0;
+}
+
+.inputs dd {
+    float: left;
+    margin: 0 0 10px 0;
+    vertical-align: middle;
+    line-height: 25px;
+}
+
+.display dl {
+    clear: both;
+	border-top: solid 1px #CEDFEB;
+}
+
+.display dt {
+    float: left;
+    text-align: right;    
+    margin: 0 10px 10px 0;
+    font-size: 16px;
+}
+
+.display dd {
+    float: left;
+    margin: 0 0 5px 0;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #369;
+}
+
+
+.displayTable dl {
+    clear: both;
+	border-top: solid 1px #CEDFEB;
+}
+
+.displayTable dt {
+    float: left;
+    text-align: middle;    
+    margin: 0 10px 10px 0;
+    font-size: 16px;
+}
+
+.displayTable dd {
+    float: left;
+    margin: 0 0 5px 0;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #369;
+}
+
+span.inlineFormDisplay{
+    font-size: 12px;
+    font-weight: bold;
+    color: #0000ff;
+}
+.element .highlight {	
+    border:2px solid #9F1319;
+    padding-left:20px;
+    background:url(../../images/global/iconCaution.gif) no-repeat 2px
+}
+.loading {
+    float:right; 
+    background:url(../../images/global/ajax-loader.gif) no-repeat 1px; 
+    height:28px; 
+    width:28px; 
+    display:none;
+}
+.done {
+    padding-left:20px;
+    /* [disabled]font-family:arial; */
+    /* [disabled]font-size:12px; */
+    width:25%;
+    margin:10px auto;
+    display:none;
+    background: url(../../images/global/iconIdea.gif) no-repeat 2px;
+}
+
+
+.validationError { 
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#validationError {
+    margin: 0 auto;
+}
+
+#inlineDisplayMenus dl{
+    clear: both;
+}
+#inlineDisplayMenus dd{
+    float: left;
+    padding: 5px;
+    margin: 0 10px 10px 0;
+    vertical-align: middle;
+    width: 280px;
+    display: block;
+    border:1px solid #dedede;
+    border-top:1px solid #eee;
+    border-left:1px solid #eee;
+}
+#inlineDisplayMenus dl label{
+    font-size: 12px;
+    font-weight: normal;
+    color: #0000ff;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#inlineDisplayMenus button{
+    width: 275px;
+}
