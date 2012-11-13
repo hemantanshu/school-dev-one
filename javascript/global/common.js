@@ -1,3 +1,5 @@
+//this is a alteration made just to check if everything is going fine
+
 var notificationCounter = 0;
 var previousPage = '';
 var currentPage = '';
