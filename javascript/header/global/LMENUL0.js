@@ -3,5 +3,6 @@ $(document).ready(function(){
         'bJQueryUI':true,
         'sPaginationType':'full_numbers',
         "aaSorting": [[ 1, "desc" ]]
-    });
+    });   
+    
 });
