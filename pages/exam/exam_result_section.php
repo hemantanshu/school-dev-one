@@ -97,7 +97,7 @@ $resultDetails = $body->getTableIdDetails($resultId);
                 </dt>
                 <dd style="width: 30%">
                 	<input type="hidden" name="attendanceOfficer_val" id="attendanceOfficer_val" value="" />
-                    <input type="text" name="attendanceOfficer" id="attendanceOfficer" class="required"  title="Office to be assigned"  tabindex="3" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="attendanceOfficer" id="attendanceOfficer" class="required autocomplete"  title="Office to be assigned"  tabindex="3" size="30" onchange="javascript: valid.validateInput(this);" />
                     <div id="attendanceOfficer_valError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>
@@ -114,7 +114,7 @@ $resultDetails = $body->getTableIdDetails($resultId);
                 </dt>
                 <dd style="width: 30%">
                 	<input type="hidden" name="remarksOfficer_val" id="remarksOfficer_val" value="" />
-                    <input type="text" name="remarksOfficer" id="remarksOfficer" class="required"  title="officer to be assigned"  tabindex="5" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="remarksOfficer" id="remarksOfficer" class="required autocomplete"  title="officer to be assigned"  tabindex="5" size="30" onchange="javascript: valid.validateInput(this);" />
                     <div id="remarksOfficer_valError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>            

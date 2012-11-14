@@ -90,7 +90,7 @@ if ($details['class_id'] == "")
 				<dd style="width: 30%">
 					<input type="hidden" name="coordinator_val"
 						id="coordinator_val" value="" /> <input type="text"
-						name="coordinator" id="coordinator" class=""
+						name="coordinator" id="coordinator" class="autocomplete"
 						title="Enter The Section Coordinator" value=""
 						size="40" onchange="javascript: valid.validateInput(this);" />
 					<div id="coordinatorError" class="validationError"
@@ -103,7 +103,7 @@ if ($details['class_id'] == "")
                 <dd style="width: 30%">
                     <input type="hidden" name="roomAllocated_val"
                            id="roomAllocated_val" value="" /> <input type="text"
-                                                                     name="roomAllocated" id="roomAllocated" class="required"
+                                                                     name="roomAllocated" id="roomAllocated" class="required autocomplete"
                                                                      title="Enter The Room that has been allocated" value=""
                                                                      size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="roomAllocatedError" class="validationError"

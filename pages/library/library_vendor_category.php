@@ -64,7 +64,7 @@ if($details['vendor_name'] == ''){
                 </dt>
                 <dd style="width: 30%">
                 	<input type="hidden" name="category_val" id="category_val" value="" />
-                    <input type="text" name="category" id="category" class="required"  title="Category Of The Vendor"  tabindex="1" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="category" id="category" class="required autocomplete"  title="Category Of The Vendor"  tabindex="1" value="" size="30" onchange="javascript: valid.validateInput(this);" />
                     <div id="categoryError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>

@@ -32,7 +32,7 @@ $body->startBody ( 'exam', 'LMENUL68', 'Examination Type Entry Form' );
                 <dt style="width: 15%"><label for="session">Session Name :</label>	</dt>
                 <dd style="width: 80%">
                     <input type="hidden" name="session_val" id="session_val" />
-                    <input type="text" class="required" name="session" size="30" id="session" onchange="checkSessionChange()" />
+                    <input type="text" class="required autocomplete" name="session" size="30" id="session" onchange="checkSessionChange()" />
             </dl>
         </fieldset>
     </div>

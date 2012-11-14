@@ -117,7 +117,7 @@ $candidateId = $_GET['candidateId'];
             <dd style="width: 30%">
                 <input type="hidden" name="religion_val" id="religion_val" value=""
                        onchange="javascript: valid.validateInput(this);" /> <input
-                type="text" tabindex="12" name="religion" id="religion" class=""
+                type="text" tabindex="12" name="religion" id="religion" class="autocomplete"
                 title="Enter The Religion" value="" size="30" />
                 <div id="religionError" class="validationError"
                      style="display: none;"></div>
@@ -130,7 +130,7 @@ $candidateId = $_GET['candidateId'];
             <dd style="width: 30%">
                 <input type="hidden" name="nationality_val" id="nationality_val"
                        value="" /> <input tabindex="13" type="text" name="nationality"
-                                          id="nationality" class="" title="Enter The Nationality"
+                                          id="nationality" class="autocomplete" title="Enter The Nationality"
                                           value="" size="30"
                                           onchange="javascript: valid.validateInput(this);" />
                 <div id="nationalityError" class="validationError"
@@ -187,12 +187,12 @@ $candidateId = $_GET['candidateId'];
         <dt style="width: 15%"><label for="city">City :</label>	</dt>
         <dd style="width: 30%">
             <input type="hidden" name="city_val" id="city_val" value="" />
-            <input type="text" name="city" id="city" class="required" tabindex="20" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the city" value="" />
+            <input type="text" name="city" id="city" class="required autocomplete" tabindex="20" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the city" value="" />
             <div id="cityError" class="validationError" style="display: none"></div></dd>
         <dt style="width: 15%"><label for="state">State :</label>	</dt>
         <dd style="width: 30%">
             <input type="hidden" name="state_val" id="state_val" value=""/>
-            <input type="text" name="state" id="state" class="required" tabindex="21" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the state" value=""/>
+            <input type="text" name="state" id="state" class="required autocomplete" tabindex="21" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the state" value=""/>
             <div id="stateError" class="validationError" style="display: none"></div></dd>
     </dl>
     <dl class="element">
@@ -203,7 +203,7 @@ $candidateId = $_GET['candidateId'];
         <dt style="width: 15%"><label for="country">Country :</label>	</dt>
         <dd style="width: 30%">
             <input type="hidden" name="country_val" id="country_val" value=""/>
-            <input type="text" name="country" id="country" class="required" tabindex="23" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the country name" value=""/>
+            <input type="text" name="country" id="country" class="required autocomplete" tabindex="23" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the country name" value=""/>
             <div id="countryError" class="validationError" style="display: none"></div></dd>
     </dl>
 </fieldset>
@@ -219,7 +219,7 @@ $candidateId = $_GET['candidateId'];
         <dd style="width: 30%">
             <input type="hidden" name="recordShelve1_val"
                    id="recordShelve1_val" value="" /> <input type="text"
-                                                             name="recordShelve1" id="recordShelve1" class=""
+                                                             name="recordShelve1" id="recordShelve1" class="autocomplete"
                                                              title="Enter The Record Shelve1" value="" size="30"
                                                              tabindex="24" onchange="javascript: valid.validateInput(this);" />
             <div id="recordShelve1Error" class="validationError"
@@ -232,7 +232,7 @@ $candidateId = $_GET['candidateId'];
         <dd style="width: 30%">
             <input type="hidden" name="recordShelve2_val"
                    id="recordShelve2_val" value="" /> <input type="text"
-                                                             name="recordShelve2" id="recordShelve2" class=""
+                                                             name="recordShelve2" id="recordShelve2" class="autocomplete"
                                                              title="Enter The Record Shelve2" value="" size="30"
                                                              tabindex="25" onchange="javascript: valid.validateInput(this);" />
             <div id="recordShelve2Error" class="validationError"
@@ -248,7 +248,7 @@ $candidateId = $_GET['candidateId'];
         <dd style="width: 30%">
             <input type="hidden" name="recordShelve3_val"
                    id="recordShelve3_val" value="" /> <input type="text"
-                                                             name="recordShelve3" id="recordShelve3" class="" tabindex="26"
+                                                             name="recordShelve3" id="recordShelve3" class="autocomplete" tabindex="26"
                                                              title="Enter The Record Shelve3" value="" size="30"
                                                              onchange="javascript: valid.validateInput(this);" />
             <div id="recordShelve3Error" class="validationError"

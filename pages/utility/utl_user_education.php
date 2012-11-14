@@ -81,7 +81,7 @@ $userId = $_GET ['userId'];
 				<dd style="width: 80%">
 					<span style="float: left"><input type="hidden" name="institute_val" id="institute_val"
 						value="" /> <input type="text" name="institute" id="institute"
-						class="required" tabindex="1" size="30"
+						class="required autocomplete" tabindex="1" size="30"
 						onchange="javascript: valid.validateInput(this);"
 						title="Select The Institute Name" /> </span>	<span style="float: left; padding-left: 20px;">
                     <button type="button" class="negative insert" onclick="addNewInstitute()" style="padding: 0 5px 2px 5px">Add New Institute</button></span>
@@ -177,7 +177,7 @@ $userId = $_GET ['userId'];
 					<span style="float: left"><input type="hidden" name="institute_val" id="institute_val"
                                                      value="" /><input type="hidden" name="institute_uval" id="institute_uval"
 						value="" /> <input type="text" name="institute_u" id="institute_u"
-						class="required" tabindex="6" size="30"
+						class="required autocomplete" tabindex="6" size="30"
 						onchange="javascript: valid.validateInput(this);"
 						title="Select The Institute Name" /></span><span style="float: left; padding-left: 20px;">
                         <button type="button" class="negative insert" onclick="addNewInstitute()" style="padding: 0 5px 2px 5px">Add New Institute</button></span>

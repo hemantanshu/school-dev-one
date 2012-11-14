@@ -76,13 +76,13 @@ $userId = $_GET ['userId'];
 				<dt style="width: 15%"><label for="organizationId">Organization Name :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="organization_val" id="organization_val" />
-						<input type="text" name="organization" id="organization" class="required" tabindex="1" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the organization name" />
+						<input type="text" name="organization" id="organization" class="required autocomplete" tabindex="1" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the organization name" />
 						<button type="button" class="addInstitute">Add New Org</button>
 						<div id="organizationError" class="validationError" style="display: none"></div></dd>
 				<dt style="width: 15%"><label for="position">Position Held :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="position_val" id="position_val" />
-						<input type="text" name="position" id="position" class="required" tabindex="2" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the position held at the organization" />
+						<input type="text" name="position" id="position" class="required autocomplete" tabindex="2" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the position held at the organization" />
 						<div id="positionError" class="validationError" style="display: none"></div></dd>
 			</dl>
 			<dl class="element">

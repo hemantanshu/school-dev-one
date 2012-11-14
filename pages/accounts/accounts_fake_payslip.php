@@ -29,7 +29,7 @@ $body->startBody ( 'accounts', 'LMENUL128', 'Employee Salary Fake Slip For Curre
                 <dt style="width: 15%"><label for="employee">Employee Name :</label>	</dt>
                 <dd style="width: 80%">
                     <input type="hidden" name="employee_val" id="employee_val" />
-                    <input type="text" class="required" name="employee" id="employee" size="30" id="session" onblur="checkEmployeeChange()" />
+                    <input type="text" class="required autocomplete" name="employee" id="employee" size="30" id="session" onblur="checkEmployeeChange()" />
             </dl>
         </fieldset>
     </div>

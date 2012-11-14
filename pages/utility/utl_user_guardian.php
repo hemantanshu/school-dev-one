@@ -130,7 +130,7 @@ if(!in_array($gaurdianId, $totalGaurdianTypes))
 				<dt style="width: 15%"><label for="occupation">Occupation</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="occupation_val" id="occupation_val" />
-						<input type="text" size="30" name="occupation" id="occupation" class="required" tabindex="7" onblur="resetFieldValue('occupation_val');" onchange="javascript: valid.validateInput(this);" title="Enter/Select the occupation" />
+						<input type="text" size="30" name="occupation" id="occupation" class="required autocomplete" tabindex="7" onblur="resetFieldValue('occupation_val');" onchange="javascript: valid.validateInput(this);" title="Enter/Select the occupation" />
 						<div id="occupationError" class="validationError" style="display: none"></div></dd>
 			</dl>
 			<dl class="element">
@@ -176,12 +176,12 @@ if(!in_array($gaurdianId, $totalGaurdianTypes))
 				<dt style="width: 15%"><label for="city">City :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="city_val" id="city_val" />
-						<input type="text" name="city" id="city" class="required" tabindex="11" size="30"onblur="resetFieldValue('city_val');" onchange="javascript: valid.validateInput(this);" title="Enter the city" />
+						<input type="text" name="city" id="city" class="required autocomplete" tabindex="11" size="30"onblur="resetFieldValue('city_val');" onchange="javascript: valid.validateInput(this);" title="Enter the city" />
 						<div id="cityError" class="validationError" style="display: none"></div></dd>
 				<dt style="width: 15%"><label for="state">State :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="state_val" id="state_val" />
-						<input type="text" name="state" id="state" class="required" tabindex="12" size="30" onblur="resetFieldValue('state_val');" onchange="javascript: valid.validateInput(this);" title="Enter the state" />
+						<input type="text" name="state" id="state" class="required autocomplete" tabindex="12" size="30" onblur="resetFieldValue('state_val');" onchange="javascript: valid.validateInput(this);" title="Enter the state" />
 						<div id="stateError" class="validationError" style="display: none"></div></dd>
 			</dl>			
 			<dl class="element">
@@ -192,7 +192,7 @@ if(!in_array($gaurdianId, $totalGaurdianTypes))
 				<dt style="width: 15%"><label for="country">Country :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="country_val" id="country_val" />
-						<input type="text" name="country" id="country" class="required" tabindex="14" size="30" onblur="resetFieldValue('country_val');" onchange="javascript: valid.validateInput(this);" title="Enter the country name" />
+						<input type="text" name="country" id="country" class="required autocomplete" tabindex="14" size="30" onblur="resetFieldValue('country_val');" onchange="javascript: valid.validateInput(this);" title="Enter the country name" />
 						<div id="countryError" class="validationError" style="display: none"></div></dd>
 			</dl>
 		</fieldset>

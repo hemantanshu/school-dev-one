@@ -80,12 +80,12 @@ $body->startBody ( 'library', 'LMENUL139', 'New Vendor Entry Form' );
 				<dt style="width: 15%"><label for="city">City :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="city_val" id="city_val" />
-						<input type="text" name="city" id="city" class="required" tabindex="7" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the city" />
+						<input type="text" name="city" id="city" class="required autocomplete" tabindex="7" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the city" />
 						<div id="cityError" class="validationError" style="display: none"></div></dd>
 				<dt style="width: 15%"><label for="state">State :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="state_val" id="state_val" />
-						<input type="text" name="state" id="state" class="required" tabindex="8" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the state" />
+						<input type="text" name="state" id="state" class="required autocomplete" tabindex="8" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the state" />
 						<div id="stateError" class="validationError" style="display: none"></div></dd>
 			</dl>			
 			<dl class="element">
@@ -96,7 +96,7 @@ $body->startBody ( 'library', 'LMENUL139', 'New Vendor Entry Form' );
 				<dt style="width: 15%"><label for="country">Country :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="country_val" id="country_val" />
-						<input type="text" name="country" id="country" class="required" tabindex="10" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the country name" />
+						<input type="text" name="country" id="country" class="required autocomplete" tabindex="10" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the country name" />
 						<div id="countryError" class="validationError" style="display: none"></div></dd>
 			</dl>
 		</fieldset>
@@ -163,19 +163,19 @@ $body->startBody ( 'library', 'LMENUL139', 'New Vendor Entry Form' );
 			<dl class="element">
 				<dt style="width: 15%"><label for="streetAddress2_u">Street Address :</label>	</dt>
 				<dd style="width: 80%">
-						<input type="text" size="50" name="streetAddress2_u" id="streetAddress2_u" class="required" tabindex="16" onchange="javascript: valid.validateInput(this);" title="Enter the street address" />
+						<input type="text" size="50" name="streetAddress2_u" id="streetAddress2_u" class="required " tabindex="16" onchange="javascript: valid.validateInput(this);" title="Enter the street address" />
 						<div id="streetAddress2_uError" class="validationError" style="display: none"></div></dd>				
 			</dl>
 			<dl class="element">
 				<dt style="width: 15%"><label for="city_u">City :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="city_uval" id="city_uval" />
-						<input type="text" name="city_u" id="city_u" class="required" tabindex="17" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the city" />
+						<input type="text" name="city_u" id="city_u" class="required autocomplete" tabindex="17" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the city" />
 						<div id="city_uError" class="validationError" style="display: none"></div></dd>
 				<dt style="width: 15%"><label for="state">State :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="state_uval" id="state_uval" />
-						<input type="text" name="state_u" id="state_u" class="required" tabindex="18" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the state" />
+						<input type="text" name="state_u" id="state_u" class="required autocomplete" tabindex="18" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the state" />
 						<div id="state_uError" class="validationError" style="display: none"></div></dd>
 			</dl>			
 			<dl class="element">
@@ -186,7 +186,7 @@ $body->startBody ( 'library', 'LMENUL139', 'New Vendor Entry Form' );
 				<dt style="width: 15%"><label for="country_u">Country :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="country_uval" id="country_uval" />
-						<input type="text" name="country_u" id="country_u" class="required" tabindex="20" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the country name" />
+						<input type="text" name="country_u" id="country_u" class="required autocomplete" tabindex="20" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the country name" />
 						<div id="country_uError" class="validationError" style="display: none"></div></dd>
 			</dl>
 		</fieldset>

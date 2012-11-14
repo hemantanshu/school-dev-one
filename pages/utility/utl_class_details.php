@@ -31,7 +31,7 @@ $body->startBody('utility', 'LMENUL22', 'Class Entry Details');
                 <dt style="width: 15%"><label for="sessionId">Session Name :</label>	</dt>
                 <dd style="width: 80%">
                     <input type="hidden" name="session_val" id="session_val" />
-                    <input type="text" class="required" name="session" size="30" id="session" onchange="checkSessionChange()" />
+                    <input type="text" class="required autocomplete" name="session" size="30" id="session" onchange="checkSessionChange()" />
             </dl>
         </fieldset>
     </div>
@@ -94,7 +94,7 @@ $body->startBody('utility', 'LMENUL22', 'Class Entry Details');
                     <input type="hidden" name="roomAllocated_val"
                            id="roomAllocated_val" value=""/> <input type="text"
                                                                     name="roomAllocated" id="roomAllocated"
-                                                                    class="required"
+                                                                    class="required autocomplete"
                                                                     onchange="javascript: valid.validateInput(this);"
                                                                     title="Enter The Room that has been allocated"
                                                                     value=""
@@ -112,7 +112,7 @@ $body->startBody('utility', 'LMENUL22', 'Class Entry Details');
                 <dd style="width: 30%">
                     <input type="hidden" name="classCoordinator_val"
                            id="classCoordinator_val"/> <input type="text" size="30"
-                                                              name="classCoordinator" id="classCoordinator" class=""
+                                                              name="classCoordinator" id="classCoordinator" class="autocomplete"
                                                               tabindex=""
                                                               onchange="javascript: valid.validateInput(this);"
                                                               title="Class Coordinator"/>

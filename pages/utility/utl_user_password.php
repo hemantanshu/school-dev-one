@@ -154,7 +154,7 @@ $userId = $_GET ['userId'];
                 </dt>
                 <dd style="width: 30%">
                     <input type="hidden" name="userGroup_val" id="userGroup_val" />
-                    <input type="text" name="userGroup" id="userGroup" class="required"
+                    <input type="text" name="userGroup" id="userGroup" class="required autocomplete"
                            tabindex="4" size="30"
                            onchange="javascript: valid.validateInput(this);"
                            title="Set New Usergroup For Candidate" />

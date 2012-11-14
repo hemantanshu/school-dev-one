@@ -35,7 +35,7 @@ $body->startBody ( 'global', 'LMENUL4', 'Menu Top Entry Page' );
 				</dt>
 				<dd style="width: 30%">
 					<input type="hidden" name="menuUrl_val" id="menuUrl_val" value="" />
-					<input type="text" name="menuUrl" id="menuUrl" class="required"
+					<input type="text" name="menuUrl" id="menuUrl" class="required autocomplete"
 						title="Enter The Menu URL" value="" size="30"
 						onchange="javascript: valid.validateInput(this);" />
 					<div id="menuUrlError" class="validationError"
@@ -63,7 +63,7 @@ $body->startBody ( 'global', 'LMENUL4', 'Menu Top Entry Page' );
 				<dd style="width: 30%">
 					<input type="hidden" name="submenu_val" id="submenu_val" value="" />
 					<input type="text" name="submenu" id="submenu"
-						title="Enter The Submenu Name" value="" size="30"
+						title="Enter The Submenu Name" class="autocomplete" value="" size="30"
 						onchange="javascript: valid.validateInput(this);" />
 					<div id="submenuError" class="validationError"
 						style="display: none"></div>
@@ -146,7 +146,7 @@ $body->startBody ( 'global', 'LMENUL4', 'Menu Top Entry Page' );
 				<dd style="width: 30%">
 					<input type="hidden" name="menuUrl_u_val" id="menuUrl_u_val"
 						value="" /> <input type="text" name="menuUrl_u" id="menuUrl_u"
-						class="required" title="Enter The Menu Url" value=""
+						class="required autocomplete" title="Enter The Menu Url" value=""
 						size="40" onchange="javascript: valid.validateInput(this);" />
 					<div id="menuUrl_uError" class="validationError"
 						style="display: none"></div>
@@ -172,7 +172,7 @@ $body->startBody ( 'global', 'LMENUL4', 'Menu Top Entry Page' );
 				</dt>
 				<dd style="width: 30%">
 					<input type="hidden" name="submenu_u_val" id="submenu_u_val"
-						value="" /> <input type="text" name="submenu_u" id="submenu_u"
+						value="" /> <input type="text" name="submenu_u" id="submenu_u" class="autocomplete"
 						title="Enter The Submenu Name" size="40"
 						onchange="javascript: valid.validateInput(this);" />
 					<div id="submenu_uError" class="validationError"

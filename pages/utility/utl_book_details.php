@@ -47,7 +47,7 @@ $body->startBody ( 'utility', 'LMENUL17', 'Book Details Entry Page' );
 				<dd style="width: 30%">
 					<input type="hidden" name="authorName_val" id="authorName_val"
 						value="" /> <input type="text" name="authorName" id="authorName"
-						onchange="javascript: valid.validateInput(this);" class="required"
+						onchange="javascript: valid.validateInput(this);" class="required autocomplete"
 						title="Enter The Author Name Of corresponding Book" value=""
 						size="40" />
 					<div id="authorNameError" class="validationError"
@@ -61,7 +61,7 @@ $body->startBody ( 'utility', 'LMENUL17', 'Book Details Entry Page' );
 				<dd style="width: 30%">
 					<input type="hidden" name="publication_val" id="publication_val"
 						value="" /> <input type="text" name="publication" id="publication"
-						class="required"
+						class="required autocomplete"
 						title="Enter The Publication Name Of corresponding Book"
 						onchange="javascript: valid.validateInput(this);" value=""
 						size="40" />

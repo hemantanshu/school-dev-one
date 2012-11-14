@@ -21,7 +21,7 @@ $body->startBody('global', 'LMENUL51', 'Menu Access Details');
                 <dt style="width: 15%"><label for="parentUrl">Form Menu URL :</label>	</dt>
                 <dd style="width: 80%">
                     <input type="hidden" name="childMenu_val" id="childMenu_val" />
-                    <input type="text" class="required" name="childMenu" size="40" id="childMenu" onblur="getChildMenuData()" />
+                    <input type="text" class="required autocomplete" name="childMenu" size="40" id="childMenu" onblur="getChildMenuData()" />
             </dl>
         </fieldset>
     </div>
@@ -67,7 +67,7 @@ $body->startBody('global', 'LMENUL51', 'Menu Access Details');
                 <dt style="width: 15%"><label for="parentUrl">Access URL :</label>	</dt>
                 <dd style="width: 80%">
                     <input type="hidden" name="parentMenu_val" id="parentMenu_val" />
-                    <input type="text" size="30" name="parentMenu" id="parentMenu" class="required" tabindex="1" onblur="getInsertMenuDetails()" onchange="javascript: valid.validateInput(this);" title="" />
+                    <input type="text" size="30" name="parentMenu" id="parentMenu" class="required autocomplete" tabindex="1" onblur="getInsertMenuDetails()" onchange="javascript: valid.validateInput(this);" title="" />
                     <div id="Error" class="validationError" style="display: none"></div></dd>
             </dl>
             <div class="display">

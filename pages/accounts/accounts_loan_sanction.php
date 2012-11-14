@@ -32,7 +32,7 @@ $body->startBody ( 'accounts', 'LMENUL127', 'New Loan Sanction Form' );
                 </dt>
                 <dd style="width: 30%">
                 	<input type="hidden" name="employeeId_val" id="employeeId_val" />
-                    <input type="text" name="employeeId" id="employeeId" class="required"  title="select employee for loan sanction"  tabindex="1" size="40" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="employeeId" id="employeeId" class="required autocomplete"  title="select employee for loan sanction"  tabindex="1" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="employeeIdError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">

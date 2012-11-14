@@ -82,7 +82,7 @@ $details = $body->getTableIdDetails($resultTypeId);
                 </dt>
                 <dd style="width: 80%">
                 	<input type="hidden" name="url_val" id="url_val"  />
-                    <input type="text" name="url" id="url" class="required"  title="The url for the type"  tabindex="3" value="" size="40" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="url" id="url" class="required autocomplete"  title="The url for the type"  tabindex="3" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="urlError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>   

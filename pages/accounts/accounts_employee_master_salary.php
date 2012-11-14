@@ -71,7 +71,7 @@ $body->startBody ( 'accounts', 'LMENUL112', 'Employee Master Salary Record' );
                     </dt>
                     <dd style="width: 30%">
                         <input type="hidden" name="allowance_val" id="allowance_val" onchange="populateAllowanceFundDetails()"/>
-                        <input type="text" name="allowance" id="allowance" class="required"  title="select the allowance name"  tabindex="1" size="30" onblur="populateAllowanceFundDetails()" />
+                        <input type="text" name="allowance" id="allowance" class="required autocomplete"  title="select the allowance name"  tabindex="1" size="30" onblur="populateAllowanceFundDetails()" />
                         <div id="allowance_valError" class="validationError"	style="display: none"></div>
                     </dd>                    
                 </dl>

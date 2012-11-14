@@ -34,7 +34,7 @@ $body->startBody('accounts', 'LMENUL159', 'Accounts Salary Block');
                     </dt>
                     <dd style="width: 30%">
                         <input type="hidden" name="employeeName_val" id="employeeName_val" value="" />
-                        <input type="text" name="employeeName_i" id="employeeName_i" required="required" 
+                        <input type="text" name="employeeName_i" id="employeeName_i" required="required autocomplete" 
                                title="Enter Name of an Employee" size="30" class="required"
                                onchange="javascript: valid.validateInput(this);" tabindex="1"/>
                         <div class="validationError" id="employeeName_iError"></div>
@@ -253,7 +253,7 @@ $body->startBody('accounts', 'LMENUL159', 'Accounts Salary Block');
                 </dt>
                 <dd style="width: 30%">
                     <input type="hidden" name="searchKey_val" id="searchKey_val" value="" />
-                    <input type="text" name="searchKey" id="searchKey" class="required" required="required"
+                    <input type="text" name="searchKey" id="searchKey" class="required" required="required autocomplete"
                            style="width: 200px" title="Enter key for efficient search" tabindex="31"/>
                     <div id="searchKey_valError" class="validationError"></div>
                 </dd>

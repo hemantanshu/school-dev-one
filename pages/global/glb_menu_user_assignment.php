@@ -30,7 +30,7 @@ $body->startBody ( 'global', 'LMENUL7', 'User Menu Assignment' );
                 <dd style="width: 80%">
                     <input type="hidden" name="topMenu_val" id="topMenu_val" value="" />
                     <input type="text" name="topMenu" id="topMenu"
-                           onblur="getTopMenuDescription()" class=""
+                           onblur="getTopMenuDescription()" class="autocomplete"
                            title="The Top Menu To Be Assigned" value="" size="30" onchange="javascript: valid.validateInput(this);" /> <span
                     id="topMenuDescription"></span>
                     <div id="topMenu_valError" class="validationError" style="display: none"></div>
@@ -44,7 +44,7 @@ $body->startBody ( 'global', 'LMENUL7', 'User Menu Assignment' );
                 <dd style="width: 80%">
                     <input type="hidden" name="menuUrl_val" id="menuUrl_val" value="" />
                     <input type="text" name="menuUrl" id="menuUrl"
-                           onblur="getMenuDescription()" class=""
+                           onblur="getMenuDescription()" class="autocomplete"
                            title="The Top Menu To Be Assigned" value="" size="30" onchange="javascript: valid.validateInput(this);" /> <span
                     id="menuUrlDescription"></span>
                     <div id="menuUrl_valError" class="validationError" style="display: none"></div>
@@ -57,7 +57,7 @@ $body->startBody ( 'global', 'LMENUL7', 'User Menu Assignment' );
                 </dt>
                 <dd style="width: 80%">
                     <input type="hidden" name="user_val" id="user_val" value="" /> <input
-                    type="text" name="user" id="user" class="required"
+                    type="text" name="user" id="user" class="required autocomplete"
                     title="The User To Whom The Top Menu Has To be Assigned"
                     value="" size="30" onchange="javascript: valid.validateInput(this);"/> <span id="userGroupAssignment"></span>
                     <div id="user_valError" class="validationError" style="display: none"></div>
@@ -326,7 +326,7 @@ $body->startBody ( 'global', 'LMENUL7', 'User Menu Assignment' );
                 </dt>
                 <dd style="width: 30%">
                     <input type="hidden" name="userHint_val" id="userHint_val" /> <input
-                    type="text" name="userHint" id="userHint" class="required" style="width: 200px"
+                    type="text" name="userHint" id="userHint" class="required autocomplete" style="width: 200px"
                     title="Select The User Against Whom The Menus Are To Be Populated" />
                 </dd>
                 <dt style="width: 15%">

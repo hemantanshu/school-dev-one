@@ -37,7 +37,7 @@ if ($details [1] == "")
 				</dt>
 				<dd style="width: 30%">
 					<input type="hidden" name="bookName_val" id="bookName_val" value="" />
-					<input type="text" name="bookName" id="bookName" class="required"
+					<input type="text" name="bookName" id="bookName" class="required autocomplete"
 						onchange="javascript: valid.validateInput(this);"
 						title="Enter The Book Name" value="" size="30" />
 					<div id="bookNameError" class="validationError"
