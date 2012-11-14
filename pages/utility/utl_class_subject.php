@@ -111,7 +111,7 @@ if ($details['class_id'] == "")
                 <dt style="width: 15%"><label for="associatedSubject">Subject Name :</label>	</dt>
                 <dd style="width: 80%">
                     <input type="hidden" name="subjectName_uval" id="subjectName_uval" />
-                    <input type="text" size="40" name="subjectName_u" id="subjectName_u" class="required" tabindex="3" onchange="javascript: valid.validateInput(this);" title="Name the subject" />
+                    <input type="text" size="40" name="subjectName_u" id="subjectName_u" class="required autocomplete" tabindex="3" onchange="javascript: valid.validateInput(this);" title="Name the subject" />
                     <div id="subjectName_uError" class="validationError" style="display: none"></div></dd>
             </dl>
         </fieldset>

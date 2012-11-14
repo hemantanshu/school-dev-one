@@ -163,7 +163,7 @@ if ($details['class_id'] == "")
                 <dd style="width: 30%">
                     <input type="hidden" name="coordinator_uval"
                            id="coordinator_uval" value="" /> <input type="text"
-                                                                   name="coordinator_u" id="coordinator_u" class=""
+                                                                   name="coordinator_u" id="coordinator_u" class="autocomplete"
                                                                    title="Enter The Section Coordinator" value=""
                                                                    size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="coordinator_uError" class="validationError"

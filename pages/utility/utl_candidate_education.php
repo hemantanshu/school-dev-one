@@ -181,7 +181,7 @@ $candidateId = $_GET ['candidateId'];
 				<dd style="width: 80%">
 					<span style="float: left"><input type="hidden" name="institute_uval" id="institute_uval"
                                                      value="" /> <input type="text" name="institute_u" id="institute_u"
-                                                                        class="required" tabindex="6" size="30"
+                                                                        class="required autocomplete" tabindex="6" size="30"
                                                                         onchange="javascript: valid.validateInput(this);"
                                                                         title="Select The Institute Name" /></span>
 					<span style="float: left; padding-left: 20px;">

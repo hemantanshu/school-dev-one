@@ -121,7 +121,7 @@ $assessmentId = $_GET['accessmentId'];
                 </dt>
                 <dd style="width: 30%">
                     <input type="hidden" name="markSubmissionOfficer_ival" id="markSubmissionOfficer_ival" />
-                    <input type="text" name="markSubmissionOfficer_i" id="markSubmissionOfficer_i" class="required"  title="Assign Mark Submission Task To Some Officer" tabindex="9" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="markSubmissionOfficer_i" id="markSubmissionOfficer_i" class="required autocomplete"  title="Assign Mark Submission Task To Some Officer" tabindex="9" value="" size="30" onchange="javascript: valid.validateInput(this);" />
                     <div id="markSubmissionOfficer_iError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>
@@ -138,7 +138,7 @@ $assessmentId = $_GET['accessmentId'];
                 </dt>
                 <dd style="width: 30%">
                     <input type="hidden" name="markVerificationOfficer_ival" id="markVerificationOfficer_ival" />
-                    <input type="text" name="markVerificationOfficer_i" id="markVerificationOfficer_i" class="required"  title="Assign Mark Verification Task To Some Officer" tabindex="11" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="markVerificationOfficer_i" id="markVerificationOfficer_i" class="required autocomplete"  title="Assign Mark Verification Task To Some Officer" tabindex="11" value="" size="30" onchange="javascript: valid.validateInput(this);" />
                     <div id="markVerificationOfficer_iError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>
@@ -198,7 +198,7 @@ $assessmentId = $_GET['accessmentId'];
                 </dt>
                 <dd style="width: 30%">
                     <input type="hidden" name="markSubmissionOfficer_uval" id="markSubmissionOfficer_uval" />
-                    <input type="text" name="markSubmissionOfficer_u" id="markSubmissionOfficer_u" class="required"  title="Assign Mark Submission Task To Some Officer" tabindex="9" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="markSubmissionOfficer_u" id="markSubmissionOfficer_u" class="required autocomplete"  title="Assign Mark Submission Task To Some Officer" tabindex="9" value="" size="30" onchange="javascript: valid.validateInput(this);" />
                     <div id="markSubmissionOfficer_uvalError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>
@@ -215,7 +215,7 @@ $assessmentId = $_GET['accessmentId'];
                 </dt>
                 <dd style="width: 30%">
                     <input type="hidden" name="markVerificationOfficer_uval" id="markVerificationOfficer_uval" />
-                    <input type="text" name="markVerificationOfficer_u" id="markVerificationOfficer_u" class="required"  title="Assign Mark Verification Task To Some Officer" tabindex="11" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="markVerificationOfficer_u" id="markVerificationOfficer_u" class="required autocomplete"  title="Assign Mark Verification Task To Some Officer" tabindex="11" value="" size="30" onchange="javascript: valid.validateInput(this);" />
                     <div id="markVerificationOfficer_uvalError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>

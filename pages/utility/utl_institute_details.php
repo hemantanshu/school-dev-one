@@ -113,7 +113,7 @@ $body->startBody ( 'utility', 'LMENUL32', 'Institute Entry Page' );
 				<dt style="width: 15%"><label for="university_u">University / Board :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="university_uval" id="university_uval" value="" />
-						<input type="text" name="university_u" id="university_u" class="required" tabindex="11" size="30" onblur="resetFieldValue('university_uval');" onchange="javascript: valid.validateInput(this);" title="Select the univerysity name" />
+						<input type="text" name="university_u" id="university_u" class="required autocomplete" tabindex="11" size="30" onblur="resetFieldValue('university_uval');" onchange="javascript: valid.validateInput(this);" title="Select the univerysity name" />
 						<div id="university_uError" class="validationError" style="display: none"></div></dd>
 				<dt style="width: 15%"><label for="contactno_u">Contact No :</label>	</dt>
 				<dd style="width: 30%">
@@ -141,12 +141,12 @@ $body->startBody ( 'utility', 'LMENUL32', 'Institute Entry Page' );
 				<dt style="width: 15%"><label for="city_u">City :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="city_uval" id="city_uval" />
-						<input type="text" name="city_u" id="city_u" class="required" tabindex="15" size="30"onblur="resetFieldValue('city_uval');" onchange="javascript: valid.validateInput(this);" title="Enter the city" />
+						<input type="text" name="city_u" id="city_u" class="required autocomplete" tabindex="15" size="30"onblur="resetFieldValue('city_uval');" onchange="javascript: valid.validateInput(this);" title="Enter the city" />
 						<div id="city_uError" class="validationError" style="display: none"></div></dd>
 				<dt style="width: 15%"><label for="state_u">State :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="state_uval" id="state_uval" />
-						<input type="text" name="state_u" id="state_u" class="required" tabindex="16" size="30" onblur="resetFieldValue('state_uval');" onchange="javascript: valid.validateInput(this);" title="Enter the state" />
+						<input type="text" name="state_u" id="state_u" class="required autocomplete" tabindex="16" size="30" onblur="resetFieldValue('state_uval');" onchange="javascript: valid.validateInput(this);" title="Enter the state" />
 						<div id="state_uError" class="validationError" style="display: none"></div></dd>
 			</dl>			
 			<dl class="element">
@@ -157,7 +157,7 @@ $body->startBody ( 'utility', 'LMENUL32', 'Institute Entry Page' );
 				<dt style="width: 15%"><label for="country_u">Country :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="country_uval" id="country_uval" />
-						<input type="text" name="country_u" id="country_u" class="required" tabindex="18" size="30" onblur="resetFieldValue('country_uval');" onchange="javascript: valid.validateInput(this);" title="Enter the country name" />
+						<input type="text" name="country_u" id="country_u" class="required autocomplete" tabindex="18" size="30" onblur="resetFieldValue('country_uval');" onchange="javascript: valid.validateInput(this);" title="Enter the country name" />
 						<div id="country_uError" class="validationError" style="display: none"></div></dd>
 			</dl>
 		</fieldset>

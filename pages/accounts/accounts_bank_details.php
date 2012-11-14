@@ -167,12 +167,12 @@ $body->startBody ( 'accounts', 'LMENUL108', 'Bank Name Lookup Form' );
 				<dt style="width: 15%"><label for="city_u">City :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="city_uval" id="city_uval" />
-						<input type="text" name="city_u" id="city_u" class="required" tabindex="6" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the city" />
+						<input type="text" name="city_u" id="city_u" class="required autocomplete" tabindex="6" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the city" />
 						<div id="city_uError" class="validationError" style="display: none"></div></dd>
 				<dt style="width: 15%"><label for="state_u">State :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="state_uval" id="state_uval" />
-						<input type="text" name="state_u" id="state_u" class="required" tabindex="7" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the state" />
+						<input type="text" name="state_u" id="state_u" class="required autocomplete" tabindex="7" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the state" />
 						<div id="state_uError" class="validationError" style="display: none"></div></dd>
 			</dl>			
 			<dl class="element">
@@ -183,7 +183,7 @@ $body->startBody ( 'accounts', 'LMENUL108', 'Bank Name Lookup Form' );
 				<dt style="width: 15%"><label for="country_u">Country :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="country_uval" id="country_uval" />
-						<input type="text" name="country_u" id="country_u" class="required" tabindex="9" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the country name" />
+						<input type="text" name="country_u" id="country_u" class="required autocomplete" tabindex="9" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the country name" />
 						<div id="country_uError" class="validationError" style="display: none"></div></dd>
 			</dl>
 		</fieldset>

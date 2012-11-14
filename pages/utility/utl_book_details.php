@@ -115,7 +115,7 @@ $body->startBody ( 'utility', 'LMENUL17', 'Book Details Entry Page' );
 				<dd style="width: 30%">
 					<input type="hidden" name="authorName_uval" id="authorName_uval"
 						value="" /> <input type="text" name="authorName_u"
-						id="authorName_u" class="required"
+						id="authorName_u" class="required autocomplete"
 						title="Update The Author Name Of corresponding Book"
 						value="" size="40"
 						onchange="javascript: valid.validateInput(this);" />
@@ -131,7 +131,7 @@ $body->startBody ( 'utility', 'LMENUL17', 'Book Details Entry Page' );
 				<dd style="width: 30%">
 					<input type="hidden" name="publication_uval" id="publication_uval"
 						value="" /> <input type="text" name="publication_u"
-						id="publication_u" class="required"
+						id="publication_u" class="required autocomplete"
 						title="Update The Publication Name Of corresponding Book"
 						value="" size="40"
 						onchange="javascript: valid.validateInput(this);" />

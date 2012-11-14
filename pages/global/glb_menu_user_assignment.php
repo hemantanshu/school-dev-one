@@ -144,7 +144,7 @@ $body->startBody ( 'global', 'LMENUL7', 'User Menu Assignment' );
                 <dd style="width: 80%">
                     <input type="hidden" name="menuUrl_uval" id="menuUrl_uval" value="" />
                     <input type="text" name="menuUrl" id="menuUrl"
-                           onblur="getMenuDescription()" class=""
+                           onblur="getMenuDescription()" class="autocomplete"
                            title="The Top Menu To Be Assigned" value="" disabled="disabled" size="30" onchange="javascript: valid.validateInput(this);" /> <span
                     id="menuUrlDescription"></span>
                     <div id="menuUrl_uvalError" class="validationError" style="display: none"></div>

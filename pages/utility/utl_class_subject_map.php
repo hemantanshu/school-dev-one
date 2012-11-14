@@ -111,7 +111,7 @@ if ($details['subject_name'] == "" || $details['subject_type'] == 'c')
                 <dt style="width: 15%"><label for="associatedSubject">Subject Name :</label>	</dt>
                 <dd style="width: 80%">
                     <input type="hidden" name="subjectName_uval" id="subjectName_uval" value="" />
-                    <input type="text" size="30" name="subjectName_u" id="subjectName_u" class="required" tabindex="13" onchange="javascript: valid.validateInput(this)" title="Name the subject" />
+                    <input type="text" size="30" name="subjectName_u" id="subjectName_u" class="required autocomplete" tabindex="13" onchange="javascript: valid.validateInput(this)" title="Name the subject" />
                     <div id="subjectName_uvalError" class="validationError" style="display: none"></div></dd>
             </dl>
         </fieldset>

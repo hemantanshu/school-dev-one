@@ -213,7 +213,7 @@ $body->startBody('utility', 'LMENUL22', 'Class Entry Details');
                     <input type="hidden" name="roomAllocated_uval"
                            id="roomAllocated_uval" value=""/> <input type="text"
                                                                      name="roomAllocated_u" id="roomAllocated_u"
-                                                                     class="required"
+                                                                     class="required autocomplete"
                                                                      onchange="javascript: valid.validateInput(this);"
                                                                      title="Enter The Room that has been allocated"
                                                                      value=""
@@ -231,7 +231,7 @@ $body->startBody('utility', 'LMENUL22', 'Class Entry Details');
                 <dd style="width: 30%">
                     <input type="hidden" name="classCoordinator_uval"
                            id="classCoordinator_uval"/> <input type="text" size="30"
-                                                              name="classCoordinator_u" id="classCoordinator_u" class=""
+                                                              name="classCoordinator_u" id="classCoordinator_u" class="autocomplete"
                                                               tabindex=""
                                                               onchange="javascript: valid.validateInput(this);"
                                                               title="Class Coordinator"/>

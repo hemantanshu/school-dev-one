@@ -168,7 +168,7 @@ $body->startBody ( 'utility', 'LMENUL10', 'utl_room_list' );
 					<input type="hidden" name="buildingName_uval"
 						id="buildingName_uval" value="" /> <input type="text"
 						name="buildingName_u" id="buildingName_u" size="30" onchange="javascript: valid.validateInput(this);"
-						title="Input The Building Name" class="required" />
+						title="Input The Building Name" class="required autocomplete" />
 					<div id="buildingName_uError" class="validationError" style="display: none"></div>	
 				</dd>
 				</dd>
@@ -203,7 +203,7 @@ $body->startBody ( 'utility', 'LMENUL10', 'utl_room_list' );
 					<input type="hidden" name="roomType_uval" id="roomType_uval"
 						value="" /> <input type="text" name="roomType_u" id="roomType_u"
 						size="30" maxlength="130" title="Enter the Type of room" onchange="javascript: valid.validateInput(this);"
-						class="required" />
+						class="required autocomplete" />
 					<div id="roomType_uError" class="validationError" style="display: none"></div>	
 				</dd>
 			</dl>
