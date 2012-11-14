@@ -2,6 +2,10 @@ var valid = new validate();
 $(document)
     .ready(
     function () {
+    	$(".date").dateinput({
+            format: 'yyyy-mm-dd'
+        });
+    	
         formGlobalPath = getFormGlobalPath();
         $("#rank")
             .autocomplete(

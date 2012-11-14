@@ -4,6 +4,10 @@ $(document).ready(function () {
         "bJQueryUI":true,
         "sPaginationType":"full_numbers"
     });
+    
+    $(".date").dateinput({
+        format: 'yyyy-mm-dd'
+    });
     hideUpdateForm();
     hideDisplayPortion();
     showHideDatatable();

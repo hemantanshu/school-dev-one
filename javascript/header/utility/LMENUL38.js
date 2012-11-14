@@ -1,7 +1,11 @@
 
 $(document).ready(function () {
+	$(".date").dateinput({
+        format: 'yyyy-mm-dd'
+    });
+	
     formGlobalPath = getFormGlobalPath();
-    userId = $('#userId').val();
+    var userId = $('#userId').val();
     populateUserDetails();
 
 

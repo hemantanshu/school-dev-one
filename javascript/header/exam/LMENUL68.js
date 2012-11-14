@@ -7,6 +7,9 @@ $(document)
             "bJQueryUI":true,
             "sPaginationType":"full_numbers"
         });
+        $(".date").dateinput({
+            format: 'yyyy-mm-dd'
+        });
         populateCurrentSession();
         $("#session")
             .autocomplete(

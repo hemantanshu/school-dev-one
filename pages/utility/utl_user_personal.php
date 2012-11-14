@@ -100,7 +100,7 @@ $userId = $_GET['userId'];
     <dl class="element">
         <dt style="width: 15%"><label for="bday">Date Of Birth</label>	</dt>
         <dd style="width: 80%">
-            <input type="text" name="bday" id="bday" class="required"
+            <input type="text" name="bday" id="bday" class="required date"
                    tabindex="9"
                    title="Enter The Date Of Birth in yy/mm/dd Format" value=""
                    maxlength="10" size="20"
@@ -310,6 +310,3 @@ $userId = $_GET['userId'];
 </fieldset>
 </form>
 </div>
-<?php
-$body->endBody ( 'utility', 'MENUL38' );
-?>

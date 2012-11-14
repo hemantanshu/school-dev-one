@@ -1,4 +1,5 @@
 var imagePath = schoolImageGlobalPath();
+var userId, formGlobalPath;
 $(document).ready(function () {
     oTable = $('#groupHistory').dataTable({
         "bJQueryUI":true,
@@ -16,14 +17,7 @@ $(document).ready(function () {
         "bJQueryUI":true,
         "sPaginationType":"full_numbers"
     });
-
-    $('.openPopUpWindows').popupWindow({
-        height:500,
-        width:800,
-        top:50,
-        left:50
-    });
-
+    
     formGlobalPath = getFormGlobalPath();
     userId = $('#userId').val();
     getRegistrationDetails();

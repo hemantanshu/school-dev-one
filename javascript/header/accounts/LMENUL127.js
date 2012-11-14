@@ -8,6 +8,9 @@ $(document)
             "bJQueryUI":true,
             "sPaginationType":"full_numbers"
         });
+        $(".date").dateinput({
+            format: 'yyyy-mm-dd'
+        });
         $("#employeeId")
             .autocomplete(
             formGlobalPath

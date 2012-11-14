@@ -67,7 +67,7 @@ $body->startBody ( 'accounts', 'LMENUL127', 'New Loan Sanction Form' );
                     <label for="loanDate">Sanction Date :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="loanDate" id="loanDate" class="required"  title="select the loan sanction date" value="<?php echo $body->getCurrentDate(); ?>"  tabindex="6" size="20" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="loanDate" id="loanDate" class="required date"  title="select the loan sanction date" value="<?php echo $body->getCurrentDate(); ?>"  tabindex="6" size="20" onchange="javascript: valid.validateInput(this);" />
                     <div id="loanDateError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">

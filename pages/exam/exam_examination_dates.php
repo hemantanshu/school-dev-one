@@ -83,7 +83,7 @@ $sectionId = $_GET['sectionId'];
                     <label for="examinationDate_i">Exam Date :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="examinationDate_i" id="examinationDate_i" class="required"  title="Enter The Date Of Examination" tabindex="1" value="" size="20" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="examinationDate_i" id="examinationDate_i" class="required date"  title="Enter The Date Of Examination" tabindex="1" value="" size="20" onchange="javascript: valid.validateInput(this);" />
                     <div id="examinationDate_iError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>
@@ -158,7 +158,7 @@ $sectionId = $_GET['sectionId'];
                     <label for="markSubmissionDate_i">Mark Submission Date :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="markSubmissionDate_i" id="markSubmissionDate_i" class="required"  title="Last Date Of Mark Submission" tabindex="8" value="" size="20" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="markSubmissionDate_i" id="markSubmissionDate_i" class="required date"  title="Last Date Of Mark Submission" tabindex="8" value="" size="20" onchange="javascript: valid.validateInput(this);" />
                     <div id="markSubmissionDate_iError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">
@@ -175,7 +175,7 @@ $sectionId = $_GET['sectionId'];
                     <label for="markVerificationDate_i">Mark Verification Date :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="markVerificationDate_i" id="markVerificationDate_i" class="required"  title="Last Date Of Mark Verification" tabindex="10" value="" size="20" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="markVerificationDate_i" id="markVerificationDate_i" class="required date"  title="Last Date Of Mark Verification" tabindex="10" value="" size="20" onchange="javascript: valid.validateInput(this);" />
                     <div id="markVerificationDate_iError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">
@@ -217,7 +217,7 @@ $sectionId = $_GET['sectionId'];
                     <label for="examinationDate_u">Exam Date :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="examinationDate_u" id="examinationDate_u" class="required"  title="Enter The Date Of Examination" tabindex="102" value="" size="15" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="examinationDate_u" id="examinationDate_u" class="required date"  title="Enter The Date Of Examination" tabindex="102" value="" size="15" onchange="javascript: valid.validateInput(this);" />
                     <div id="examinationDate_uError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>
@@ -290,7 +290,7 @@ $sectionId = $_GET['sectionId'];
                     <label for="markSubmissionDate_u">Mark Submission Date :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="markSubmissionDate_u" id="markSubmissionDate_u" class="required"  title="Last Date Of Mark Submission" tabindex="108" value="" size="20" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="markSubmissionDate_u" id="markSubmissionDate_u" class="required date"  title="Last Date Of Mark Submission" tabindex="108" value="" size="20" onchange="javascript: valid.validateInput(this);" />
                     <div id="markSubmissionDate_uError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">
@@ -307,7 +307,7 @@ $sectionId = $_GET['sectionId'];
                     <label for="markVerificationDate_u">Mark Verification Date :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="markVerificationDate_u" id="markVerificationDate_u" class="required"  title="Last Date Of Mark Verification" tabindex="110" value="" size="20" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="markVerificationDate_u" id="markVerificationDate_u" class="required date"  title="Last Date Of Mark Verification" tabindex="110" value="" size="20" onchange="javascript: valid.validateInput(this);" />
                     <div id="markVerificationDate_uError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">

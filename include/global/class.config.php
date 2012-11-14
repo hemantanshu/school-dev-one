@@ -91,7 +91,7 @@ class config {
 		
 		$this->_basePath = "c:/xampp/htdocs/school/";
 		
-		$this->_debug = true;
+		$this->_debug = false;
 	}
 	
 	/**
