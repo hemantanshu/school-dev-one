@@ -13,6 +13,10 @@ $(document).ready(function(){
         'bJQueryUI':true,
         'sPaginationType':'full_numbers'
     });
+    $(".date").dateinput({
+        format: 'yyyy-mm-dd'
+    });
+    
     formGlobalPath = getFormGlobalPath();
     classGlobal = $('#class_global').val();
 //    checkFormEditableOption();
@@ -133,7 +137,7 @@ function getSearchResults() {
     showLoading("Fetching Data From Server");
     $
         .ajax({
-            url:formGlobalPath + "global/accounts_salary_block_form.php",
+            url:formGlobalPath + "accounts/accounts_salary_block_form.php",
             type:"POST",
             data:data,
             cache:false,

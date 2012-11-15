@@ -31,14 +31,14 @@ $body->startBody ( 'exam', 'LMENUL148', 'Exam Result Types' );
                     <label for="resultType">Result Type :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="resultType" id="resultType" class="required"  title="result type"  tabindex="1" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="resultType" id="resultType" class="required"  title="result type"  tabindex="1" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="resultTypeError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">
                     <label for="resultOrder">Result Order :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="resultOrder" id="resultOrder" class="required"  title="Order Of The Result"  tabindex="2" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="resultOrder" id="resultOrder" class="required"  title="Order Of The Result"  tabindex="2" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="resultOrderError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>
@@ -72,14 +72,14 @@ $body->startBody ( 'exam', 'LMENUL148', 'Exam Result Types' );
                     <label for="resultType_u">Result Type :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="resultType_u" id="resultType_u" class="required"  title="result type"  tabindex="1" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="resultType_u" id="resultType_u" class="required"  title="result type"  tabindex="1" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="resultType_uError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">
                     <label for="resultOrder_u">Result Order :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="resultOrder_u" id="resultOrder_u" class="required"  title="Order Of The Result"  tabindex="2" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="resultOrder_u" id="resultOrder_u" class="required"  title="Order Of The Result"  tabindex="2" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="resultOrder_uError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>

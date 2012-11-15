@@ -10,79 +10,61 @@ require_once 'config.php';
 require_once BASE_PATH . 'include/global/class.body.php';
 
 $body = new body ();
-$body->startBody ( 'exam', 'LMENUL0', 'Bank Name Lookup Form' );
+$body->startBody ( 'accounts', 'LMENUL160', 'View Bank Name Lookup Form' );
 ?>
-
-<div class="clear"></div>
-<div style="width: 50%; float: left">
-	<div class="inputs">
-        <fieldset class="formelements">
-            <div class="legend">
-                <span>One Side Pane</span>
-            </div>
-        </fieldset>    
-</div>
-</div>
-<div style="width: 50%; float: right">
-	<div class="inputs">
-        <fieldset class="formelements">
-            <div class="legend">
-                <span>another Side Pane</span>
-            </div>
-        </fieldset>    
-</div>
+<div id="content_header">
+    <div id="pageButton" class="buttons">
+        <button type="button" class="regular toggle" onclick="showHideSearchForm()">Toggle Search Form</button>
+        <button type="button" class="regular toggle" onclick="showHideDatatable()">Toggle Tabulated Data</button>
+    </div>
+    <div id="contentHeader">Bank Details Form </div>
 </div>
 
-<div class="clear"></div>
-<div class="inputs">
-    <form id="updateForm" class="updateForm" onsubmit="return valid.validateForm(this) ? processUpdateForm() : false;" style="display:none">
-        <fieldset class="formelements">
-            <div class="legend">
-                <span id="legend_editForm">Examination Date Record Update Form</span>
-            </div>
-            <dt style="width: 15%">
-                    <label for=""> :</label>
-                </dt>
-                <dd style="width: 30%">
-                    <input type="text" name="" id="" class="required"  title=""  tabindex="" value="" size="40" onchange="javascript: valid.validateInput(this);" />
-                    <div id="Error" class="validationError"	style="display: none"></div>
-                </dd>
-        </fieldset>
-        <fieldset class="action buttons">
-            <input type="hidden" name="valueId_u" id="valueId_u" value="" /> <input
-            type="hidden" name="rowPosition_u" id="rowPosition_u" value="" />
-            <button type="button" class="positive activate" name="activateRecord_u"
-                    id="activateRecord_u">Activate Record</button>
-            <button type="button" class="negative drop" name="dropRecord_u"
-                    id="dropRecord_u">Drop Record</button>
-            <button type="button" class="regular hide"
-                    onclick="hideUpdateForm()">Hide Update Portion</button>
-            <button type="submit" class="positive update" accesskey="U">Update Record</button>
-        </fieldset>
-    </form>
-</div>
+
 
 <div class="clear"></div>
 <div class="display">
     <div id="displayRecord" style="display:none">
         <fieldset class="displayElements">
             <div class="legend">
-                <span>Examination Record Details Form </span>
+                <span>Bank Name Details </span>
             </div>
             <dl>
                 <dt style="width: 15%;">
-                    <label for=""> :</label>
+                    <label for="bankName_d">Bank Name :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <span id=""></span>
+                    <span id="bankName_d"></span>
                 </dd>
                 <dt style="width: 15%;">
-                    <label for=""> :</label>
+                    <label for="branchName_d">Branch :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <span id=""></span>
+                    <span id="branchName_d"></span>
                 </dd>
             </dl>
+            <dl>
+                <dt style="width: 15%;">
+                    <label for="ifscCode_d">IFSC Code :</label>
+                </dt>
+                <dd style="width: 30%">
+                    <span id="ifscCode_d"></span>
+                </dd>
+                <dt style="width: 15%;">
+                    <label for="micrCode_d">MICR Code :</label>
+                </dt>
+                <dd style="width: 30%">
+                    <span id="micrCode_d"></span>
+                </dd>
+            </dl>
+            <dl>
+                <dt style="width: 15%;">
+                    <label for="bankAddress_d">Address :</label>
+                </dt>
+                <dd style="width: 80%">
+                    <span id="bankAddress_d"></span>
+                </dd>
+            </dl>            
             <dl>
                 <dt style="width: 15%;">
                     <label for="lastUpdateDateDisplay">Last Update Date : </label>
@@ -125,14 +107,8 @@ $body->startBody ( 'exam', 'LMENUL0', 'Bank Name Lookup Form' );
         <fieldset class="action buttons">
             <input type="hidden" name="valueId_d" id="valueId_d" value="" /> <input
             type="hidden" name="rowPosition_d" id="rowPosition_d" value="" />
-            <button type="button" class="positive activate" name="activateRecord_d"
-                    id="activateRecord_d">Activate Record</button>
-            <button type="button" class="negative drop" name="dropRecord_d"
-                    id="dropRecord_d">Drop Record</button>
             <button type="button" name="submit" class="regular hide"
                     onclick="hideDisplayPortion()">Hide Display Details Portion</button>
-            <button type="button" class="negative edit" id="editRecordButton"
-                    class="editRecordButton">Edit Record</button>
         </fieldset>
     </div>
 </div>
@@ -142,9 +118,9 @@ $body->startBody ( 'exam', 'LMENUL0', 'Bank Name Lookup Form' );
         <fieldset class="formelements">
             <div class="legend">Search Value</div>
             <dl>
-                <dt style="width: 15%">
+                <dt style="width: 15%"><label for"hint">Bank Name :</label>
                 </dt>
-                <dd style="width: 30%">
+                <dd style="width: 30%"><input type="text" name="hint" id="hint" size="20"/>
                 </dd>
                 <dt style="width: 15%">
                     <label for="search_type">Search Type :</label>
@@ -159,8 +135,6 @@ $body->startBody ( 'exam', 'LMENUL0', 'Bank Name Lookup Form' );
             </dl>
         </fieldset>
         <fieldset class="action buttons">
-            <button type="button" name="toggleInsert" id="toggleInsert" class="regular toggle"
-                    onclick="toggleInsertForm()" accesskey="T">Toggle Insert Form</button>
             <button type="submit" name="searchData" id="searchData" class="positive search">Get Search
                 Results</button>
         </fieldset>
@@ -173,15 +147,17 @@ $body->startBody ( 'exam', 'LMENUL0', 'Bank Name Lookup Form' );
 <div class="datatable buttons" id="displayDatatable" style="display:none">
     <fieldset class="formelements">
         <div class="legend">
-            <span>Tabulated Listing Of All</span>
+            <span>Tabulated Listing Of All Banks</span>
         </div>
         <table  class="display"
                id="groupRecords">
             <thead>
             <tr>
-            	<th>Examination Date</th>
+            	<th>Bank Name</th>
+            	<th>Branch</th>
+            	<th>IFSC Code</th>
+            	<th>MICR Code</th>
                 <th style="width: 160px">View Details</th>
-                <th style="width: 150px">Edit Details</th>
             </tr>
             </thead>
             <tbody>

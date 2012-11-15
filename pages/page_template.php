@@ -52,14 +52,14 @@ $body->startBody ( 'exam', 'MENUL105', 'Bank Name Lookup Form' );
                     <label for=""> :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="" id="" class="required"  title=""  tabindex="" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="" id="" class="required"  title=""  tabindex="" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="Error" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">
                     <label for=""> :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="" id="" class="required"  title=""  tabindex="" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="" id="" class="required"  title=""  tabindex="" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="Error" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>
@@ -83,7 +83,7 @@ $body->startBody ( 'exam', 'MENUL105', 'Bank Name Lookup Form' );
                     <label for=""> :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="" id="" class="required"  title=""  tabindex="" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="" id="" class="required"  title=""  tabindex="" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="Error" class="validationError"	style="display: none"></div>
                 </dd>
         </fieldset>

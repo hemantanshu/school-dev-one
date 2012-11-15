@@ -31,7 +31,7 @@ $body->startBody ( 'global', 'LMENUL7', 'User Menu Assignment' );
                     <input type="hidden" name="topMenu_val" id="topMenu_val" value="" />
                     <input type="text" name="topMenu" id="topMenu"
                            onblur="getTopMenuDescription()" class="autocomplete"
-                           title="The Top Menu To Be Assigned" value="" size="30" onchange="javascript: valid.validateInput(this);" /> <span
+                           title="The Top Menu To Be Assigned" value="" size="40" onchange="javascript: valid.validateInput(this);" /> <span
                     id="topMenuDescription"></span>
                     <div id="topMenu_valError" class="validationError" style="display: none"></div>
                 </dd>
@@ -45,7 +45,7 @@ $body->startBody ( 'global', 'LMENUL7', 'User Menu Assignment' );
                     <input type="hidden" name="menuUrl_val" id="menuUrl_val" value="" />
                     <input type="text" name="menuUrl" id="menuUrl"
                            onblur="getMenuDescription()" class="autocomplete"
-                           title="The Top Menu To Be Assigned" value="" size="30" onchange="javascript: valid.validateInput(this);" /> <span
+                           title="The Top Menu To Be Assigned" value="" size="40" onchange="javascript: valid.validateInput(this);" /> <span
                     id="menuUrlDescription"></span>
                     <div id="menuUrl_valError" class="validationError" style="display: none"></div>
                 </dd>
@@ -59,7 +59,7 @@ $body->startBody ( 'global', 'LMENUL7', 'User Menu Assignment' );
                     <input type="hidden" name="user_val" id="user_val" value="" /> <input
                     type="text" name="user" id="user" class="required autocomplete"
                     title="The User To Whom The Top Menu Has To be Assigned"
-                    value="" size="30" onchange="javascript: valid.validateInput(this);"/> <span id="userGroupAssignment"></span>
+                    value="" size="40" onchange="javascript: valid.validateInput(this);"/> <span id="userGroupAssignment"></span>
                     <div id="user_valError" class="validationError" style="display: none"></div>
                 </dd>
 
@@ -131,7 +131,7 @@ $body->startBody ( 'global', 'LMENUL7', 'User Menu Assignment' );
                     <input type="hidden" name="topMenu_uval" id="topMenu_uval" value="" />
                     <input type="text" name="topMenu_u" id="topMenu_u"
                            onblur="getTopMenuDescription()" class=""
-                           title="The Top Menu To Be Assigned" value="" disabled="disabled" size="30" onchange="javascript: valid.validateInput(this);" /> <span
+                           title="The Top Menu To Be Assigned" value="" disabled="disabled" size="40" onchange="javascript: valid.validateInput(this);" /> <span
                     id="topMenuDescription_u"></span>
                     <div id="topMenu_uError" class="validationError" style="display: none"></div>
                 </dd>
@@ -145,7 +145,7 @@ $body->startBody ( 'global', 'LMENUL7', 'User Menu Assignment' );
                     <input type="hidden" name="menuUrl_uval" id="menuUrl_uval" value="" />
                     <input type="text" name="menuUrl" id="menuUrl"
                            onblur="getMenuDescription()" class="autocomplete"
-                           title="The Top Menu To Be Assigned" value="" disabled="disabled" size="30" onchange="javascript: valid.validateInput(this);" /> <span
+                           title="The Top Menu To Be Assigned" value="" disabled="disabled" size="40" onchange="javascript: valid.validateInput(this);" /> <span
                     id="menuUrlDescription"></span>
                     <div id="menuUrl_uvalError" class="validationError" style="display: none"></div>
                 </dd>
@@ -159,7 +159,7 @@ $body->startBody ( 'global', 'LMENUL7', 'User Menu Assignment' );
                     <input type="hidden" name="user_uval" id="user_uval" value="" /> <input
                     type="text" name="user_u" id="user_u" class=""
                     title="The User To Whom The Top Menu Has To be Assigned"  disabled="disabled"
-                    value="" size="30" onchange="javascript: valid.validateInput(this);"/> <span id="userGroupAssignment_u"></span>
+                    value="" size="40" onchange="javascript: valid.validateInput(this);"/> <span id="userGroupAssignment_u"></span>
                     <div id="user_uvalError" class="validationError" style="display: none"></div>
                 </dd>
 

@@ -24,7 +24,7 @@ $body->startBody ( 'utility', 'LMENUL10', 'utl_room_list' );
 					<label for="roomName">Room Name :</label>
 				</dt>
 				<dd style="width: 30%">
-					<input type="text" name="roomName" id="roomName" size="30" onchange="javascript: valid.validateInput(this);"
+					<input type="text" name="roomName" id="roomName" size="40" onchange="javascript: valid.validateInput(this);"
 						title="Create New Room" class="required" />
 					<div id="roomNameError" class="validationError" style="display: none"></div>	
 				</dd>
@@ -34,7 +34,7 @@ $body->startBody ( 'utility', 'LMENUL10', 'utl_room_list' );
 					<label for="roomNo">Room Number :</label>
 				</dt>
 				<dd style="width: 30%">
-					<input type="text" name="roomNo" id="roomNo" size="30" onchange="javascript: valid.validateInput(this);"
+					<input type="text" name="roomNo" id="roomNo" size="40" onchange="javascript: valid.validateInput(this);"
 						title="Enter the room number" class="required" />
 					<div id="roomNoError" class="validationError" style="display: none"></div>	
 				</dd>
@@ -46,7 +46,7 @@ $body->startBody ( 'utility', 'LMENUL10', 'utl_room_list' );
 					<label for="floorNO">Floor Number :</label>
 				</dt>
 				<dd style="width: 30%">
-					<input type="text" name="floorNo" id="floorNo" size="30" onchange="javascript: valid.validateInput(this);"
+					<input type="text" name="floorNo" id="floorNo" size="40" onchange="javascript: valid.validateInput(this);"
 						title="Enter the floor Number" class="required" />
 					<div id="floorNoError" class="validationError" style="display: none"></div>	
 				</dd>
@@ -57,7 +57,7 @@ $body->startBody ( 'utility', 'LMENUL10', 'utl_room_list' );
 				<dd style="width: 30%">
 					<input type="hidden" name="buildingName_val" id="buildingName_val" 
 						value="" /> <input type="text" name="buildingName"
-						id="buildingName" size="30" title="Eneter The Building Name" onchange="javascript: valid.validateInput(this);"
+						id="buildingName" size="40" title="Eneter The Building Name" onchange="javascript: valid.validateInput(this);"
 						class="required autocomplete" />
 					<div id="buildingNameError" class="validationError" style="display: none"></div>	
 				</dd>
@@ -67,7 +67,7 @@ $body->startBody ( 'utility', 'LMENUL10', 'utl_room_list' );
 					<label for="seatingCapN">Seating Capacity Nor :</label>
 				</dt>
 				<dd style="width: 30%">
-					<input type="text" name="seatingCapN" id="seatingCapN" size="30"
+					<input type="text" name="seatingCapN" id="seatingCapN" size="40"
 						maxlength="130" title="Input the Seating Capacity(Normal)" onchange="javascript: valid.validateInput(this);"
 						class="required numeric" />
 					<div id="seatingCapNError" class="validationError" style="display: none"></div>	
@@ -77,7 +77,7 @@ $body->startBody ( 'utility', 'LMENUL10', 'utl_room_list' );
 					<label for="seatingCapE">Seating capacity E :</label>
 				</dt>
 				<dd style="width: 30%">
-					<input type="text" name="seatingCapE" id="seatingCapE" size="30" onchange="javascript: valid.validateInput(this);"
+					<input type="text" name="seatingCapE" id="seatingCapE" size="40" onchange="javascript: valid.validateInput(this);"
 						maxlength="130" title="Input the Seating Capacity(For Exam)"
 						class="required numeric" />
 					<div id="seatingCapEError" class="validationError" style="display: none"></div>	
@@ -89,7 +89,7 @@ $body->startBody ( 'utility', 'LMENUL10', 'utl_room_list' );
 				</dt>
 				<dd style="width: 30%">
 					<input type="hidden" name="roomType_val" id="roomType_val" value="" />
-					<input type="text" name="roomType" id="roomType" size="30" onchange="javascript: valid.validateInput(this);"
+					<input type="text" name="roomType" id="roomType" size="40" onchange="javascript: valid.validateInput(this);"
 						maxlength="130" title="Enter the Type of room"
 						class="required autocomplete" />
 					<div id="roomTypeError" class="validationError" style="display: none"></div>	
@@ -136,7 +136,7 @@ $body->startBody ( 'utility', 'LMENUL10', 'utl_room_list' );
 					<label for="roomName_u">Room Name :</label>
 				</dt>
 				<dd style="width: 30%">
-					<input type="text" name="roomName_u" id="roomName_u" size="30"
+					<input type="text" name="roomName_u" id="roomName_u" size="40"
 						maxlength="130" title="Update Room Name" class="required" onchange="javascript: valid.validateInput(this);" />
 					<div id="roomName_uError" class="validationError" style="display: none"></div>	
 				</dd>
@@ -144,7 +144,7 @@ $body->startBody ( 'utility', 'LMENUL10', 'utl_room_list' );
 					<label for="roomNo_u">Room Number :</label>
 				</dt>
 				<dd style="width: 30%">
-					<input type="text" name="roomNo_u" id="roomNo_u" size="30"
+					<input type="text" name="roomNo_u" id="roomNo_u" size="40"
 						maxlength="130" title="Update the room Number" onchange="javascript: valid.validateInput(this);"
 						class="required" />
 					<div id="roomNo_uError" class="validationError" style="display: none"></div>	
@@ -155,7 +155,7 @@ $body->startBody ( 'utility', 'LMENUL10', 'utl_room_list' );
 					<label for="floorNo_u">Floor Nunber :</label>
 				</dt>
 				<dd style="width: 30%">
-					<input type="text" name="floorNo_u" id="floorNo_u" size="30"
+					<input type="text" name="floorNo_u" id="floorNo_u" size="40"
 						maxlength="130" title="Input the floor Number" onchange="javascript: valid.validateInput(this);"
 						class="required" />
 					<div id="floorNo_uError" class="validationError" style="display: none"></div>	
@@ -167,7 +167,7 @@ $body->startBody ( 'utility', 'LMENUL10', 'utl_room_list' );
 				<dd style="width: 30%">
 					<input type="hidden" name="buildingName_uval"
 						id="buildingName_uval" value="" /> <input type="text"
-						name="buildingName_u" id="buildingName_u" size="30" onchange="javascript: valid.validateInput(this);"
+						name="buildingName_u" id="buildingName_u" size="40" onchange="javascript: valid.validateInput(this);"
 						title="Input The Building Name" class="required autocomplete" />
 					<div id="buildingName_uError" class="validationError" style="display: none"></div>	
 				</dd>
@@ -179,7 +179,7 @@ $body->startBody ( 'utility', 'LMENUL10', 'utl_room_list' );
 				</dt>
 				<dd style="width: 30%">
 					<input type="text" name="seatingCapN_u" id="seatingCapN_u"
-						size="30" maxlength="130" onchange="javascript: valid.validateInput(this);"
+						size="40" maxlength="130" onchange="javascript: valid.validateInput(this);"
 						title="Update the Seating Capacity(Normal)" class="required numeric" />
 					<div id="seatingCapN_uError" class="validationError" style="display: none"></div>	
 				</dd>
@@ -189,7 +189,7 @@ $body->startBody ( 'utility', 'LMENUL10', 'utl_room_list' );
 				</dt>
 				<dd style="width: 30%">
 					<input type="text" name="seatingCapE_u" id="seatingCapE_u"
-						size="30" maxlength="130"
+						size="40" maxlength="130"
 						title="Update the Seating Capacity(For Exam)" onchange="javascript: valid.validateInput(this);"
 						class="required numeric" />
 					<div id="seatingCapE_uError" class="validationError" style="display: none"></div>	
@@ -202,7 +202,7 @@ $body->startBody ( 'utility', 'LMENUL10', 'utl_room_list' );
 				<dd style="width: 30%">
 					<input type="hidden" name="roomType_uval" id="roomType_uval"
 						value="" /> <input type="text" name="roomType_u" id="roomType_u"
-						size="30" maxlength="130" title="Enter the Type of room" onchange="javascript: valid.validateInput(this);"
+						size="40" maxlength="130" title="Enter the Type of room" onchange="javascript: valid.validateInput(this);"
 						class="required autocomplete" />
 					<div id="roomType_uError" class="validationError" style="display: none"></div>	
 				</dd>

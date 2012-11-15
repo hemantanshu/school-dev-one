@@ -13,7 +13,7 @@ $body = new body ();
             <dl class="element">
                 <dt style="width: 30%"><label for="pageName">Bookmark Name :</label>	</dt>
                 <dd style="width: 60%">
-                    <input type="text" name="pageNameD" id="pageNameD" class="required" tabindex="1" size="30" onchange="javascript: valid.validateInput(this);" title="Enter Bookmark Identifier Name" />
+                    <input type="text" name="pageNameD" id="pageNameD" class="required" tabindex="1" size="40" onchange="javascript: valid.validateInput(this);" title="Enter Bookmark Identifier Name" />
                     <div id="pageNameDError" class="validationError" style="display: none"></div></dd>
             </dl>
             <dl class="element">

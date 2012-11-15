@@ -31,7 +31,7 @@ $body->startBody ( 'accounts', 'LMENUL110', 'Allowance Details Record' );
                     <label for="allowanceName">Allowance Name :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="allowanceName" id="allowanceName" class="required"  title="Enter The Allowance Name"  tabindex="1" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="allowanceName" id="allowanceName" class="required"  title="Enter The Allowance Name"  tabindex="1" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="allowanceNameError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">
@@ -108,7 +108,7 @@ $body->startBody ( 'accounts', 'LMENUL110', 'Allowance Details Record' );
                     <label for="allowanceName_u">Allowance Name :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="allowanceName_u" id="allowanceName_u" class="required"  title="Enter The Allowance Name"  tabindex="1" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="allowanceName_u" id="allowanceName_u" class="required"  title="Enter The Allowance Name"  tabindex="1" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="allowanceName_uError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">

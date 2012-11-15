@@ -58,14 +58,14 @@ $details = $body->getTableIdDetails($resultTypeId);
                     <label for="displayName">Display Name :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="displayName" id="displayName" class="required"  title="The name to be displayed"  tabindex="1" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="displayName" id="displayName" class="required"  title="The name to be displayed"  tabindex="1" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="displayNameError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">
                     <label for="internalCode">Internal Code :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="internalCode" id="internalCode" class=""  title="The internal code"  tabindex="2" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="internalCode" id="internalCode" class=""  title="The internal code"  tabindex="2" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="internalCodeError" class="validationError"	style="display: none"></div>
                 </dd>                
             </dl>
@@ -108,14 +108,14 @@ $details = $body->getTableIdDetails($resultTypeId);
                     <label for="displayName_u">Display Name :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="displayName_u" id="displayName_u" class="required"  title="The name to be displayed"  tabindex="11" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="displayName_u" id="displayName_u" class="required"  title="The name to be displayed"  tabindex="11" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="displayName_uError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">
                     <label for="internalCode_u">Internal Code :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="internalCode_u" id="internalCode_u" class=""  title="The internal code"  tabindex="12" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="internalCode_u" id="internalCode_u" class=""  title="The internal code"  tabindex="12" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="internalCode_uError" class="validationError"	style="display: none"></div>
                 </dd>                
             </dl>

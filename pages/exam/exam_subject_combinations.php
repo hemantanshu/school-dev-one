@@ -31,7 +31,7 @@ $body->startBody ( 'exam', 'LMENUL69', 'Subject Component Entry Form' );
                 <dt style="width: 15%"><label for="subject">Subject Name :</label>	</dt>
                 <dd style="width: 80%">
                     <input type="hidden" name="subject_val" id="subject_val" />
-                    <input type="text" class="required autocomplete" name="subject" size="30" id="subject" onblur="checkSubjectNameChange()" />
+                    <input type="text" class="required autocomplete" name="subject" size="40" id="subject" onblur="checkSubjectNameChange()" />
             </dl>
         </fieldset>
     </div>

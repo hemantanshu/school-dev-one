@@ -67,7 +67,7 @@ $body->startBody('global', 'LMENUL51', 'Menu Access Details');
                 <dt style="width: 15%"><label for="parentUrl">Access URL :</label>	</dt>
                 <dd style="width: 80%">
                     <input type="hidden" name="parentMenu_val" id="parentMenu_val" />
-                    <input type="text" size="30" name="parentMenu" id="parentMenu" class="required autocomplete" tabindex="1" onblur="getInsertMenuDetails()" onchange="javascript: valid.validateInput(this);" title="" />
+                    <input type="text" size="40" name="parentMenu" id="parentMenu" class="required autocomplete" tabindex="1" onblur="getInsertMenuDetails()" onchange="javascript: valid.validateInput(this);" title="" />
                     <div id="Error" class="validationError" style="display: none"></div></dd>
             </dl>
             <div class="display">

@@ -37,7 +37,7 @@ $body->startBody('accounts', 'LMENUL123', 'Employee Bulk Allowance Updation');
                 <dt style="width: 15%"><label for="allowance">Allowance Name :</label>	</dt>
                 <dd style="width: 80%">
                     <input type="hidden" name="allowance_val" id="allowance_val" />
-                    <input type="text" class="required autocomplete" name="allowance" id="allowance" size="30" onblur="checkAllowanceChange()" />
+                    <input type="text" class="required autocomplete" name="allowance" id="allowance" size="40" onblur="checkAllowanceChange()" />
             </dl>
         </fieldset>
     </div>

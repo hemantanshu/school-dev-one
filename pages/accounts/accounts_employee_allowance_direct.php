@@ -38,7 +38,7 @@ $body->startBody('accounts', 'LMENUL124', 'Employee Direct Allowance Updation');
                 <dt style="width: 15%"><label for="allowance">Allowance Name :</label>	</dt>
                 <dd style="width: 30%">
                     <input type="hidden" name="allowance_val" id="allowance_val" class="required" onchange="javascript: valid.validateInput(this);"/>
-                    <input type="text" class="required autocomplete" name="allowance" id="allowance" size="30" onchange="javascript: valid.validateInput(this);"/>
+                    <input type="text" class="required autocomplete" name="allowance" id="allowance" size="40" onchange="javascript: valid.validateInput(this);"/>
                     <div id="allowance_valError" class="validationError"	style="display: none"></div>
                     <div id="allowanceError" class="validationError"	style="display: none"></div>
                 <dt style="width: 15%"><label for="month">Month :</label>	</dt>

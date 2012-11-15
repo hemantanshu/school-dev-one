@@ -41,7 +41,7 @@ $body->startBody ( 'global', 'LMENUL5', 'Menu Submenu URL Entry Page' );
 				</dt>
 				<dd style="width: 30%">
 					<input type="hidden" name="menuUrl_i" id="menuUrl_i" /> <input
-						type="text" name="menuUrl" id="menuUrl" class="required" value=""
+						type="text" name="menuUrl" id="menuUrl" class="required autocomplete" value=""
 						size="40" title="The Menu URL Assigned To This Menu" onchange="javascript: valid.validateInput(this);" />
 					<div id="menuUrlError" class="validationError" style="display: none"></div>	
 				</dd>
@@ -79,7 +79,7 @@ $body->startBody ( 'global', 'LMENUL5', 'Menu Submenu URL Entry Page' );
 				<dd style="width: 30%">
 					<input type="hidden" name="cSubmenu_i" id="cSubmenu_i" /> <input
 						type="text" name="cSubmenu" id="cSubmenu"
-						onblur="checkChildMenuAssignmentInsert()" size="40"
+						onblur="checkChildMenuAssignmentInsert()" size="40" class="autocomplete"
 						title="The Submenu Assigned To This Menu" onchange="javascript: valid.validateInput(this);" />
 				</dd>
 
@@ -123,7 +123,7 @@ $body->startBody ( 'global', 'LMENUL5', 'Menu Submenu URL Entry Page' );
 				</dt>
 				<dd style="width: 30%">
 					<input type="hidden" name="menuUrl_ui" id="menuUrl_ui" value="" />
-					<input type="text" name="menuUrl_u" id="menuUrl_u" class="required"
+					<input type="text" name="menuUrl_u" id="menuUrl_u" class="required autocomplete"
 						value="" size="40"
 						title="The Menu URL Assigned To This Menu" onchange="javascript: valid.validateInput(this);" />
 					<div id="menuUrl_uError" class="validationError" style="display: none"></div>	
@@ -165,7 +165,7 @@ $body->startBody ( 'global', 'LMENUL5', 'Menu Submenu URL Entry Page' );
 				</dt>
 				<dd style="width: 30%">
 					<input type="hidden" name="cSubmenu_ui" id="cSubmenu_ui" /> <input
-						type="text" name="cSubmenu_u" id="cSubmenu_u" value="" size="40"
+						type="text" name="cSubmenu_u" id="cSubmenu_u" value="" size="40" class="autocomplete"
 						title="The Submenu Assigned To This Menu" />
 				</dd>
 

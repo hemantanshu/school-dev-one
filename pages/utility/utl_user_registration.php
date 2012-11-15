@@ -34,11 +34,11 @@ $body->startBody ( 'utility', 'LMENUL37', 'New Employee Registration' );
 			<dl class="element">
 				<dt style="width: 15%"><label for="employeeCode">Employee Code :</label>	</dt>
 				<dd style="width: 30%">
-						<input type="text" name="employeeCode" id="employeeCode" class="required" tabindex="1" size="30" onblur="checkEmployeeCode()" onchange="javascript: valid.validateInput(this);" title="Enter the employee code" />
+						<input type="text" name="employeeCode" id="employeeCode" class="required" tabindex="1" size="40" onblur="checkEmployeeCode()" onchange="javascript: valid.validateInput(this);" title="Enter the employee code" />
 						<div id="employeeCodeError" class="validationError" style="display: none"></div></dd>
 				<dt style="width: 15%"><label for="applicationId">Applicatoin ID :</label>	</dt>
 				<dd style="width: 30%">
-						<input type="text" name="applicationId" id="applicationId" class="" tabindex="2" size="30" onchange="javascript: valid.validateInput(this);" title="Application ID againt pre-employment form" />
+						<input type="text" name="applicationId" id="applicationId" class="" tabindex="2" size="40" onchange="javascript: valid.validateInput(this);" title="Application ID againt pre-employment form" />
 						<div id="applicationIdError" class="validationError" style="display: none"></div></dd>
 			</dl>
 			<dl class="element">
@@ -49,7 +49,7 @@ $body->startBody ( 'utility', 'LMENUL37', 'New Employee Registration' );
 				<dt style="width: 15%"><label for="rank">Joining As :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="rank_val" id="rank_val" value=""/>
-						<input type="text" name="rank" id="rank" class="required autocomplete" tabindex="4" size="30" onchange="javascript: valid.validateInput(this);" title="Select the rank of the employee" />
+						<input type="text" name="rank" id="rank" class="required autocomplete" tabindex="4" size="40" onchange="javascript: valid.validateInput(this);" title="Select the rank of the employee" />
 						<div id="rankError" class="validationError" style="display: none"></div></dd>
 			</dl>
 		</fieldset>
@@ -74,14 +74,14 @@ $body->startBody ( 'utility', 'LMENUL37', 'New Employee Registration' );
 						
 					</select> <input type="text" name="firstName" id="firstName"
 						tabindex="6" class="required"
-						title="Enter Employee First Name" value="" size="30"
+						title="Enter Employee First Name" value="" size="40"
 						onchange="javascript: valid.validateInput(this);" /> <input
 						type="text" name="middleName" id="middleName" class=""
 						tabindex="7" title="Enter Employee Middle Name" value=""
-						size="30" onchange="javascript: valid.validateInput(this);" /> <input
+						size="40" onchange="javascript: valid.validateInput(this);" /> <input
 						type="text" name="lastName" id="lastName" class="required"
 						tabindex="8" title="Enter Employee Last Name" value=""
-						size="30" onchange="javascript: valid.validateInput(this);" />
+						size="40" onchange="javascript: valid.validateInput(this);" />
 					<div id="salutationError" class="validationError"
 						style="display: none;"></div>
 					<div id="firstNameError" class="validationError"
@@ -140,7 +140,7 @@ $body->startBody ( 'utility', 'LMENUL37', 'New Employee Registration' );
 					<input type="hidden" name="religion_val" id="religion_val" value=""
 						onchange="javascript: valid.validateInput(this);" /> <input
 						type="text" tabindex="12" name="religion" id="religion" class="autocomplete"
-						title="Enter The Religion" value="" size="30" />
+						title="Enter The Religion" value="" size="40" />
 					<div id="religionError" class="validationError"
 						style="display: none;"></div>
 
@@ -153,7 +153,7 @@ $body->startBody ( 'utility', 'LMENUL37', 'New Employee Registration' );
 					<input type="hidden" name="nationality_val" id="nationality_val"
 						value="" /> <input tabindex="13" type="text" name="nationality"
 						id="nationality" class="required autocomplete" title="Enter The Nationality"
-						value="" size="30"
+						value="" size="40"
 						onchange="javascript: valid.validateInput(this);" />
 					<div id="nationalityError" class="validationError"
 						style="display: none;"></div>
@@ -162,21 +162,21 @@ $body->startBody ( 'utility', 'LMENUL37', 'New Employee Registration' );
 			<dl class="element">
 				<dt style="width: 15%"><label for="personalEmail">Personal Email :</label>	</dt>
 				<dd style="width: 30%">
-						<input type="text" name="personalEmail" id="personalEmail" class="" tabindex="14" size="30" onchange="javascript: valid.validateInput(this);" title="" />
+						<input type="text" name="personalEmail" id="personalEmail" class="" tabindex="14" size="40" onchange="javascript: valid.validateInput(this);" title="" />
 						<div id="personalEmailError" class="validationError" style="display: none"></div></dd>
 				<dt style="width: 15%"><label for="officialEmail">Official Email :</label>	</dt>
 				<dd style="width: 30%">
-						<input type="text" name="officialEmail" id="officialEmail" class="" tabindex="15" size="30" onchange="javascript: valid.validateInput(this);" title="" />
+						<input type="text" name="officialEmail" id="officialEmail" class="" tabindex="15" size="40" onchange="javascript: valid.validateInput(this);" title="" />
 						<div id="officialEmailError" class="validationError" style="display: none"></div></dd>
 			</dl>
 			<dl class="element">
 				<dt style="width: 15%"><label for="contactNo">Mobile No :</label>	</dt>
 				<dd style="width: 30%">
-						<input type="text" name="contactNo" id="contactNo" class="phone" tabindex="16" size="30" onchange="javascript: valid.validateInput(this);" title="" />
+						<input type="text" name="contactNo" id="contactNo" class="phone" tabindex="16" size="40" onchange="javascript: valid.validateInput(this);" title="" />
 						<div id="contactNoError" class="validationError" style="display: none"></div></dd>
 				<dt style="width: 15%"><label for="aContactNo">Alt. Contact No :</label>	</dt>
 				<dd style="width: 30%">
-						<input type="text" name="aContactNo" id="aContactNo" class="phone" tabindex="17" size="30" onchange="javascript: valid.validateInput(this);" title="" />
+						<input type="text" name="aContactNo" id="aContactNo" class="phone" tabindex="17" size="40" onchange="javascript: valid.validateInput(this);" title="" />
 						<div id="aContactNoError" class="validationError" style="display: none"></div></dd>
 			</dl>
 		</fieldset>
@@ -200,23 +200,23 @@ $body->startBody ( 'utility', 'LMENUL37', 'New Employee Registration' );
 				<dt style="width: 15%"><label for="city">City :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="city_val" id="city_val" value=""/>
-						<input type="text" name="city" id="city" class="required autocomplete" tabindex="20" value="" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the city" />
+						<input type="text" name="city" id="city" class="required autocomplete" tabindex="20" value="" size="40" onchange="javascript: valid.validateInput(this);" title="Enter the city" />
 						<div id="cityError" class="validationError" style="display: none"></div></dd>
 				<dt style="width: 15%"><label for="state">State :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="state_val" id="state_val" value=""/>
-						<input type="text" name="state" id="state" class="required autocomplete" tabindex="21" value="" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the state" />
+						<input type="text" name="state" id="state" class="required autocomplete" tabindex="21" value="" size="40" onchange="javascript: valid.validateInput(this);" title="Enter the state" />
 						<div id="stateError" class="validationError" style="display: none"></div></dd>
 			</dl>			
 			<dl class="element">
 				<dt style="width: 15%"><label for="pincode">Pincode :</label>	</dt>
 				<dd style="width: 30%">
-						<input type="text" name="pincode" id="pincode" class="required numeric" tabindex="22" value="" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the pincode of the address" />
+						<input type="text" name="pincode" id="pincode" class="required numeric" tabindex="22" value="" size="40" onchange="javascript: valid.validateInput(this);" title="Enter the pincode of the address" />
 						<div id="pincodeError" class="validationError" style="display: none"></div></dd>
 				<dt style="width: 15%"><label for="country">Country :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="country_val" id="country_val" value=""/>
-						<input type="text" name="country" id="country" class="required autocomplete" tabindex="23" value="" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the country name" />
+						<input type="text" name="country" id="country" class="required autocomplete" tabindex="23" value="" size="40" onchange="javascript: valid.validateInput(this);" title="Enter the country name" />
 						<div id="countryError" class="validationError" style="display: none"></div></dd>
 			</dl>			
 		</fieldset>
@@ -233,7 +233,7 @@ $body->startBody ( 'utility', 'LMENUL37', 'New Employee Registration' );
 					<input type="hidden" name="recordShelve1_val"
 						id="recordShelve1_val" value="" /> <input type="text"
 						name="recordShelve1" id="recordShelve1" class="autocomplete"
-						title="Enter The Record Shelve1" value="" size="30"
+						title="Enter The Record Shelve1" value="" size="40"
 						tabindex="24" onchange="javascript: valid.validateInput(this);" />
 					<div id="recordShelve1Error" class="validationError"
 						style="display: none;"></div>
@@ -246,7 +246,7 @@ $body->startBody ( 'utility', 'LMENUL37', 'New Employee Registration' );
 					<input type="hidden" name="recordShelve2_val"
 						id="recordShelve2_val" value="" /> <input type="text"
 						name="recordShelve2" id="recordShelve2" class="autocomplete"
-						title="Enter The Record Shelve2" value="" size="30"
+						title="Enter The Record Shelve2" value="" size="40"
 						tabindex="25" onchange="javascript: valid.validateInput(this);" />
 					<div id="recordShelve2Error" class="validationError"
 						style="display: none;"></div>
@@ -262,7 +262,7 @@ $body->startBody ( 'utility', 'LMENUL37', 'New Employee Registration' );
 					<input type="hidden" name="recordShelve3_val"
 						id="recordShelve3_val" value="" /> <input type="text"
 						name="recordShelve3" id="recordShelve3" class="autocomplete" tabindex="26"
-						title="Enter The Record Shelve3" value="" size="30"
+						title="Enter The Record Shelve3" value="" size="40"
 						onchange="javascript: valid.validateInput(this);" />
 					<div id="recordShelve3Error" class="validationError"
 						style="display: none;"></div>
@@ -272,12 +272,12 @@ $body->startBody ( 'utility', 'LMENUL37', 'New Employee Registration' );
 		        <dt style="width: 15%"><label for="department">Department Name :</label>	</dt>
 		        <dd style="width: 30%">
 		            <input type="hidden" name="department_val" id="department_val" class="required" />
-		            <input type="text" name="department" id="department" class="required autocomplete" tabindex="27" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the department" />
+		            <input type="text" name="department" id="department" class="required autocomplete" tabindex="27" size="40" onchange="javascript: valid.validateInput(this);" title="Enter the department" />
 		            <div id="department_valError" class="validationError" style="display: none"></div></dd>
 		        <dt style="width: 15%"><label for="employeeType">Employee Type :</label>	</dt>
 		        <dd style="width: 30%">
 		            <input type="hidden" name="employeeType_val" id="employeeType_val" class="required" />
-		            <input type="text" name="employeeType" id="employeeType" class="required autocomplete" tabindex="28" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the employeeType" />
+		            <input type="text" name="employeeType" id="employeeType" class="required autocomplete" tabindex="28" size="40" onchange="javascript: valid.validateInput(this);" title="Enter the employeeType" />
 		            <div id="employeeType_valError" class="validationError" style="display: none"></div></dd>
 		    </dl>
 		</fieldset>

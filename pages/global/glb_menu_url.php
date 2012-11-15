@@ -30,7 +30,7 @@ $body->startBody ( 'global', 'LMENUL1', 'Menu Url Entry' );
 				</dt>
 				<dd style="width: 30%">
 					<input type="text" class="required" id="display_name"
-						name="display_name" tabindex="1" value="" size="30"
+						name="display_name" tabindex="1" value="" size="40"
 						title="Enter the Name you want to be displayed"
 						onchange="javascript: valid.validateInput(this);" />
 					<div id="display_nameError" class="validationError"
@@ -41,7 +41,7 @@ $body->startBody ( 'global', 'LMENUL1', 'Menu Url Entry' );
 				</dt>
 				<dd style="width: 30%">
 					<input type="text" class="required" id="menu_url" name="menu_url"
-						tabindex="2" value="" size="30"
+						tabindex="2" value="" size="40"
 						title="Enter the Name you want to be displayed"
 						onchange="javascript: valid.validateInput(this);" />
 					<div id="menu_urlError" class="validationError"
@@ -54,7 +54,7 @@ $body->startBody ( 'global', 'LMENUL1', 'Menu Url Entry' );
 				</dt>
 				<dd style="width: 30%">
 					<input type="text" class="required" id="image_url" name="image_url"
-						tabindex="3" value="menu.png" size="30"
+						tabindex="3" value="menu.png" size="40"
 						title="Enter the Url of the image"
 						onchange="javascript: valid.validateInput(this);" />
 					<div id="image_urlError" class="validationError"
@@ -65,7 +65,7 @@ $body->startBody ( 'global', 'LMENUL1', 'Menu Url Entry' );
 				</dt>
 				<dd style="width: 30%">
 					<input type="text" class="required" id="menu_tagline"
-						name="menu_tagline" tabindex="4" value="" size="30"
+						name="menu_tagline" tabindex="4" value="" size="40"
 						title="Enter the Name you want to be displayed"
 						onchange="javascript: valid.validateInput(this);" />
 					<div id="menu_taglineError" class="validationError"
@@ -161,7 +161,7 @@ $body->startBody ( 'global', 'LMENUL1', 'Menu Url Entry' );
 				<dd style="width: 30%">
 					<input type="hidden" name="menu_url_id" id="menu_url_id" /> <input
 						type="text" class="required" id="display_name_u"
-						name="display_name_u" tabindex="12" value="" size="30"
+						name="display_name_u" tabindex="12" value="" size="40"
 						title="Enter the Name you want to be displayed"
 						onchange="javascript: valid.validateInput(this);" />
 					<div id="display_name_uError" class="validationError"
@@ -172,7 +172,7 @@ $body->startBody ( 'global', 'LMENUL1', 'Menu Url Entry' );
 				</dt>
 				<dd style="width: 30%">
 					<input type="text" class="required" id="menu_url_u"
-						name="menu_url_u" tabindex="13" value="" size="30"
+						name="menu_url_u" tabindex="13" value="" size="40"
 						title="Enter the Name you want to be displayed"
 						onchange="javascript: valid.validateInput(this);" />
 					<div id="menu_url_uError" class="validationError"
@@ -185,7 +185,7 @@ $body->startBody ( 'global', 'LMENUL1', 'Menu Url Entry' );
 				</dt>
 				<dd style="width: 30%">
 					<input type="text" class="required" id="image_url_u"
-						name="image_url_u" tabindex="14" value="" size="30"
+						name="image_url_u" tabindex="14" value="" size="40"
 						title="Enter the Url of the image"
 						onchange="javascript: valid.validateInput(this);" />
 					<div id="image_url_uError" class="validationError"
@@ -196,7 +196,7 @@ $body->startBody ( 'global', 'LMENUL1', 'Menu Url Entry' );
 				</dt>
 				<dd style="width: 30%">
 					<input type="text" class="required" id="menu_tagline_u"
-						name="menu_tagline_u" tabindex="15" value="" size="30"
+						name="menu_tagline_u" tabindex="15" value="" size="40"
 						title="Enter the Name you want to be displayed"
 						onchange="javascript: valid.validateInput(this);" />
 					<div id="menu_tagline_uError" class="validationError"

@@ -31,14 +31,14 @@ $body->startBody ( 'accounts', 'LMENUL108', 'Bank Name Lookup Form' );
                     <label for="bankName">Bank Name :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="bankName" id="bankName" class="required"  title="Enter Bank Name"  tabindex="1" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="bankName" id="bankName" class="required"  title="Enter Bank Name"  tabindex="1" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="bankNameError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">
                     <label for="branchName">Branch Name :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="branchName" id="branchName" class="required"  title="Enter The Bank Branch Name"  tabindex="2" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="branchName" id="branchName" class="required"  title="Enter The Bank Branch Name"  tabindex="2" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="branchNameError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>
@@ -47,14 +47,14 @@ $body->startBody ( 'accounts', 'LMENUL108', 'Bank Name Lookup Form' );
                     <label for="ifscCode">IFSC Code :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="ifscCode" id="ifscCode" class="required"  title="IFSC Code of the bank"  tabindex="3" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="ifscCode" id="ifscCode" class="required"  title="IFSC Code of the bank"  tabindex="3" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="ifscCodeError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">
                     <label for="micrCode">MICR Code :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="micrCode" id="micrCode" class="required"  title="MICR Code of the bank"  tabindex="4" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="micrCode" id="micrCode" class="required"  title="MICR Code of the bank"  tabindex="4" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="micrCodeError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>            
@@ -79,23 +79,23 @@ $body->startBody ( 'accounts', 'LMENUL108', 'Bank Name Lookup Form' );
 				<dt style="width: 15%"><label for="city">City :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="city_val" id="city_val" />
-						<input type="text" name="city" id="city" class="required autocomplete" tabindex="6" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the city" />
+						<input type="text" name="city" id="city" class="required autocomplete" tabindex="6" size="40" onchange="javascript: valid.validateInput(this);" title="Enter the city" />
 						<div id="cityError" class="validationError" style="display: none"></div></dd>
 				<dt style="width: 15%"><label for="state">State :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="state_val" id="state_val" />
-						<input type="text" name="state" id="state" class="required autocomplete" tabindex="7" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the state" />
+						<input type="text" name="state" id="state" class="required autocomplete" tabindex="7" size="40" onchange="javascript: valid.validateInput(this);" title="Enter the state" />
 						<div id="stateError" class="validationError" style="display: none"></div></dd>
 			</dl>			
 			<dl class="element">
 				<dt style="width: 15%"><label for="pincode">Pincode :</label>	</dt>
 				<dd style="width: 30%">
-						<input type="text" name="pincode" id="pincode" class="required numeric" tabindex="8" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the pincode of the address" />
+						<input type="text" name="pincode" id="pincode" class="required numeric" tabindex="8" size="40" onchange="javascript: valid.validateInput(this);" title="Enter the pincode of the address" />
 						<div id="pincodeError" class="validationError" style="display: none"></div></dd>
 				<dt style="width: 15%"><label for="country">Country :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="country_val" id="country_val" />
-						<input type="text" name="country" id="country" class="required autocomplete" tabindex="9" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the country name" />
+						<input type="text" name="country" id="country" class="required autocomplete" tabindex="9" size="40" onchange="javascript: valid.validateInput(this);" title="Enter the country name" />
 						<div id="countryError" class="validationError" style="display: none"></div></dd>
 			</dl>
 		</fieldset>
@@ -119,14 +119,14 @@ $body->startBody ( 'accounts', 'LMENUL108', 'Bank Name Lookup Form' );
                     <label for="bankName_u">Bank Name :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="bankName_u" id="bankName_u" class="required"  title="Enter Bank Name"  tabindex="1" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="bankName_u" id="bankName_u" class="required"  title="Enter Bank Name"  tabindex="1" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="bankName_uError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">
                     <label for="branchName_u">Branch Name :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="branchName_u" id="branchName_u" class="required"  title="Enter The Bank Branch Name"  tabindex="2" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="branchName_u" id="branchName_u" class="required"  title="Enter The Bank Branch Name"  tabindex="2" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="branchName_uError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>
@@ -135,14 +135,14 @@ $body->startBody ( 'accounts', 'LMENUL108', 'Bank Name Lookup Form' );
                     <label for="ifscCode_u">IFSC Code :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="ifscCode_u" id="ifscCode_u" class="required"  title="IFSC Code of the bank"  tabindex="3" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="ifscCode_u" id="ifscCode_u" class="required"  title="IFSC Code of the bank"  tabindex="3" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="ifscCode_uError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">
                     <label for="micrCode_u">MICR Code :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="micrCode_u" id="micrCode_u" class="required"  title="MICR Code of the bank"  tabindex="4" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="micrCode_u" id="micrCode_u" class="required"  title="MICR Code of the bank"  tabindex="4" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="micrCode_uError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>            
@@ -167,23 +167,23 @@ $body->startBody ( 'accounts', 'LMENUL108', 'Bank Name Lookup Form' );
 				<dt style="width: 15%"><label for="city_u">City :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="city_uval" id="city_uval" />
-						<input type="text" name="city_u" id="city_u" class="required autocomplete" tabindex="6" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the city" />
+						<input type="text" name="city_u" id="city_u" class="required autocomplete" tabindex="6" size="40" onchange="javascript: valid.validateInput(this);" title="Enter the city" />
 						<div id="city_uError" class="validationError" style="display: none"></div></dd>
 				<dt style="width: 15%"><label for="state_u">State :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="state_uval" id="state_uval" />
-						<input type="text" name="state_u" id="state_u" class="required autocomplete" tabindex="7" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the state" />
+						<input type="text" name="state_u" id="state_u" class="required autocomplete" tabindex="7" size="40" onchange="javascript: valid.validateInput(this);" title="Enter the state" />
 						<div id="state_uError" class="validationError" style="display: none"></div></dd>
 			</dl>			
 			<dl class="element">
 				<dt style="width: 15%"><label for="pincode_u">Pincode :</label>	</dt>
 				<dd style="width: 30%">
-						<input type="text" name="pincode_u" id="pincode_u" class="required numeric" tabindex="8" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the pincode of the address" />
+						<input type="text" name="pincode_u" id="pincode_u" class="required numeric" tabindex="8" size="40" onchange="javascript: valid.validateInput(this);" title="Enter the pincode of the address" />
 						<div id="pincode_uError" class="validationError" style="display: none"></div></dd>
 				<dt style="width: 15%"><label for="country_u">Country :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="country_uval" id="country_uval" />
-						<input type="text" name="country_u" id="country_u" class="required autocomplete" tabindex="9" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the country name" />
+						<input type="text" name="country_u" id="country_u" class="required autocomplete" tabindex="9" size="40" onchange="javascript: valid.validateInput(this);" title="Enter the country name" />
 						<div id="country_uError" class="validationError" style="display: none"></div></dd>
 			</dl>
 		</fieldset>

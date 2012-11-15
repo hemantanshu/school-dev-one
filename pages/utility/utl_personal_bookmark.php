@@ -23,7 +23,7 @@ $body->startBody('utility', 'LMENUL45', 'Personal Bookmark Entry');
             <dl class="element">
                 <dt style="width: 15%"><label for="pageName">Bookmark Name :</label>	</dt>
                 <dd style="width: 30%">
-                    <input type="text" name="pageName" id="pageName" class="required" tabindex="1" size="30" onchange="javascript: valid.validateInput(this);" title="Enter Bookmark Identifier Name" />
+                    <input type="text" name="pageName" id="pageName" class="required" tabindex="1" size="40" onchange="javascript: valid.validateInput(this);" title="Enter Bookmark Identifier Name" />
                     <div id="pageNameError" class="validationError" style="display: none"></div></dd>
                 <dt style="width: 15%"><label for="priority">Priority :</label>	</dt>
                 <dd style="width: 30%">
@@ -78,7 +78,7 @@ $body->startBody('utility', 'LMENUL45', 'Personal Bookmark Entry');
             <dl class="element">
                 <dt style="width: 15%"><label for="pageName">Bookmark Name :</label>	</dt>
                 <dd style="width: 30%">
-                    <input type="text" name="pageName_u" id="pageName_u" class="required" tabindex="11" size="30" onchange="javascript: valid.validateInput(this);" title="Enter Bookmark Identifier Name" />
+                    <input type="text" name="pageName_u" id="pageName_u" class="required" tabindex="11" size="40" onchange="javascript: valid.validateInput(this);" title="Enter Bookmark Identifier Name" />
                     <div id="pageName_uError" class="validationError" style="display: none"></div></dd>
                 <dt style="width: 15%"><label for="priority">Priority :</label>	</dt>
                 <dd style="width: 30%">

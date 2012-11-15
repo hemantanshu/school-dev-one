@@ -32,7 +32,7 @@ $body->startBody ( 'accounts', 'LMENUL109', 'Account Head Name Details' );
                     <label for="accountHeadName">Account Head Name :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="accountHeadName" id="accountHeadName" class="required"  title="enter the account head name"  tabindex="1" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="accountHeadName" id="accountHeadName" class="required"  title="enter the account head name"  tabindex="1" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="accountHeadNameError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>
@@ -76,7 +76,7 @@ $body->startBody ( 'accounts', 'LMENUL109', 'Account Head Name Details' );
                     <label for="accountHeadName_u">Account Head Name :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="accountHeadName_u" id="accountHeadName_u" class="required"  title="enter the account head name"  tabindex="1" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="accountHeadName_u" id="accountHeadName_u" class="required"  title="enter the account head name"  tabindex="1" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="accountHeadName_uError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>

@@ -31,7 +31,7 @@ $body->startBody ( 'accounts', 'LMENUL125', 'Employee Bank Account Record' );
                 <dt style="width: 15%"><label for="employee">Employee Name :</label>	</dt>
                 <dd style="width: 80%">
                     <input type="hidden" name="employee_val" id="employee_val" />
-                    <input type="text" class="required autocomplete" name="employee" id="employee" size="30" id="session" onblur="checkEmployeeChange()" />
+                    <input type="text" class="required autocomplete" name="employee" id="employee" size="40" id="session" onblur="checkEmployeeChange()" />
             </dl>
         </fieldset>
     </div>
@@ -70,7 +70,7 @@ $body->startBody ( 'accounts', 'LMENUL125', 'Employee Bank Account Record' );
                         <label for="bankAccountNumber">Account Number :</label>
                     </dt>
                     <dd style="width: 30%">                        
-                    	<input type="text" name="bankAccountNumber" id="bankAccountNumber" class="required"  title="Enter Account Number"  tabindex="1" size="30" onchange="javascript: valid.validateInput(this);" />
+                    	<input type="text" name="bankAccountNumber" id="bankAccountNumber" class="required"  title="Enter Account Number"  tabindex="1" size="40" onchange="javascript: valid.validateInput(this);" />
                     	<div id="bankAccountNumberError" class="validationError"	style="display: none"></div>                        
                     </dd>
                     <dt style="width: 15%">

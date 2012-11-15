@@ -29,7 +29,7 @@ $body->startBody ('global', 'LMENUL8', 'New Option Flag' );
 				<dd style="width: 30%">
 					<input type="text" name="optionName" id="optionName"
 						class="required" title="Enter The New Option" value=""
-						size="30" onchange="javascript: valid.validateInput(this);"/>
+						size="40" onchange="javascript: valid.validateInput(this);"/>
 					<div id="optionNameError" class="validationError" style="display: none"></div>	
 				</dd>
 				<dt style="width: 15%">
@@ -91,7 +91,7 @@ $body->startBody ('global', 'LMENUL8', 'New Option Flag' );
 
 					<input type="text" name="optionName_u" id="optionName_u"
 						class="required" title="Enter The New Option" value="" onchange="javascript: valid.validateInput(this);"
-						size="30" />
+						size="40" />
 					<div id="optionName_uError" class="validationError" style="display: none"></div>	
 				</dd>
 				<dt style="width: 15%">

@@ -31,7 +31,7 @@ $body->startBody ( 'accounts', 'LMENUL126', 'Accounts Loan Type Definition' );
                     <label for="loanName">Loan Name :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="loanName" id="loanName" class="required"  title="Enter the new loan type"  tabindex="1" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="loanName" id="loanName" class="required"  title="Enter the new loan type"  tabindex="1" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="loanNameError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">
@@ -80,7 +80,7 @@ $body->startBody ( 'accounts', 'LMENUL126', 'Accounts Loan Type Definition' );
                     <label for="loanName_u">Loan Name :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="loanName_u" id="loanName_u" class="required"  title="Enter the new loan type"  tabindex="1" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="loanName_u" id="loanName_u" class="required"  title="Enter the new loan type"  tabindex="1" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="loanName_uError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">

@@ -17,14 +17,14 @@ $body = new body ();
                         <dl class="element" id="">
                             <dt style="width: 30%"><label for="username">Username :</label>	</dt>
                             <dd style="width: 55%">
-                                <input type="text" size="30" name="username" id="username" class="required" tabindex="101" onchange="javascript: valid.validateInput(this);" title="Input Your Username" />
+                                <input type="text" size="40" name="username" id="username" class="required" tabindex="101" onchange="javascript: valid.validateInput(this);" title="Input Your Username" />
                                 <div id="usernameError" class="validationError" style="display: none"></div></dd>
                         </dl>
                         <div class="loginSeparator"></div>
                         <dl class="element" id="">
                             <dt style="width: 30%"><label for="password">Password :</label>	</dt>
                             <dd style="width: 55%">
-                                <input type="password" size="30" name="password" id="password" class="required" tabindex="102" onchange="javascript: valid.validateInput(this);" title="Input Your Password" />
+                                <input type="password" size="40" name="password" id="password" class="required" tabindex="102" onchange="javascript: valid.validateInput(this);" title="Input Your Password" />
                                 <div id="passwordError" class="validationError" style="display: none"></div></dd>
                         </dl>
                         <div class="loginSeparator"></div>

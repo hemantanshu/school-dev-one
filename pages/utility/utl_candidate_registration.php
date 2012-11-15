@@ -39,7 +39,7 @@ $body->startBody ( 'utility', 'LMENUL25', 'New Candidate Registration' );
 				<dd style="width: 30%">
 					<input type="text" name="entranceId" id="entranceId"
 						tabindex="1"
-						class="" title="Enter The Entrance ID " value="" size="30"
+						class="" title="Enter The Entrance ID " value="" size="40"
 						onblur="populateFormElements()" />
 					<div id="entranceIdError" class="validationError"
 						style="display: none;"></div>
@@ -54,7 +54,7 @@ $body->startBody ( 'utility', 'LMENUL25', 'New Candidate Registration' );
 
 					<input type="text" name="registrationNumber"
 						id="registrationNumber" class="required"
-						title="Enter The Regi stration Number" value="" size="30"
+						title="Enter The Regi stration Number" value="" size="40"
 						tabindex="2"
 						onchange="javascript: valid.validateInput(this);" />
 					<div id="registrationNumberError" class="validationError"
@@ -67,7 +67,7 @@ $body->startBody ( 'utility', 'LMENUL25', 'New Candidate Registration' );
 				<dd style="width: 30%">
 					<input type="text" name="registrationDate" id="registrationDate"
 						class="required date" value="<?php echo date("Y-m-d"); ?>"
-						title="Enter The Registration Date" value="" size="30"
+						title="Enter The Registration Date" value="" size="40"
 						tabindex="3"
 						onblur="javascript: valid.validateInput(this);" />
 					<div id="registrationDateError" class="validationError"
@@ -100,13 +100,13 @@ $body->startBody ( 'utility', 'LMENUL25', 'New Candidate Registration' );
 					</select> <input type="text" name="firstName" id="firstName"
 						tabindex="5"
 						class="required" title="Enter Candidate First Name" value=""
-						size="30" onchange="javascript: valid.validateInput(this);" /> <input
+						size="40" onchange="javascript: valid.validateInput(this);" /> <input
 						type="text" name="middleName" id="middleName" class=""
 						tabindex="6"
-						title="Enter Candidate Middle Name" value="" size="30"
+						title="Enter Candidate Middle Name" value="" size="40"
 						onchange="javascript: valid.validateInput(this);" /> <input
 						type="text" name="lastName" id="lastName" class="required" tabindex="7"
-						title="Enter Candidate Last Name" value="" size="30"
+						title="Enter Candidate Last Name" value="" size="40"
 						onchange="javascript: valid.validateInput(this);" />
 					<div id="salutationError" class="validationError"
 						style="display: none;"></div>
@@ -125,7 +125,7 @@ $body->startBody ( 'utility', 'LMENUL25', 'New Candidate Registration' );
 					<input type="text" name="bday" id="bday" class="date required"
 						tabindex="8"
 						title="Enter The Date Of Birth in yy/mm/dd Format" value=""
-						maxlength="10" size="30"
+						maxlength="10" size="40"
 						onchange="javascript: valid.validateInput(this);" />
 					<div id="bdayError" class="validationError" style="display: none;"></div>
 				</dd>
@@ -153,7 +153,7 @@ $body->startBody ( 'utility', 'LMENUL25', 'New Candidate Registration' );
 					<input type="hidden" name="religion_val" id="religion_val" value=""
 						onchange="javascript: valid.validateInput(this);" /> <input
 						type="text" tabindex="10" name="religion" id="religion" class="autocomplete"
-						title="Enter The Religion" value="" size="30" />
+						title="Enter The Religion" value="" size="40" />
 					<div id="religionError" class="validationError"
 						style="display: none;"></div>
 
@@ -165,7 +165,7 @@ $body->startBody ( 'utility', 'LMENUL25', 'New Candidate Registration' );
 				<dd style="width: 30%">
 					<input type="hidden" name="nationality_val" id="nationality_val"
 						value="" /> <input tabindex="11" type="text" name="nationality" id="nationality"
-						class="autocomplete" title="Enter The Nationality" value="" size="30"
+						class="autocomplete" title="Enter The Nationality" value="" size="40"
 						onchange="javascript: valid.validateInput(this);" />
 					<div id="nationalityError" class="validationError"
 						style="display: none;"></div>
@@ -191,7 +191,7 @@ $body->startBody ( 'utility', 'LMENUL25', 'New Candidate Registration' );
 					<input type="hidden" name="classAdmitted_val" 
 						id="classAdmitted_val" value=""/> <input tabindex="12" type="text"
 						name="classAdmitted" id="classAdmitted" class="required autocomplete"
-						title="Enter  Class you Admitted" value="" size="30"
+						title="Enter  Class you Admitted" value="" size="40"
 						onblur="populateSectionDetails()" />
 					<div id="classAdmittedError" class="validationError"
 						style="display: none;"></div>
@@ -206,7 +206,7 @@ $body->startBody ( 'utility', 'LMENUL25', 'New Candidate Registration' );
 						id="sectionAdmitted_val" value="" /> <input type="text" tabindex="13"
 						name="sectionAdmitted" id="sectionAdmitted" readonly="readonly"
 						value="Select Class First" class="required autocomplete"
-						title="Enter The Section You Admitted" value="" size="30"
+						title="Enter The Section You Admitted" value="" size="40"
 						onchange="javascript: valid.validateInput(this);" />
 					<div id="sectionAdmittedError" class="validationError"
 						style="display: none;"></div>
@@ -223,7 +223,7 @@ $body->startBody ( 'utility', 'LMENUL25', 'New Candidate Registration' );
 						id="allottedHouse_val" value="" /> <input type="text"
 						name="allottedHouse" id="allottedHouse" class="required autocomplete" tabindex="14"
 						readonly="readonly"
-						title="Enter The Allotted House" value="Select Class First" size="30"
+						title="Enter The Allotted House" value="Select Class First" size="40"
 						onchange="javascript: valid.validateInput(this);" />
 					<div id="allottedHouseError" class="validationError"
 						style="display: none;"></div>
@@ -244,7 +244,7 @@ $body->startBody ( 'utility', 'LMENUL25', 'New Candidate Registration' );
 					<input type="hidden" name="recordShelve1_val"
 						id="recordShelve1_val" value="" /> <input type="text"
 						name="recordShelve1" id="recordShelve1" class="autocomplete"
-						title="Enter The Record Shelve1" value="" size="30"
+						title="Enter The Record Shelve1" value="" size="40"
 						tabindex="15"
 						onchange="javascript: valid.validateInput(this);" />
 					<div id="recordShelve1Error" class="validationError"
@@ -258,7 +258,7 @@ $body->startBody ( 'utility', 'LMENUL25', 'New Candidate Registration' );
 					<input type="hidden" name="recordShelve2_val"
 						id="recordShelve2_val" value="" /> <input type="text"
 						name="recordShelve2" id="recordShelve2" class="autocomplete"
-						title="Enter The Record Shelve2" value="" size="30"
+						title="Enter The Record Shelve2" value="" size="40"
 						tabindex="16"
 						onchange="javascript: valid.validateInput(this);" />
 					<div id="recordShelve2Error" class="validationError"
@@ -276,7 +276,7 @@ $body->startBody ( 'utility', 'LMENUL25', 'New Candidate Registration' );
 						id="recordShelve3_val" value="" /> <input type="text"
 						name="recordShelve3" id="recordShelve3" class="autocomplete"
 						tabindex="17"
-						title="Enter The Record Shelve3" value="" size="30"
+						title="Enter The Record Shelve3" value="" size="40"
 						onchange="javascript: valid.validateInput(this);" />
 					<div id="recordShelve3Error" class="validationError"
 						style="display: none;"></div>

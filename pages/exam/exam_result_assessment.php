@@ -78,7 +78,7 @@ $resultDetails = $body->getTableIdDetails($resultId);
                     <label for="assessmentName">Accessment Name :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="assessmentName" id="assessmentName" class="required"  title="Put The Accessment Name"  tabindex="1" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="assessmentName" id="assessmentName" class="required"  title="Put The Accessment Name"  tabindex="1" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="assessmentNameError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">
@@ -120,7 +120,7 @@ $resultDetails = $body->getTableIdDetails($resultId);
                     <label for="assessmentName_u">Accessment Name :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="assessmentName_u" id="assessmentName_u" class="required"  title="Put The Accessment Name"  tabindex="11" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="assessmentName_u" id="assessmentName_u" class="required"  title="Put The Accessment Name"  tabindex="11" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="accessment_uNameError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">

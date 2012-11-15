@@ -27,27 +27,25 @@ $body->startBody('accounts', 'LMENUL159', 'Accounts Salary Block');
                 <div class="legend">
                     <span id="insertRecord">Insert Record</span>
                 </div>
-                <dl class="elements">
-                    <div style="height: 5px"></div>
+                <dl class="element">                    
                     <dt style="width: 15%">
                     <label for="employeeName_i"> Employee Name : </label>
                     </dt>
                     <dd style="width: 30%">
                         <input type="hidden" name="employeeName_val" id="employeeName_val" value="" />
                         <input type="text" name="employeeName_i" id="employeeName_i" required="required autocomplete" 
-                               title="Enter Name of an Employee" size="30" class="required"
+                               title="Enter Name of an Employee" size="40" class="required"
                                onchange="javascript: valid.validateInput(this);" tabindex="1"/>
                         <div class="validationError" id="employeeName_iError"></div>
                     </dd>
                 </dl>
                 <dl class="element">
-                    <div style="height: 5px"></div>
                     <dt style="width: 15%">
                     <label for="startDate_i"> Start Date : </label>
                     </dt>
                     <dd style="width: 30%">
                         <input type="text" name="startDate_i" id="startDate_i" required="required" 
-                                title="Enter Start Date of your Employeement" size="30"
+                                title="Enter Start Date of your Employeement" size="40"
                                 class="date required" onchange="javascript: valid.validateInput(this)" tabindex="2"/>
                         <div id="startDate_iError" class="validationError"></div>
                     </dd>
@@ -56,12 +54,12 @@ $body->startBody('accounts', 'LMENUL159', 'Accounts Salary Block');
                     </dt>
                     <dd style="width: 30%">
                         <input type="text" name="endDate_i" id="endDate_i" class="date"
-                               title="Enter end Date" size="30" tabindex="3"
+                               title="Enter end Date" size="40" tabindex="3"
                                onchange="javascript: valid.validateInput(this)"/>
                         <div id="endDate_iError" class="validationError"></div>
                     </dd>
                 </dl>
-                <dl>
+                <dl class="element">
                     <dt style="width: 15%">
                     <label for="comment_i"> Comments : </label>
                     </dt>
@@ -90,26 +88,24 @@ $body->startBody('accounts', 'LMENUL159', 'Accounts Salary Block');
             <div class="legend">
                 <span id="editRecord">Edit Record</span>
             </div>
-            <dl class="elements">
-                    <div style="height: 5px"></div>
+            <dl class="element">
                     <dt style="width: 15%">
                     <label for="employeeName_e"> Employee Name : </label>
                     </dt>
                     <dd style="width: 30%">
                         <input type="text" name="employeeName_e" id="employeeName_e" 
-                               title="Enter Name of an Employee" size="30" readonly="readonly"
+                               title="Enter Name of an Employee" size="40" readonly="readonly"
                                onchange="javascript: valid.validateInput(this);" tabindex="11"/>
                         <div class="validationError" id="employeeName_eError"></div>
                     </dd>
                     
                 </dl>
                 <dl class="element">
-                    <dt style="width: 15%">
                     <label for="startDate_e"> Start Date : </label>
                     </dt>
                     <dd style="width: 30%">
                         <input type="text" name="startDate_e" id="startDate_e" 
-                                title="Enter Start Date of your Employeement" size="30" readonly="readonly"
+                                title="Enter Start Date of your Employeement" size="40" readonly="readonly"
                                 class="date" onchange="javascript: valid.validateInput(this)" tabindex="12"/>
                         <div id="startDate_eError" class="validationError"></div>
                     </dd>
@@ -118,7 +114,7 @@ $body->startBody('accounts', 'LMENUL159', 'Accounts Salary Block');
                     </dt>
                     <dd style="width: 30%">
                         <input type="text" name="endDate_e" id="endDate_e" class="date"
-                               title="Enter end Date of Employeement" size="30" tabindex="13"
+                               title="Enter end Date of Employeement" size="40" tabindex="13"
                                onchange="javascript: valid.validateInput(this)"/>
                         <div id="endDate_eError" class="validationError"></div>
                     </dd>
@@ -253,7 +249,7 @@ $body->startBody('accounts', 'LMENUL159', 'Accounts Salary Block');
                 </dt>
                 <dd style="width: 30%">
                     <input type="hidden" name="searchKey_val" id="searchKey_val" value="" />
-                    <input type="text" name="searchKey" id="searchKey" class="required" required="required autocomplete"
+                    <input type="text" name="searchKey" id="searchKey" class=""
                            style="width: 200px" title="Enter key for efficient search" tabindex="31"/>
                     <div id="searchKey_valError" class="validationError"></div>
                 </dd>

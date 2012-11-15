@@ -35,7 +35,7 @@ $body->startBody('accounts', 'LMENUL132', 'Employee Pay Slip Printing');
                 <dt style="width: 15%"><label for="employee">Employee Name :</label>	</dt>
                 <dd style="width: 20%">
                 	<input type="hidden" name="employee_val" id="employee_val" />
-                    <input type="text" name="employee" id="employee" size="30" class="autocomplete" onchange="javascript: valid.validateInput(this);" title="Enter the name of the employee" />
+                    <input type="text" name="employee" id="employee" size="40" class="autocomplete" onchange="javascript: valid.validateInput(this);" title="Enter the name of the employee" />
                     <div id="employeeError" class="validationError"	style="display: none"></div></dd>
               	<dt style="width: 15%"><label for="month">Month :</label>	</dt>
               	<dd style="width: 20%">

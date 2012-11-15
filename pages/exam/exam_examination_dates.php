@@ -76,7 +76,7 @@ $sectionId = $_GET['sectionId'];
                     <label for="examinationName_i">Exam Identifier :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="examinationName_i" id="examinationName_i" class="required"  title="Insert Some Exam Identifier Name"  tabindex="1" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="examinationName_i" id="examinationName_i" class="required"  title="Insert Some Exam Identifier Name"  tabindex="1" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="examinationName_iError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">
@@ -166,7 +166,7 @@ $sectionId = $_GET['sectionId'];
                 </dt>
                 <dd style="width: 30%">
                     <input type="hidden" name="markSubmissionOfficer_ival" id="markSubmissionOfficer_ival" />
-                    <input type="text" name="markSubmissionOfficer_i" id="markSubmissionOfficer_i" class="required autocomplete"  title="Assign Mark Submission Task To Some Officer" tabindex="9" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="markSubmissionOfficer_i" id="markSubmissionOfficer_i" class="required autocomplete"  title="Assign Mark Submission Task To Some Officer" tabindex="9" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="markSubmissionOfficer_iError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>
@@ -183,7 +183,7 @@ $sectionId = $_GET['sectionId'];
                 </dt>
                 <dd style="width: 30%">
                     <input type="hidden" name="markVerificationOfficer_ival" id="markVerificationOfficer_ival" />
-                    <input type="text" name="markVerificationOfficer_i" id="markVerificationOfficer_i" class="required autocomplete"  title="Assign Mark Verification Task To Some Officer" tabindex="11" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="markVerificationOfficer_i" id="markVerificationOfficer_i" class="required autocomplete"  title="Assign Mark Verification Task To Some Officer" tabindex="11" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="markVerificationOfficer_iError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>
@@ -210,7 +210,7 @@ $sectionId = $_GET['sectionId'];
                     <label for="examinationName_u">Exam Identifier :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="examinationName_u" id="examinationName_u" class="required"  title="Insert Some Exam Identifier Name"  tabindex="101" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="examinationName_u" id="examinationName_u" class="required"  title="Insert Some Exam Identifier Name"  tabindex="101" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="examinationName_uError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">
@@ -298,7 +298,7 @@ $sectionId = $_GET['sectionId'];
                 </dt>
                 <dd style="width: 30%">
                     <input type="hidden" name="markSubmissionOfficer_uval" id="markSubmissionOfficer_uval" />
-                    <input type="text" name="markSubmissionOfficer_u" id="markSubmissionOfficer_u" class="required autocomplete"  title="Assign Mark Submission Task To Some Officer" tabindex="109" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="markSubmissionOfficer_u" id="markSubmissionOfficer_u" class="required autocomplete"  title="Assign Mark Submission Task To Some Officer" tabindex="109" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="markSubmissionOfficer_uError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>
@@ -315,7 +315,7 @@ $sectionId = $_GET['sectionId'];
                 </dt>
                 <dd style="width: 30%">
                     <input type="hidden" name="markVerificationOfficer_uval" id="markVerificationOfficer_uval" />
-                    <input type="text" name="markVerificationOfficer_u" id="markVerificationOfficer_u" class="required autocomplete"  title="Assign Mark Verification Task To Some Officer" tabindex="111" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="markVerificationOfficer_u" id="markVerificationOfficer_u" class="required autocomplete"  title="Assign Mark Verification Task To Some Officer" tabindex="111" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="markVerificationOfficer_uError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>

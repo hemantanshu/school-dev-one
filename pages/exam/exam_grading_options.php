@@ -55,7 +55,7 @@ if($details['grading_name'] == ''){
             <dl class="element">
                 <dt style="width: 15%"><label for="gradeOption">Grade Name :</label>	</dt>
                 <dd style="width: 30%">
-                    <input type="text" name="gradeOption" id="gradeOption" class="required" tabindex="1" size="30" onchange="javascript: valid.validateInput(this);" title="Enter The Grade Option Name" />
+                    <input type="text" name="gradeOption" id="gradeOption" class="required" tabindex="1" size="40" onchange="javascript: valid.validateInput(this);" title="Enter The Grade Option Name" />
                     <div id="gradeOptionError" class="validationError" style="display: none"></div></dd>
                 <dt style="width: 15%"><label for="gradeWeight">Weight :</label>	</dt>
                 <dd style="width: 30%">
@@ -84,7 +84,7 @@ if($details['grading_name'] == ''){
             <dl class="element">
                 <dt style="width: 15%"><label for="gradeOption_u">Grade Name :</label>	</dt>
                 <dd style="width: 30%">
-                    <input type="text" name="gradeOption_u" id="gradeOption_u" class="required" tabindex="11" size="30" onchange="javascript: valid.validateInput(this);" title="Enter The Grade Option Name" />
+                    <input type="text" name="gradeOption_u" id="gradeOption_u" class="required" tabindex="11" size="40" onchange="javascript: valid.validateInput(this);" title="Enter The Grade Option Name" />
                     <div id="gradeOption_uError" class="validationError" style="display: none"></div></dd>
                 <dt style="width: 15%"><label for="gradeWeight_u">Weight :</label>	</dt>
                 <dd style="width: 30%">

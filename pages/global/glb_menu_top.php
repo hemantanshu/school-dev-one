@@ -23,7 +23,7 @@ $body->startBody ( 'global', 'LMENUL4', 'Menu Top Entry Page' );
 				</dt>
 				<dd style="width: 30%">
 					<input type="text" class="required" id="menuName" name="menuName"
-						onblur="checkMenuName('menuName', 0)" value="" size="30"
+						onblur="checkMenuName('menuName', 0)" value="" size="40"
 						title="Enter The Menu Name"
 						onchange="javascript: valid.validateInput(this);" />
 					<div id="menuNameError" class="validationError"
@@ -36,7 +36,7 @@ $body->startBody ( 'global', 'LMENUL4', 'Menu Top Entry Page' );
 				<dd style="width: 30%">
 					<input type="hidden" name="menuUrl_val" id="menuUrl_val" value="" />
 					<input type="text" name="menuUrl" id="menuUrl" class="required autocomplete"
-						title="Enter The Menu URL" value="" size="30"
+						title="Enter The Menu URL" value="" size="40"
 						onchange="javascript: valid.validateInput(this);" />
 					<div id="menuUrlError" class="validationError"
 						style="display: none"></div>
@@ -63,7 +63,7 @@ $body->startBody ( 'global', 'LMENUL4', 'Menu Top Entry Page' );
 				<dd style="width: 30%">
 					<input type="hidden" name="submenu_val" id="submenu_val" value="" />
 					<input type="text" name="submenu" id="submenu"
-						title="Enter The Submenu Name" class="autocomplete" value="" size="30"
+						title="Enter The Submenu Name" class="autocomplete" value="" size="40"
 						onchange="javascript: valid.validateInput(this);" />
 					<div id="submenuError" class="validationError"
 						style="display: none"></div>

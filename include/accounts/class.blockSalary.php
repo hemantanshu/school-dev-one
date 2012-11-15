@@ -23,21 +23,21 @@ class BlockSalary extends general {
             if ($active === 'all')
                 $sqlQuery = "SELECT id 
                                 FROM accounts_blocksalary_record                			 
-                                ORDER BY display_order ASC";
+                                ORDER BY start_month ASC";
             else
                 $sqlQuery = "SELECT id 
-                                FROM accounts_accounthead_details
+                                FROM accounts_blocksalary_record
                                 WHERE active = \"y\"
                 					AND start_month <= \"$currentMonth\"
                 					AND (end_month = \"0\" OR end_month >= \"$currentMonth\")
-                                ORDER BY display_order ASC";
+                                ORDER BY start_month ASC";
         }else
             $sqlQuery = "SELECT id 
-                                FROM accounts_accounthead_details
+                                FROM accounts_blocksalary_record
                                 WHERE active != \"y\"
                 					OR start_month > \"$currentMonth\"
                 					OR end_month < \"$currentMonth\"
-                                ORDER BY display_order ASC";
+                                ORDER BY start_month ASC";
         
         return $this->getDataArray($this->processQuery($sqlQuery));
     }

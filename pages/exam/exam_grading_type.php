@@ -30,7 +30,7 @@ $body->startBody ( 'exam', 'LMENUL66', 'Grading Type Entry Form' );
             <dl class="element">
                 <dt style="width: 15%"><label for="gradingType">Grading Type :</label>	</dt>
                 <dd style="width: 80%">
-                    <input type="text" size="30" name="gradingType" id="gradingType" class="required" tabindex="1" onchange="javascript: valid.validateInput(this);" title="Enter The Grading Type" />
+                    <input type="text" size="40" name="gradingType" id="gradingType" class="required" tabindex="1" onchange="javascript: valid.validateInput(this);" title="Enter The Grading Type" />
                     <div id="gradingTypeError" class="validationError" style="display: none"></div></dd>
             </dl>
         </fieldset>
@@ -54,7 +54,7 @@ $body->startBody ( 'exam', 'LMENUL66', 'Grading Type Entry Form' );
             <dl class="element">
                 <dt style="width: 15%"><label for="gradingType_u">Grading Type :</label>	</dt>
                 <dd style="width: 80%">
-                    <input type="text" size="30" name="gradingType_u" id="gradingType_u" class="required" tabindex="11" onchange="javascript: valid.validateInput(this);" title="Enter The Grading Type" />
+                    <input type="text" size="40" name="gradingType_u" id="gradingType_u" class="required" tabindex="11" onchange="javascript: valid.validateInput(this);" title="Enter The Grading Type" />
                     <div id="gradingType_uError" class="validationError" style="display: none"></div></dd>
             </dl>
         </fieldset>

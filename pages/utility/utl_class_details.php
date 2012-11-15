@@ -31,7 +31,7 @@ $body->startBody('utility', 'LMENUL22', 'Class Entry Details');
                 <dt style="width: 15%"><label for="sessionId">Session Name :</label>	</dt>
                 <dd style="width: 80%">
                     <input type="hidden" name="session_val" id="session_val" />
-                    <input type="text" class="required autocomplete" name="session" size="30" id="session" onchange="checkSessionChange()" />
+                    <input type="text" class="required autocomplete" name="session" size="40" id="session" onchange="checkSessionChange()" />
             </dl>
         </fieldset>
     </div>
@@ -57,7 +57,7 @@ $body->startBody('utility', 'LMENUL22', 'Class Entry Details');
                 <dd style="width: 30%">
                     <input type="text" name="className" id="className"
                            class="required" title="Enter The Class Name" value=""
-                           size="30" onchange="javascript: valid.validateInput(this);"/>
+                           size="40" onchange="javascript: valid.validateInput(this);"/>
 
                     <div id="classNameError" class="validationError"
                          style="display: none"></div>
@@ -67,7 +67,7 @@ $body->startBody('utility', 'LMENUL22', 'Class Entry Details');
                 </dt>
                 <dd style="width: 30%">
                     <input type="text" name="sectionName" id="sectionName" class=""
-                           title="Enter The Class Section" value="" size="30"
+                           title="Enter The Class Section" value="" size="40"
                            onchange="javascript: valid.validateInput(this);"/>
 
                     <div id="sectionNameError" class="validationError"
@@ -80,7 +80,7 @@ $body->startBody('utility', 'LMENUL22', 'Class Entry Details');
                 </dt>
                 <dd style="width: 30%">
                     <input type="text" name="studentCap" id="studentCap"
-                           class="required numeric" value="" size="30"
+                           class="required numeric" value="" size="40"
                            title="Enter The Capacity of Class in terms of Students"
                            onchange="javascript: valid.validateInput(this);"/>
 
@@ -98,7 +98,7 @@ $body->startBody('utility', 'LMENUL22', 'Class Entry Details');
                                                                     onchange="javascript: valid.validateInput(this);"
                                                                     title="Enter The Room that has been allocated"
                                                                     value=""
-                                                                    size="30"/>
+                                                                    size="40"/>
 
                     <div id="roomAllocatedError" class="validationError"
                          style="display: none"></div>
@@ -111,7 +111,7 @@ $body->startBody('utility', 'LMENUL22', 'Class Entry Details');
                 </dt>
                 <dd style="width: 30%">
                     <input type="hidden" name="classCoordinator_val"
-                           id="classCoordinator_val"/> <input type="text" size="30"
+                           id="classCoordinator_val"/> <input type="text" size="40"
                                                               name="classCoordinator" id="classCoordinator" class="autocomplete"
                                                               tabindex=""
                                                               onchange="javascript: valid.validateInput(this);"
@@ -175,7 +175,7 @@ $body->startBody('utility', 'LMENUL22', 'Class Entry Details');
                     <input type="text" name="className_u" id="className_u"
                            class="required"
                            onchange="javascript: valid.validateInput(this);"
-                           title="Enter The Class Name" value="" size="30"/>
+                           title="Enter The Class Name" value="" size="40"/>
 
                     <div id="className_uError" class="validationError"
                          style="display: none"></div>
@@ -185,7 +185,7 @@ $body->startBody('utility', 'LMENUL22', 'Class Entry Details');
                 </dt>
                 <dd style="width: 30%">
                     <input type="text" name="sectionName_u" id="sectionName_u"
-                           class="" title="Enter The Class Section" value="" size="30"
+                           class="" title="Enter The Class Section" value="" size="40"
                            onchange="javascript: valid.validateInput(this);"/>
 
                     <div id="sectionName_uError" class="validationError"
@@ -201,7 +201,7 @@ $body->startBody('utility', 'LMENUL22', 'Class Entry Details');
                            class="required numeric"
                            title="Enter The Capacity of Class in terms of Students"
                            onchange="javascript: valid.validateInput(this);" value=""
-                           size="30"/>
+                           size="40"/>
 
                     <div id="studentCap_uError" class="validationError"
                          style="display: none"></div>
@@ -217,7 +217,7 @@ $body->startBody('utility', 'LMENUL22', 'Class Entry Details');
                                                                      onchange="javascript: valid.validateInput(this);"
                                                                      title="Enter The Room that has been allocated"
                                                                      value=""
-                                                                     size="30"/>
+                                                                     size="40"/>
 
                     <div id="roomAllocated_uError" class="validationError"
                          style="display: none"></div>
@@ -230,7 +230,7 @@ $body->startBody('utility', 'LMENUL22', 'Class Entry Details');
                 </dt>
                 <dd style="width: 30%">
                     <input type="hidden" name="classCoordinator_uval"
-                           id="classCoordinator_uval"/> <input type="text" size="30"
+                           id="classCoordinator_uval"/> <input type="text" size="40"
                                                               name="classCoordinator_u" id="classCoordinator_u" class="autocomplete"
                                                               tabindex=""
                                                               onchange="javascript: valid.validateInput(this);"

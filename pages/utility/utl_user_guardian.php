@@ -96,14 +96,14 @@ if(!in_array($gaurdianId, $totalGaurdianTypes))
 						
 					</select> <input type="text" name="firstName" id="firstName"
 						tabindex="2" class="required"
-						title="Enter Name" value="" size="30"
+						title="Enter Name" value="" size="40"
 						onchange="javascript: valid.validateInput(this);" /> <input
 						type="text" name="middleName" id="middleName" class=""
 						tabindex="3" title="Enter Middle Name" value=""
-						size="30" onchange="javascript: valid.validateInput(this);" /> <input
+						size="40" onchange="javascript: valid.validateInput(this);" /> <input
 						type="text" name="lastName" id="lastName" class="required"
 						tabindex="4" title="Enter  Last Name" value=""
-						size="30" onchange="javascript: valid.validateInput(this);" />
+						size="40" onchange="javascript: valid.validateInput(this);" />
 					<div id="salutationError" class="validationError"
 						style="display: none;"></div>
 					<div id="firstNameError" class="validationError"
@@ -115,22 +115,22 @@ if(!in_array($gaurdianId, $totalGaurdianTypes))
 			<dl class="element">
 				<dt style="width: 15%"><label for="MobileNo">Mobile Number :</label>	</dt>
 				<dd style="width: 30%">
-						<input type="text" size="30" name="mobileNo" id="mobileNo" class="required numeric" tabindex="4" onchange="javascript: valid.validateInput(this);" title="Enter the mobile number" />
+						<input type="text" size="40" name="mobileNo" id="mobileNo" class="required numeric" tabindex="4" onchange="javascript: valid.validateInput(this);" title="Enter the mobile number" />
 						<div id="mobileNoError" class="validationError" style="display: none"></div></dd>
 				<dt style="width: 15%"><label for="landlineNumber">Landline Number :</label>	</dt>
 				<dd style="width: 30%">
-						<input type="text" size="30" name="landlineNo" id="landlineNo" class="phone" tabindex="5" onchange="javascript: valid.validateInput(this);" title="Enter the landline number" />
+						<input type="text" size="40" name="landlineNo" id="landlineNo" class="phone" tabindex="5" onchange="javascript: valid.validateInput(this);" title="Enter the landline number" />
 						<div id="landlineNoError" class="validationError" style="display: none"></div></dd>
 			</dl>
 			<dl class="element">
 				<dt style="width: 15%"><label for="emailId">Email ID</label>	</dt>
 				<dd style="width: 30%">						
-						<input type="text" size="30" name="emailId" id="emailId" class="required email" tabindex="6" onchange="javascript: valid.validateInput(this);" title="Enter the email id" />
+						<input type="text" size="40" name="emailId" id="emailId" class="required email" tabindex="6" onchange="javascript: valid.validateInput(this);" title="Enter the email id" />
 						<div id="emailIdError" class="validationError" style="display: none"></div></dd>
 				<dt style="width: 15%"><label for="occupation">Occupation</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="occupation_val" id="occupation_val" />
-						<input type="text" size="30" name="occupation" id="occupation" class="required autocomplete" tabindex="7" onblur="resetFieldValue('occupation_val');" onchange="javascript: valid.validateInput(this);" title="Enter/Select the occupation" />
+						<input type="text" size="40" name="occupation" id="occupation" class="required autocomplete" tabindex="7" onblur="resetFieldValue('occupation_val');" onchange="javascript: valid.validateInput(this);" title="Enter/Select the occupation" />
 						<div id="occupationError" class="validationError" style="display: none"></div></dd>
 			</dl>
 			<dl class="element">
@@ -176,23 +176,23 @@ if(!in_array($gaurdianId, $totalGaurdianTypes))
 				<dt style="width: 15%"><label for="city">City :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="city_val" id="city_val" />
-						<input type="text" name="city" id="city" class="required autocomplete" tabindex="11" size="30"onblur="resetFieldValue('city_val');" onchange="javascript: valid.validateInput(this);" title="Enter the city" />
+						<input type="text" name="city" id="city" class="required autocomplete" tabindex="11" size="40"onblur="resetFieldValue('city_val');" onchange="javascript: valid.validateInput(this);" title="Enter the city" />
 						<div id="cityError" class="validationError" style="display: none"></div></dd>
 				<dt style="width: 15%"><label for="state">State :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="state_val" id="state_val" />
-						<input type="text" name="state" id="state" class="required autocomplete" tabindex="12" size="30" onblur="resetFieldValue('state_val');" onchange="javascript: valid.validateInput(this);" title="Enter the state" />
+						<input type="text" name="state" id="state" class="required autocomplete" tabindex="12" size="40" onblur="resetFieldValue('state_val');" onchange="javascript: valid.validateInput(this);" title="Enter the state" />
 						<div id="stateError" class="validationError" style="display: none"></div></dd>
 			</dl>			
 			<dl class="element">
 				<dt style="width: 15%"><label for="pincode">Pincode :</label>	</dt>
 				<dd style="width: 30%">
-						<input type="text" name="pincode" id="pincode" class="required numeric" tabindex="13" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the pincode of the address" />
+						<input type="text" name="pincode" id="pincode" class="required numeric" tabindex="13" size="40" onchange="javascript: valid.validateInput(this);" title="Enter the pincode of the address" />
 						<div id="pincodeError" class="validationError" style="display: none"></div></dd>
 				<dt style="width: 15%"><label for="country">Country :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="country_val" id="country_val" />
-						<input type="text" name="country" id="country" class="required autocomplete" tabindex="14" size="30" onblur="resetFieldValue('country_val');" onchange="javascript: valid.validateInput(this);" title="Enter the country name" />
+						<input type="text" name="country" id="country" class="required autocomplete" tabindex="14" size="40" onblur="resetFieldValue('country_val');" onchange="javascript: valid.validateInput(this);" title="Enter the country name" />
 						<div id="countryError" class="validationError" style="display: none"></div></dd>
 			</dl>
 		</fieldset>

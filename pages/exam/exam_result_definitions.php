@@ -32,7 +32,7 @@ $body->startBody ( 'exam', 'LMENUL80', 'Result Type Entry Form' );
                 <dt style="width: 15%"><label for="session">Session Name :</label>	</dt>
                 <dd style="width: 80%">
                     <input type="hidden" name="session_val" id="session_val" />
-                    <input type="text" class="required autocomplete" name="session" size="30" id="session" onchange="checkSessionChange()" />
+                    <input type="text" class="required autocomplete" name="session" size="40" id="session" onchange="checkSessionChange()" />
             </dl>
         </fieldset>
     </div>
@@ -53,7 +53,7 @@ $body->startBody ( 'exam', 'LMENUL80', 'Result Type Entry Form' );
             <dl class="element">
                 <dt style="width: 15%"><label for="displayName">Display Name :</label>	</dt>
                 <dd style="width: 30%">
-                    <input type="text" size="30" name="displayName" id="displayName" class="required" tabindex="2" onchange="javascript: valid.validateInput(this);" title="Entry The name of the resultination" />
+                    <input type="text" size="40" name="displayName" id="displayName" class="required" tabindex="2" onchange="javascript: valid.validateInput(this);" title="Entry The name of the resultination" />
                     <div id="displayNameError" class="validationError" style="display: none"></div></dd>
                 <dt style="width: 15%">
                     <label for="markingType_i">Scoring Type :</label>
@@ -98,7 +98,7 @@ $body->startBody ( 'exam', 'LMENUL80', 'Result Type Entry Form' );
             <dl class="element">
                 <dt style="width: 15%"><label for="displayName_u">Display Name :</label>	</dt>
                 <dd style="width: 30%">
-                    <input type="text" size="30" name="displayName_u" id="displayName_u" class="required" tabindex="12" onchange="javascript: valid.validateInput(this);" title="Entry The name of the resultination" />
+                    <input type="text" size="40" name="displayName_u" id="displayName_u" class="required" tabindex="12" onchange="javascript: valid.validateInput(this);" title="Entry The name of the resultination" />
                     <div id="displayName_uError" class="validationError" style="display: none"></div></dd>
                 <dt style="width: 15%">
                     <label for="markingType_u">Scoring Type :</label>

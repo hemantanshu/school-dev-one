@@ -55,7 +55,7 @@ $allowanceId = $_GET['allowanceId'];
                     <label for="value_i">Magnitude :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="value_i" id="value_i" class="required numeric"  title="Numeric magnitude of the allowance"  tabindex="1" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="value_i" id="value_i" class="required numeric"  title="Numeric magnitude of the allowance"  tabindex="1" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="value_iError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">
@@ -100,7 +100,7 @@ $allowanceId = $_GET['allowanceId'];
                     <label for="value_u">Magnitude :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="value_u" id="value_u" class="required numeric"  title="Numeric magnitude of the allowance"  tabindex="1" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="value_u" id="value_u" class="required numeric"  title="Numeric magnitude of the allowance"  tabindex="1" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="value_uError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">

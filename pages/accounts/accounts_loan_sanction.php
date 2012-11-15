@@ -138,7 +138,7 @@ $body->startBody ( 'accounts', 'LMENUL127', 'New Loan Sanction Form' );
                     <label for="chequeNumber">Cheque/Draft Number :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="chequeNumber" id="chequeNumber" class=""  title="Enter The Cheque Number"  tabindex="14" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="chequeNumber" id="chequeNumber" class=""  title="Enter The Cheque Number"  tabindex="14" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="chequeNumberError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>

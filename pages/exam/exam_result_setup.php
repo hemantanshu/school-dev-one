@@ -64,7 +64,7 @@ $examinationIds = $examination->getExaminationForResultPreparation($sessionId);
                     <label for="displayName">Display Name :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="displayName" id="displayName" class="required"  title="Name to appear on the result" tabindex="0" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="displayName" id="displayName" class="required"  title="Name to appear on the result" tabindex="0" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="displayNameError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">

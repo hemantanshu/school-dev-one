@@ -7,19 +7,22 @@ fieldset {
     margin-bottom: 0px;
 }
 
-input,textarea{
-    padding-left: 5px;
-    font-size: 13px;
-    font-weight: bold;
-    line-height: 15px;	
+input,textarea, select{
+	border:1px solid #325C74;
+    padding: 4px;
+    font-size: 12px;	
     background-color: #FFFFFF;
+	-moz-box-shadow:0 0 10px #eee inset;
+    -webkit-box-shadow:0 0 10px #eee inset;
 }
-select{
-    font-size: 13px;
-    font-weight: bold;
-}
-input {
-	height: 16px;
+
+.autocomplete {
+    border:2px solid #325C74;
+    font-size:12px;
+    padding:4px;
+    text-align:center;
+    -moz-box-shadow:0 0 10px #eee inset;
+    -webkit-box-shadow:0 0 10px #eee inset;
 }
 .required {
     background-color: #FFC;
@@ -74,17 +77,10 @@ label.opt {
     padding-left: 4px;
 }
 
-.autocomplete {
-    border:2px solid #325C74;
-    font-size:12px;
-    padding:4px;
-    text-align:center;
-    -moz-box-shadow:0 0 10px #eee inset;
-    -webkit-box-shadow:0 0 10px #eee inset;
-}
 
 .inputs dl {
     clear: both;
+	padding-bottom: 10px;
 	margin-top: 5px;
     line-height: 25px;
 }

@@ -58,7 +58,7 @@ $details = $body->getTableIdDetails($resultTypeId);
                     <label for="displayName">Display Name :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="displayName" id="displayName" class="required"  title="The display name"  tabindex="1" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="displayName" id="displayName" class="required"  title="The display name"  tabindex="1" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="displayNameError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">
@@ -116,7 +116,7 @@ $details = $body->getTableIdDetails($resultTypeId);
                     <label for="displayName_u">Display Name :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="displayName_u" id="displayName_u" class="required"  title="The display name"  tabindex="11" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="displayName_u" id="displayName_u" class="required"  title="The display name"  tabindex="11" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="displayName_uError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">

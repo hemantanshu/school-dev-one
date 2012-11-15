@@ -31,7 +31,7 @@ $body->startBody ( 'accounts', 'LMENUL112', 'Employee Master Salary Record' );
                 <dt style="width: 15%"><label for="employee">Employee Name :</label>	</dt>
                 <dd style="width: 80%">
                     <input type="hidden" name="employee_val" id="employee_val" />
-                    <input type="text" class="required" name="employee" id="employee" size="30" id="session" onblur="checkEmployeeChange()" />
+                    <input type="text" class="required" name="employee" id="employee" size="40" id="session" onblur="checkEmployeeChange()" />
             </dl>
         </fieldset>
     </div>
@@ -71,7 +71,7 @@ $body->startBody ( 'accounts', 'LMENUL112', 'Employee Master Salary Record' );
                     </dt>
                     <dd style="width: 30%">
                         <input type="hidden" name="allowance_val" id="allowance_val" onchange="populateAllowanceFundDetails()"/>
-                        <input type="text" name="allowance" id="allowance" class="required autocomplete"  title="select the allowance name"  tabindex="1" size="30" onblur="populateAllowanceFundDetails()" />
+                        <input type="text" name="allowance" id="allowance" class="required autocomplete"  title="select the allowance name"  tabindex="1" size="40" onblur="populateAllowanceFundDetails()" />
                         <div id="allowance_valError" class="validationError"	style="display: none"></div>
                     </dd>                    
                 </dl>

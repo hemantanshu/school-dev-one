@@ -77,7 +77,7 @@ $userId = $_GET ['userId'];
                 </dt>
                 <dd style="width: 30%">
                     <input type="password" name="password" id="password" class="required"
-                           tabindex="1" size="30"
+                           tabindex="1" size="40"
                            onchange="javascript: valid.validateInput(this);"
                            title="Set The New Password" />
                     <div id="passwordError" class="validationError" style="display: none"></div>
@@ -120,7 +120,7 @@ $userId = $_GET ['userId'];
                 </dt>
                 <dd style="width: 30%">
                     <input type="text" name="userName" id="userName" class="required"
-                           tabindex="3" size="30"
+                           tabindex="3" size="40"
                            onchange="javascript: valid.validateInput(this);"
                            title="Set The New Password" />
                     <div id="userNameError" class="validationError" style="display: none"></div>
@@ -155,7 +155,7 @@ $userId = $_GET ['userId'];
                 <dd style="width: 30%">
                     <input type="hidden" name="userGroup_val" id="userGroup_val" />
                     <input type="text" name="userGroup" id="userGroup" class="required autocomplete"
-                           tabindex="4" size="30"
+                           tabindex="4" size="40"
                            onchange="javascript: valid.validateInput(this);"
                            title="Set New Usergroup For Candidate" />
                     <div id="userGroup_valError" class="validationError" style="display: none"></div>

@@ -23,7 +23,7 @@ $body->startBody ( 'global', 'LMENUL55', 'Menu Url Entry' );
             <dl class="element">
                 <dt style="width: 18%"><label for="sessionName">Session Name :</label>	</dt>
                 <dd style="width: 80%">
-                    <input type="text" size="30" name="sessionName" id="sessionName" class="required" tabindex="1" onchange="javascript: valid.validateInput(this);" title="Name Identifier For Session" />
+                    <input type="text" size="40" name="sessionName" id="sessionName" class="required" tabindex="1" onchange="javascript: valid.validateInput(this);" title="Name Identifier For Session" />
                     <div id="sessionNameError" class="validationError" style="display: none"></div></dd>
             </dl>
             <dl class="element">
@@ -66,7 +66,7 @@ $body->startBody ( 'global', 'LMENUL55', 'Menu Url Entry' );
             <dl class="element">
                 <dt style="width: 18%"><label for="sessionName">Session Name :</label>	</dt>
                 <dd style="width: 80%">
-                    <input type="text" size="30" name="sessionName_u" id="sessionName_u" class="required" tabindex="11" onchange="javascript: valid.validateInput(this);" title="Name Identifier For Session" />
+                    <input type="text" size="40" name="sessionName_u" id="sessionName_u" class="required" tabindex="11" onchange="javascript: valid.validateInput(this);" title="Name Identifier For Session" />
                     <div id="sessionName_uError" class="validationError" style="display: none"></div></dd>
             </dl>
             <dl class="element">

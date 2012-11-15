@@ -33,7 +33,7 @@ if($details['comments'] == "")
                     <label for="valueName">Value Name :</label>
                     </dt>
                     <dd style=" width:30%">                    
-                     <input type="text" name="valueName" id="valueName"  class="required" title="Enter The New Value" value="" size="30" onchange="javascript: valid.validateInput(this);"/>
+                     <input type="text" name="valueName" id="valueName"  class="required" title="Enter The New Value" value="" size="40" onchange="javascript: valid.validateInput(this);"/>
                      <div id="valueNameError" class="validationError" style="display: none"></div>                 
                     </dd>
                  <dt style="width:15% ">                        

@@ -49,14 +49,14 @@ $body->startBody ( 'library', 'LMENUL139', 'New Vendor Entry Form' );
                     <label for="contactNo">Contact Number :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="contactNo" id="contactNo" class="required"  title="The contact number of the vendor"  tabindex="3" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="contactNo" id="contactNo" class="required"  title="The contact number of the vendor"  tabindex="3" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="contactNoError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">
                     <label for="emailId">Email Id :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="emailId" id="emailId" class=""  title="The email id of the vendor"  tabindex="4" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="emailId" id="emailId" class=""  title="The email id of the vendor"  tabindex="4" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="emailIdError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>        
@@ -80,23 +80,23 @@ $body->startBody ( 'library', 'LMENUL139', 'New Vendor Entry Form' );
 				<dt style="width: 15%"><label for="city">City :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="city_val" id="city_val" />
-						<input type="text" name="city" id="city" class="required autocomplete" tabindex="7" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the city" />
+						<input type="text" name="city" id="city" class="required autocomplete" tabindex="7" size="40" onchange="javascript: valid.validateInput(this);" title="Enter the city" />
 						<div id="cityError" class="validationError" style="display: none"></div></dd>
 				<dt style="width: 15%"><label for="state">State :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="state_val" id="state_val" />
-						<input type="text" name="state" id="state" class="required autocomplete" tabindex="8" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the state" />
+						<input type="text" name="state" id="state" class="required autocomplete" tabindex="8" size="40" onchange="javascript: valid.validateInput(this);" title="Enter the state" />
 						<div id="stateError" class="validationError" style="display: none"></div></dd>
 			</dl>			
 			<dl class="element">
 				<dt style="width: 15%"><label for="pincode">Pincode :</label>	</dt>
 				<dd style="width: 30%">
-						<input type="text" name="pincode" id="pincode" class="required numeric" tabindex="9" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the pincode of the address" />
+						<input type="text" name="pincode" id="pincode" class="required numeric" tabindex="9" size="40" onchange="javascript: valid.validateInput(this);" title="Enter the pincode of the address" />
 						<div id="pincodeError" class="validationError" style="display: none"></div></dd>
 				<dt style="width: 15%"><label for="country">Country :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="country_val" id="country_val" />
-						<input type="text" name="country" id="country" class="required autocomplete" tabindex="10" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the country name" />
+						<input type="text" name="country" id="country" class="required autocomplete" tabindex="10" size="40" onchange="javascript: valid.validateInput(this);" title="Enter the country name" />
 						<div id="countryError" class="validationError" style="display: none"></div></dd>
 			</dl>
 		</fieldset>
@@ -139,14 +139,14 @@ $body->startBody ( 'library', 'LMENUL139', 'New Vendor Entry Form' );
                     <label for="contactNo_u">Contact Number :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="contactNo_u" id="contactNo_u" class="required"  title="The contact number of the vendor"  tabindex="13" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="contactNo_u" id="contactNo_u" class="required"  title="The contact number of the vendor"  tabindex="13" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="contactNo_uError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">
                     <label for="emailId_u">Email Id :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="emailId_u" id="emailId_u" class=""  title="The email id of the vendor"  tabindex="14" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="emailId_u" id="emailId_u" class=""  title="The email id of the vendor"  tabindex="14" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="emailId_uError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>        
@@ -170,23 +170,23 @@ $body->startBody ( 'library', 'LMENUL139', 'New Vendor Entry Form' );
 				<dt style="width: 15%"><label for="city_u">City :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="city_uval" id="city_uval" />
-						<input type="text" name="city_u" id="city_u" class="required autocomplete" tabindex="17" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the city" />
+						<input type="text" name="city_u" id="city_u" class="required autocomplete" tabindex="17" size="40" onchange="javascript: valid.validateInput(this);" title="Enter the city" />
 						<div id="city_uError" class="validationError" style="display: none"></div></dd>
 				<dt style="width: 15%"><label for="state">State :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="state_uval" id="state_uval" />
-						<input type="text" name="state_u" id="state_u" class="required autocomplete" tabindex="18" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the state" />
+						<input type="text" name="state_u" id="state_u" class="required autocomplete" tabindex="18" size="40" onchange="javascript: valid.validateInput(this);" title="Enter the state" />
 						<div id="state_uError" class="validationError" style="display: none"></div></dd>
 			</dl>			
 			<dl class="element">
 				<dt style="width: 15%"><label for="pincode_u">Pincode :</label>	</dt>
 				<dd style="width: 30%">
-						<input type="text" name="pincode_u" id="pincode_u" class="required numeric" tabindex="19" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the pincode of the address" />
+						<input type="text" name="pincode_u" id="pincode_u" class="required numeric" tabindex="19" size="40" onchange="javascript: valid.validateInput(this);" title="Enter the pincode of the address" />
 						<div id="pincode_uError" class="validationError" style="display: none"></div></dd>
 				<dt style="width: 15%"><label for="country_u">Country :</label>	</dt>
 				<dd style="width: 30%">
 						<input type="hidden" name="country_uval" id="country_uval" />
-						<input type="text" name="country_u" id="country_u" class="required autocomplete" tabindex="20" size="30" onchange="javascript: valid.validateInput(this);" title="Enter the country name" />
+						<input type="text" name="country_u" id="country_u" class="required autocomplete" tabindex="20" size="40" onchange="javascript: valid.validateInput(this);" title="Enter the country name" />
 						<div id="country_uError" class="validationError" style="display: none"></div></dd>
 			</dl>
 		</fieldset>

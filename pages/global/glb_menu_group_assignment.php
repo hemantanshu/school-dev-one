@@ -30,7 +30,7 @@ $body->startBody ( 'global', 'LMENUL6', 'Menu Assignment Group' );
 					<input type="hidden" name="topMenu_val" id="topMenu_val" value="" />
 					<input type="text" name="topMenu" id="topMenu"
 						onblur="getTopMenuDescription()" class="required autocomplete"
-						title="The Top Menu To Be Assigned" value="" size="30" onchange="javascript: valid.validateInput(this);" /> <span
+						title="The Top Menu To Be Assigned" value="" size="40" onchange="javascript: valid.validateInput(this);" /> <span
 						id="topMenuDescription"></span>
 					<div id="topMenuError" class="validationError" style="display: none"></div>	
 				</dd>
@@ -45,7 +45,7 @@ $body->startBody ( 'global', 'LMENUL6', 'Menu Assignment Group' );
 					<input type="hidden" name="group_val" id="group_val" value="" /> <input
 						type="text" name="group" id="group" class="required autocomplete"
 						title="The Group To Whom The Top Menu Has To be Assigned"
-						value="" size="30" onchange="javascript: valid.validateInput(this);"/> <span id="userGroupAssignment"></span>
+						value="" size="40" onchange="javascript: valid.validateInput(this);"/> <span id="userGroupAssignment"></span>
 					<div id="groupError" class="validationError" style="display: none"></div>	
 				</dd>
 
@@ -117,7 +117,7 @@ $body->startBody ( 'global', 'LMENUL6', 'Menu Assignment Group' );
 					<input type="hidden" name="topMenu_u_val" id="topMenu_u_val"
 						value="" /> <input type="text" name="topMenu_u" id="topMenu_u"
 						onblur="getTopMenuDescription1()" class="required autocomplete"
-						title="The Top Menu To Be Assigned" value="" size="30" onchange="javascript: valid.validateInput(this);" /> <span
+						title="The Top Menu To Be Assigned" value="" size="40" onchange="javascript: valid.validateInput(this);" /> <span
 						id="topMenuDescription_u"></span>
 					<div id="topMenu_uError" class="validationError" style="display: none"></div>
 				</dd>
@@ -132,7 +132,7 @@ $body->startBody ( 'global', 'LMENUL6', 'Menu Assignment Group' );
 					<input type="hidden" name="group_u_val" id="group_u_val" value="" />
 					<input type="text" name="group_u" id="group_u" class="required autocomplete"
 						title="The Group To Whom The Top Menu Has To be Assigned" onchange="javascript: valid.validateInput(this);"
-						value="" size="30" /> <span id="userGroupAssignment"></span>
+						value="" size="40" /> <span id="userGroupAssignment"></span>
 					<div id="group_uError" class="validationError" style="display: none"></div>	
 				</dd>
 

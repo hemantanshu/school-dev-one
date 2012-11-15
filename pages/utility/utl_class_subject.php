@@ -59,7 +59,7 @@ if ($details['class_id'] == "")
             <dl class="element">
                 <dt style="width: 15%"><label for="subject">Subject Display : </label>	</dt>
                 <dd style="width: 30%">
-                    <input type="text" name="subject" id="subject" class="required" tabindex="11" size="30" onchange="javascript: valid.validateInput(this);" title="Get Subject Name" />
+                    <input type="text" name="subject" id="subject" class="required" tabindex="11" size="40" onchange="javascript: valid.validateInput(this);" title="Get Subject Name" />
                     <div id="subjectError" class="validationError" style="display: none"></div></dd>
                 <dt style="width: 15%"><label for="type">Type :</label>	</dt>
                 <dd style="width: 30%">
@@ -73,7 +73,7 @@ if ($details['class_id'] == "")
                 <dt style="width: 15%"><label for="associatedSubject">Subject Name :</label>	</dt>
                 <dd style="width: 80%">
                     <input type="hidden" name="subjectName_val" id="subjectName_val" value="" />
-                    <input type="text" size="30" name="subjectName" id="subjectName" class="required autocomplete" tabindex="13" onchange="javascript: valid.validateInput(this)" title="Name the subject" />
+                    <input type="text" size="40" name="subjectName" id="subjectName" class="required autocomplete" tabindex="13" onchange="javascript: valid.validateInput(this)" title="Name the subject" />
                     <div id="subjectName_valError" class="validationError" style="display: none"></div></dd>
             </dl>
         </fieldset>
@@ -97,7 +97,7 @@ if ($details['class_id'] == "")
             <dl class="element">
                 <dt style="width: 15%"><label for="subject">Subject Display : </label>	</dt>
                 <dd style="width: 30%">
-                    <input type="text" name="subject_u" id="subject_u" class="required" tabindex="1" size="30" onchange="javascript: valid.validateInput(this);" title="Get Subject Name" />
+                    <input type="text" name="subject_u" id="subject_u" class="required" tabindex="1" size="40" onchange="javascript: valid.validateInput(this);" title="Get Subject Name" />
                     <div id="subject_uError" class="validationError" style="display: none"></div></dd>
                 <dt style="width: 15%"><label for="type">Type :</label>	</dt>
                 <dd style="width: 30%">

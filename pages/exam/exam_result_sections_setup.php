@@ -71,7 +71,7 @@ $sectionId = $_GET['sectionId'];
                     <label for="staticData" id="staticFieldName"> </label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="staticData" id="staticData" class="required"  title="The Data For The Label"  tabindex="1" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="staticData" id="staticData" class="required"  title="The Data For The Label"  tabindex="1" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="staticDataError" class="validationError"	style="display: none"></div>
                 </dd>
             </dl>
@@ -104,7 +104,7 @@ $sectionId = $_GET['sectionId'];
                     <label for="submissionDate">Submission Date :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <input type="text" name="submissionDate" id="submissionDate" class="required"  title="The date of submission"  tabindex="1" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="submissionDate" id="submissionDate" class="required"  title="The date of submission"  tabindex="1" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="submissionDateError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">
@@ -112,7 +112,7 @@ $sectionId = $_GET['sectionId'];
                 </dt>
                 <dd style="width: 30%">
                 	<input type="hidden" name="submissionOfficer_val" id="submissionOfficer_val" onchange="javascript: valid.validateInput(this);" />
-                    <input type="text" name="submissionOfficer" id="submissionOfficer" class="required autocomplete"  title="The submission officer"  tabindex="2" value="" size="30" onchange="javascript: valid.validateInput(this);" />
+                    <input type="text" name="submissionOfficer" id="submissionOfficer" class="required autocomplete"  title="The submission officer"  tabindex="2" value="" size="40" onchange="javascript: valid.validateInput(this);" />
                     <div id="submissionOfficerError" class="validationError"	style="display: none"></div>
                     <div id="submissionOfficer_valError" class="validationError"	style="display: none"></div>
                 </dd>
