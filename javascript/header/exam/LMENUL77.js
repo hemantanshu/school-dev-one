@@ -10,7 +10,7 @@ $(document)
 
 
 function populateInitialElements(){
-    var examinationId = $('#examinationId').val();
+    var examinationId = $('#examinationIdGlobal').val();
     var data = 'task=getExaminationDetails&examinationId='+examinationId;
     $
         .ajax({
@@ -22,14 +22,14 @@ function populateInitialElements(){
             success:function (output) {
                 checkValidityOfOutput(output);
                 if(output[0] != 0){
-                    $('#examinationName').html(output[0]);
-                    $('#sessionName').html(output[1]);
-                    $('#className').html(output[2]);
-                    $('#sectionName').html(output[8]);
-                    $('#subjectName').html(output[4]+'  '+output[3]);
-                    $('#subjectCombination').html(output[5]);
-                    $('#startDate').html(output[9]);
-                    $('#endDate').html(output[11]);
+                    $('#examinationNameDirect').html(output[0]);
+                    $('#sessionNameDirect').html(output[1]);
+                    $('#classNameDirect').html(output[2]);
+                    $('#sectionNameDirect').html(output[8]);
+                    $('#subjectNameDirect').html(output[4]+'  '+output[3]);
+                    $('#subjectCombinationDirect').html(output[5]);
+                    $('#startDateDirect').html(output[9]);
+                    $('#endDateDirect').html(output[11]);
                     endLoading();
                 }else{
                     loadPageIntoDisplay(serverUrl);

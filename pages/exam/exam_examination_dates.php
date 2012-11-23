@@ -258,7 +258,7 @@ $sectionId = $_GET['sectionId'];
                     <label for="markingType_u">Scoring Type :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <select name="markingType_u" id="markingType_u" class="required"  title="Select The Marking Type. Leave Blank For Absolute Marking" tabindex="106" onchange="javascript: valid.validateInput(this);" ></select>
+                    <select name="markingType_u" id="markingType_u" class=""  title="Select The Marking Type. Leave Blank For Absolute Marking" tabindex="106" onchange="javascript: valid.validateInput(this);" ></select>
                     <div id="markingType_uError" class="validationError"	style="display: none"></div>
                 </dd>
                 <dt style="width: 15%">

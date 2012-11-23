@@ -37,66 +37,66 @@ $candidateIds = $marks->getCandidate4ExaminationDate($examinationId);
 
 ?>
 
-<input type="hidden" name="examinationId" id="examinationId" value="<?php echo $examinationId; ?>" />
+<input type="hidden" name="examinationIdGlobal" id="examinationIdGlobal" value="<?php echo $examinationId; ?>" />
 <div class="clear"></div>
 <div class="display">
     <div id="displaySubjectRecord">
         <fieldset class="displayElements">
             <dl>
                 <dt style="width: 15%;">
-                    <label for="examinationName">Examination Name :</label>
+                    <label for="examinationNameDirect">Examination Name :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <span id="examinationName"></span>
+                    <span id="examinationNameDirect"></span>
                 </dd>
                 <dt style="width: 15%">
-                    <label for="sessionName">Session Name :</label>
+                    <label for="sessionNameDirect">Session Name :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <span id="sessionName"></span>
+                    <span id="sessionNameDirect"></span>
                 </dd>
             </dl>
             <dl>
                 <dt style="width: 15%;">
-                    <label for="className">Class Name :</label>
+                    <label for="classNameDirect">Class Name :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <span id="className"></span>
+                    <span id="classNameDirect"></span>
                 </dd>
                 <dt style="width: 15%;">
-                    <label for="sectionName">Section Name :</label>
+                    <label for="sectionNameDirect">Section Name :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <span id="sectionName"></span>
+                    <span id="sectionNameDirect"></span>
                 </dd>
                 
             </dl>
             <dl>
                 <dt style="width: 15%;">
-                    <label for="subjectName">Subject Name :</label>
+                    <label for="subjectNameDirect">Subject Name :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <span id="subjectName"></span>
+                    <span id="subjectNameDirect"></span>
                 </dd>
                 <dt style="width: 15%">
-                    <label for="subjectCombination">SubType Name :</label>
+                    <label for="subjectCombinationDirect">SubType Name :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <span id="subjectCombination"></span>
+                    <span id="subjectCombinationDirect"></span>
                 </dd>                
             </dl>    
             <dl>
                 <dt style="width: 15%;">
-                    <label for="startDate">Exam Date :</label>
+                    <label for="startDateDirect">Exam Date :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <span id="startDate"></span>
+                    <span id="startDateDirect"></span>
                 </dd>
                 <dt style="width: 15%">
-                    <label for="endDate">Verification Date :</label>
+                    <label for="endDateDirect">Verification Date :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <span id="endDate"></span>
+                    <span id="endDateDirect"></span>
                 </dd>                
             </dl>        
         </fieldset>

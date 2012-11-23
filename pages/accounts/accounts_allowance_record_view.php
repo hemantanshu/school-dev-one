@@ -10,58 +10,65 @@ require_once 'config.php';
 require_once BASE_PATH . 'include/global/class.body.php';
 
 $body = new body ();
-$body->startBody ( 'accounts', 'LMENUL160', 'View Bank Name Lookup Form' );
+$body->startBody ( 'accounts', 'LMENUL162', 'Allowance Record Details View' );
 ?>
 <div id="content_header">
     <div id="pageButton" class="buttons">
         <button type="button" class="regular toggle" onclick="showHideSearchForm()">Toggle Search Form</button>
         <button type="button" class="regular toggle" onclick="showHideDatatable()">Toggle Tabulated Data</button>
     </div>
-    <div id="contentHeader">Bank Details Form </div>
+    <div id="contentHeader">Allowance Details Form </div>
 </div>
+
 <div class="clear"></div>
 <div class="display">
     <div id="displayRecord" style="display:none">
         <fieldset class="displayElements">
             <div class="legend">
-                <span>Bank Name Details </span>
+                <span>Allowance Record Details Form </span>
             </div>
             <dl>
                 <dt style="width: 15%;">
-                    <label for="bankName_d">Bank Name :</label>
+                    <label for="allowanceName_d">Allowance Name :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <span id="bankName_d"></span>
+                    <span id="allowanceName_d"></span>
                 </dd>
                 <dt style="width: 15%;">
-                    <label for="branchName_d">Branch :</label>
+                    <label for="accountHeadName_d">Account Head :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <span id="branchName_d"></span>
+                    <span id="accountHeadName_d"></span>
                 </dd>
             </dl>
             <dl>
                 <dt style="width: 15%;">
-                    <label for="ifscCode_d">IFSC Code :</label>
+                    <label for="allowUpdate_d">Employee Update :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <span id="ifscCode_d"></span>
+                    <span id="allowUpdate_d"></span>
                 </dd>
                 <dt style="width: 15%;">
-                    <label for="micrCode_d">MICR Code :</label>
+                    <label for="allowRound_d">Rounding Off :</label>
                 </dt>
                 <dd style="width: 30%">
-                    <span id="micrCode_d"></span>
+                    <span id="allowRound_d"></span>
                 </dd>
             </dl>
             <dl>
                 <dt style="width: 15%;">
-                    <label for="bankAddress_d">Address :</label>
+                    <label for="allowFraction_d">Allow Fraction :</label>
                 </dt>
-                <dd style="width: 80%">
-                    <span id="bankAddress_d"></span>
+                <dd style="width: 30%">
+                    <span id="allowFraction_d"></span>
                 </dd>
-            </dl>            
+                <dt style="width: 15%;">
+                    <label for="contributoryFund_d">Employee Fund :</label>
+                </dt>
+                <dd style="width: 30%">
+                    <span id="contributoryFund_d"></span>
+                </dd>
+            </dl>
             <dl>
                 <dt style="width: 15%;">
                     <label for="lastUpdateDateDisplay">Last Update Date : </label>
@@ -115,9 +122,11 @@ $body->startBody ( 'accounts', 'LMENUL160', 'View Bank Name Lookup Form' );
         <fieldset class="formelements">
             <div class="legend">Search Value</div>
             <dl>
-                <dt style="width: 15%"><label for"hint">Bank Name :</label>
+                <dt style="width: 15%">
+                <label for="hint">Allowance Name :</label>
                 </dt>
-                <dd style="width: 30%"><input type="text" name="hint" id="hint" size="20"/>
+                <dd style="width: 30%">
+                	<input type="text" name="hint" id="hint" size="20" />
                 </dd>
                 <dt style="width: 15%">
                     <label for="search_type">Search Type :</label>
@@ -144,16 +153,13 @@ $body->startBody ( 'accounts', 'LMENUL160', 'View Bank Name Lookup Form' );
 <div class="datatable buttons" id="displayDatatable" style="display:none">
     <fieldset class="formelements">
         <div class="legend">
-            <span>Tabulated Listing Of All Banks</span>
+            <span>Tabulated Listing Of All Allowance Types</span>
         </div>
-        <table  class="display"
-               id="groupRecords">
+        <table  class="display" id="groupRecords">
             <thead>
             <tr>
-            	<th>Bank Name</th>
-            	<th>Branch</th>
-            	<th>IFSC Code</th>
-            	<th>MICR Code</th>
+            	<th>Allowance Name</th>
+            	<th style="width: 200px">Definition</th>
                 <th style="width: 160px">View Details</th>
             </tr>
             </thead>

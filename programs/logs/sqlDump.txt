@@ -1,84 +1,1 @@
-ssSELECT * FROM glb_menu_url WHERE id = "LMENUL6"  SELECT id 
-							FROM glb_menu_user_authentication 
-							WHERE user_id = "LUSERS0" 
-							AND menu_id = "LMENUL6"  SELECT id 
-								FROM glb_menu_assignment 
-									WHERE 
-										generic_id = ""
-										AND start_date <= "2012-11-14"
-										AND (end_date >= "2012-11-14" OR end_date = "0000-00-00")
-										AND active = "y"  SELECT id FROM glb_menu_access WHERE menu_id = "LMENUL53" && access_menu_id = "LMENUL6" && active = "y"  SELECT id
-    							FROM glb_option_values
-    							WHERE value_name LIKE "%ac%" 
-    								AND option_type = "USRGP" 
-    								AND active = "y"
-    							ORDER BY value_name ASC SELECT value_name FROM glb_option_values WHERE id = "LOPTON327" LIMIT 1  SELECT id 
-								FROM glb_menu_assignment 
-									WHERE 
-										generic_id = "LOPTON327"
-										AND start_date <= "2012-11-14"
-										AND (end_date >= "2012-11-14" OR end_date = "0000-00-00")
-										AND active = "y"  SELECT * FROM glb_menu_assignment WHERE id = "LMENUA11"  SELECT * FROM glb_menu_top WHERE id = "LMENUT4"  SELECT * FROM glb_menu_assignment WHERE id = "LMENUA11"  SELECT * FROM glb_menu_top WHERE id = "LMENUT4"  SELECT value_name FROM glb_option_values WHERE id = "LOPTON327" LIMIT 1  SELECT first_name, middle_name, last_name FROM utl_personal_info WHERE id = "LUSERS0"  SELECT first_name, middle_name, last_name FROM utl_personal_info WHERE id = "LUSERS0"  SELECT * FROM glb_menu_url WHERE id = "LMENUL148"  SELECT id 
-							FROM glb_menu_user_authentication 
-							WHERE user_id = "LUSERS0" 
-							AND menu_id = "LMENUL148" 
-							AND edit_enabled = "y"  SELECT id
-					FROM exam_result_type
-					WHERE result_type LIKE "%%"
-						AND active = "y" 
-            		ORDER BY result_order ASC  SELECT table_name FROM glb_counters WHERE starter = "LEXRET"  SELECT * FROM exam_result_type WHERE id = "LEXRET1"  SELECT * FROM exam_result_type WHERE id = "LEXRET2"  SELECT * FROM exam_result_type WHERE id = "LEXRET3"  SELECT * FROM exam_result_type WHERE id = "LEXRET4"  SELECT * FROM glb_menu_url WHERE id = "LMENUL73"  SELECT id 
-							FROM glb_menu_user_authentication 
-							WHERE user_id = "LUSERS0" 
-							AND menu_id = "LMENUL73" 
-							AND edit_enabled = "y"  SELECT * FROM glb_menu_url WHERE id = "LMENUL37"  SELECT id 
-							FROM glb_menu_user_authentication 
-							WHERE user_id = "LUSERS0" 
-							AND menu_id = "LMENUL37" 
-							AND edit_enabled = "y"  SELECT id
-    							FROM glb_option_values
-    							WHERE value_name LIKE "%%" 
-    								AND option_type = "SALUT" 
-    								AND active = "y"
-    							ORDER BY value_name ASC SELECT value_name FROM glb_option_values WHERE id = "LOPTON11" LIMIT 1  SELECT value_name FROM glb_option_values WHERE id = "LOPTON140" LIMIT 1  SELECT value_name FROM glb_option_values WHERE id = "LOPTON8" LIMIT 1  SELECT value_name FROM glb_option_values WHERE id = "LOPTON10" LIMIT 1  SELECT value_name FROM glb_option_values WHERE id = "LOPTON9" LIMIT 1  SELECT id
-    							FROM glb_option_values
-    							WHERE value_name LIKE "%%" 
-    								AND option_type = "MARST" 
-    								AND active = "y"
-    							ORDER BY value_name ASC SELECT value_name FROM glb_option_values WHERE id = "LOPTON12" LIMIT 1  SELECT value_name FROM glb_option_values WHERE id = "LOPTON13" LIMIT 1  SELECT * FROM glb_menu_url WHERE id = "LMENUL37"  SELECT id 
-							FROM glb_menu_user_authentication 
-							WHERE user_id = "LUSERS0" 
-							AND menu_id = "LMENUL37" 
-							AND edit_enabled = "y"  SELECT id
-    							FROM glb_option_values
-    							WHERE value_name LIKE "%%" 
-    								AND option_type = "SALUT" 
-    								AND active = "y"
-    							ORDER BY value_name ASC SELECT value_name FROM glb_option_values WHERE id = "LOPTON11" LIMIT 1  SELECT value_name FROM glb_option_values WHERE id = "LOPTON140" LIMIT 1  SELECT value_name FROM glb_option_values WHERE id = "LOPTON8" LIMIT 1  SELECT value_name FROM glb_option_values WHERE id = "LOPTON10" LIMIT 1  SELECT value_name FROM glb_option_values WHERE id = "LOPTON9" LIMIT 1  SELECT id
-    							FROM glb_option_values
-    							WHERE value_name LIKE "%%" 
-    								AND option_type = "MARST" 
-    								AND active = "y"
-    							ORDER BY value_name ASC SELECT value_name FROM glb_option_values WHERE id = "LOPTON12" LIMIT 1  SELECT value_name FROM glb_option_values WHERE id = "LOPTON13" LIMIT 1  SELECT * FROM glb_menu_url WHERE id = "LMENUL37"  SELECT id 
-							FROM glb_menu_user_authentication 
-							WHERE user_id = "LUSERS0" 
-							AND menu_id = "LMENUL37" 
-							AND edit_enabled = "y"  SELECT id
-    							FROM glb_option_values
-    							WHERE value_name LIKE "%%" 
-    								AND option_type = "SALUT" 
-    								AND active = "y"
-    							ORDER BY value_name ASC SELECT value_name FROM glb_option_values WHERE id = "LOPTON11" LIMIT 1  SELECT value_name FROM glb_option_values WHERE id = "LOPTON140" LIMIT 1  SELECT value_name FROM glb_option_values WHERE id = "LOPTON8" LIMIT 1  SELECT value_name FROM glb_option_values WHERE id = "LOPTON10" LIMIT 1  SELECT value_name FROM glb_option_values WHERE id = "LOPTON9" LIMIT 1  SELECT id
-    							FROM glb_option_values
-    							WHERE value_name LIKE "%%" 
-    								AND option_type = "MARST" 
-    								AND active = "y"
-    							ORDER BY value_name ASC SELECT value_name FROM glb_option_values WHERE id = "LOPTON12" LIMIT 1  SELECT value_name FROM glb_option_values WHERE id = "LOPTON13" LIMIT 1  SELECT * FROM glb_menu_url WHERE id = "LMENUL25"  SELECT id 
-							FROM glb_menu_user_authentication 
-							WHERE user_id = "LUSERS0" 
-							AND menu_id = "LMENUL25" 
-							AND edit_enabled = "y"  SELECT id
-    							FROM glb_option_values
-    							WHERE value_name LIKE "%%" 
-    								AND option_type = "SALUT" 
-    								AND active = "y"
-    							ORDER BY value_name ASC SELECT value_name FROM glb_option_values WHERE id = "LOPTON11" LIMIT 1  SELECT value_name FROM glb_option_values WHERE id = "LOPTON140" LIMIT 1  SELECT value_name FROM glb_option_values WHERE id = "LOPTON8" LIMIT 1  SELECT value_name FROM glb_option_values WHERE id = "LOPTON10" LIMIT 1  SELECT value_name FROM glb_option_values WHERE id = "LOPTON9" LIMIT 1  
+ss
