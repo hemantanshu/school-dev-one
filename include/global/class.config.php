@@ -77,7 +77,7 @@ class config {
 		$this->_mysqlUserPassword = "databasestech09";
 		
 		$this->_databaseName = "suppor46_school";
-		//$this->_databaseName = "suppor46_dpskashi";
+		$this->_databaseName = "suppor46_dpskashi";
 		
 		$this->_salt = "gurukul";
 		

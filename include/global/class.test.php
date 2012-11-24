@@ -410,27 +410,28 @@ class testing extends sqlFunction {
 	}
 	
 	public function loadSMSData4WholeSchoolCandidate(){
-		$sqlQuery = "SELECT a.mobile_no, a.first_name, a.middle_name, a.last_name
-							FROM utl_personal_info a, utl_candidate_registration b
+		$sqlQuery = "SELECT a.mobile_no, a.first_name, a.middle_name, a.last_name, b.amount amt
+							FROM utl_personal_info a, table95 b
 							WHERE a.id = b.candidate_id
 								AND length(trim(a.mobile_no)) = 10
 								AND a.active = \"y\"
-								AND b.active = \"y\"";
+								AND b.candidate_id != \"\" ";
 		
 		$query = $this->processQuery($sqlQuery);
 		$i = 1;
 		while($result = mysql_fetch_array($query)){
 			$counter = $this->getCounter('smsPending');
 			$userName = ucwords(strtolower($result[1])).' '.ucwords(strtolower($result[2])).' '.ucwords(strtolower($result[3]));
-			$content = "Dear Parent, school will close for Balmiki Jayanti from 29th oct to 29th oct and will reopen on 30th oct. Scholar Badge students report on 29th. DPS Kashi";
+			$amount = $result['amt'];
+			$content = "Dear Parent, please pay your ward's due fee of Rs. ".$amount." by 15 Dec 2012 to avoid late fine. Please deposit school slip, if already paid. DPS Kashi";
 			$sqlQuery = "INSERT INTO glb_sms_pending
 			(id, source_id, user_name, mobile_number, sms_content, sms_type, priority, last_update_date, last_updated_by, creation_date, created_by, active)
-			VALUES (\"$counter\", \"BK-DUSHERA\", \"$userName\", \"".$result[0]."\", \"$content\", \"LRESER22\", \"1\", \"".date('c')."\", \"LUSERS0\", \"".date('c')."\", \"LUSERS0\", \"y\")";
+			VALUES (\"$counter\", \"BK-FEEMS\", \"$userName\", \"".$result[0]."\", \"$content\", \"LRESER22\", \"1\", \"".date('c')."\", \"LUSERS0\", \"".date('c')."\", \"LUSERS0\", \"y\")";
 			$this->processQuery($sqlQuery, $counter);
 			echo $counter." ".$userName." ".$result[0]."<br />";
 			++$i;
 		}
-		$this->sendAdminMessages($content, 'BK-BALMIKI');
+		$this->sendAdminMessages($content, 'BK-FEEMS');
 	}
 	
 	public function sendAdminMessages($content, $source){
@@ -605,9 +606,10 @@ class testing extends sqlFunction {
 				$this->_resultType->setResultTypeSubmissionEntry($result['result_id'], $result['section_id'], 'LEXRTF7', $result['remarks_date'], $result['remarks_officer']);
 				$this->_resultType->setResultTypeSubmissionEntry($result['result_id'], $result['section_id'], 'LEXRTF8', $result['attendance_date'], $result['attendance_officer']);
 			}
-		}
-	
+		}	
 	}
+	
+	
 	
 	
 	public function copyActivityMarks($examDateId, $genericId){
@@ -624,6 +626,24 @@ class testing extends sqlFunction {
 			
 			$sqlQuery = "DELETE FROM exam_mark_records WHERE id = \"".$result['id']."\" ";
 			$this->processQuery($sqlQuery);
+		}
+	}
+	
+	public function correctTable95Data(){
+		$sqlQuery = "SELECT * FROM table95";
+		$query = $this->processQuery($sqlQuery);
+		while($result = mysql_fetch_array($query)){
+			$admno = $result[1];
+			
+			$sqlQuery = "SELECT * from utl_candidate_registration where registration_number = \"$admno\"";
+			$sqlQuery = $this->processArray($sqlQuery);
+			
+			if($sqlQuery){
+				$candidateId = $sqlQuery['candidate_id'];
+				$sqlQuery = "UPDATE table95 SET candidate_id = \"$candidateId\" where admno = \"$admno\" ";
+				echo $candidateId."<br />";
+				$this->processQuery($sqlQuery);
+			}
 		}
 	}
 }

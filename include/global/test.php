@@ -2,6 +2,6 @@
 require_once 'class.test.php';
 $testing = new testing();
 
-$testing->copyActivityMarks('', '');
+$testing->loadSMSData4WholeSchoolCandidate();
 
 ?>

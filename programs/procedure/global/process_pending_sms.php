@@ -9,7 +9,7 @@
 	
 	
 	$ch = curl_init();
-	curl_setopt($ch, CURLOPT_URL, "http://school.supportgurukul.com/programs/procedure/global/glb_sms_capture.php");
+	curl_setopt($ch, CURLOPT_URL, "http://localhost/main/programs/procedure/global/glb_sms_capture.php");
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 	curl_setopt($ch, CURLOPT_POST, true);
 			
