@@ -39,6 +39,19 @@ class SalarySlip extends Salary {
 		return $this->getDataArray($this->processQuery($sqlQuery));
 	}
 	
+	public function getSalaryProcessId4EmployeeId($employeeId, $month, $active){
+		if($active){
+			if($active === 'all')
+				$sqlQuery = "SELECT id FROM accounts_salary_employee_record WHERE employee_id = \"$employeeId\" AND month = \"$month\" ";
+			else
+				$sqlQuery = "SELECT id FROM accounts_salary_employee_record WHERE employee_id = \"$employeeId\" AND month = \"$month\" AND active = \"y\" ";
+		}else
+			$sqlQuery = "SELECT id FROM accounts_salary_employee_record WHERE employee_id = \"$employeeId\" AND month = \"$month\" AND active != \"y\" ";
+		
+		
+		return $this->getDataArray($this->processQuery($sqlQuery));
+	}
+	
 	public function getEmployeeIds($month){
 		$sqlQuery = "SELECT employee_id
 						FROM accounts_salary_employee_record

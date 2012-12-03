@@ -48,6 +48,7 @@ $(document).ready(function(){
     serverUrl = $('#globalServerUrl').val();
     additionalMenuDisplay = $('#extraMenuPanel');
     extraMenuListing = $('#extraMenuListing');
+
     previousPageArray = new Array();
 
     loadBookmarkedMenus();

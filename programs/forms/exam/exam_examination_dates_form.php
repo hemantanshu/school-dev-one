@@ -25,7 +25,7 @@ $examination->isRequestAuthorised4Form ( 'LMENUL70' );
 if (isset ( $_POST ['task'] )) {
 	if ($_POST ['task'] == 'insertRecord') {
 		
-		$maxMark = $_POST['markingType_i'] == '' ? $_POST['markingType_i'] : $grading->getGradingTypeMaxScore($_POST['markingType_i']);  
+		$maxMark = $_POST['markingType_i'] == '' ? $_POST['maxMark_i'] : $grading->getGradingTypeMaxScore($_POST['markingType_i']);  
 		
 		$examinationId = $examination->setExaminationSubjectDate ( $_POST ['sessionId'], $_POST ['examinationId'], $_POST ['classId'], $_POST['sectionId'], $_POST ['subjectName_i'], $_POST ['subjectComponent_i'], $_POST ['examinationName_i'], $_POST ['examinationDate_i'], $_POST ['examinationTime_i'], $_POST ['examinationDuration_i'], $_POST ['markingType_i'], $_POST ['credit_i'], $maxMark, $_POST ['passMark_i'], $_POST ['markSubmissionDate_i'], $_POST ['markSubmissionOfficer_ival'], $_POST ['markVerificationDate_i'], $_POST ['markVerificationOfficer_ival'] );
 		$outputArray [0] = 0;

@@ -254,7 +254,7 @@ class Salary extends Accounts {
     												AND b.month = \"$month\"
     												AND b.active = \"y\")
     						AND NOT EXISTS (SELECT 1 
-    											FROM accounts_blocksalary_list c
+    											FROM accounts_blocksalary_record c
     											WHERE a.employee_id = c.employee_id
     												AND c.start_month <= \"$month\"
     												AND (c.end_month = \"0\" 

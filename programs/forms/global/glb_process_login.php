@@ -13,7 +13,7 @@ if($_GET['task'] == 'logout'){
     echo json_encode($outputArray);
 }elseif($_GET['task'] == 'checkSessionValidity'){
     if($loggedInfo->isUserLogged(false)){
-        $outputArray[0] = time () - $_SESSION['lastActivityTime'];
+        $outputArray[0] = $_SESSION ['session_timer'] - time () + $_SESSION['lastActivityTime']  ;       
     }
     else
         $outputArray[0] = 'ERR401';

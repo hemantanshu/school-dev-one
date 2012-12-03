@@ -34,6 +34,8 @@ if (isset ( $_POST ['task'] )) {
 			$salaryProcessId = $salary->checkSalaryProcessRecord($employeeId, $month, 1);
 			$salary->dropSalaryProcessRecord($salaryProcessId[0]);
 						
+			$salaryEmployeeRecordId = $salary->getSalaryProcessId4EmployeeId($employeeId, $month, 1);			
+			$salary->dropSalaryProcessRecord($salaryEmployeeRecordId[0]);			
 			
 			$salaryProcessDetails = $salary->getTableIdDetails($salaryProcessId[0]);			
 			//dropping the menutask and notification 

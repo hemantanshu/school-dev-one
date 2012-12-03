@@ -57,9 +57,7 @@ class MenuTask extends general {
 		}else 
 			$sqlQuery = "SELECT id FROM glb_menu_task_assignment
 							WHERE user_id = \"$userId\"
-								AND (start_date < \"".$this->getCurrentDate()."\"
-									OR end_date >= \"".$this->getCurrentDate()."\"
-									OR active = \"y\")
+								AND complete_flag = \"y\"
 							ORDER BY end_date DESC ";
 		return $this->getDataArray($this->processQuery($sqlQuery));
 	}

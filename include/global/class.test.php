@@ -646,6 +646,29 @@ class testing extends sqlFunction {
 			}
 		}
 	}
+	
+	public function dumpSms(){
+		$sqlQuery = "SELECT * 
+						FROM  `glb_sms_processed` 
+						WHERE  `creation_date` >  '2012-11-19 00:00:00' ";
+		$query = $this->processQuery($sqlQuery);
+		$i = 1;
+		while($result = mysql_fetch_array($query)){
+			$counter = $this->getCounter('smsPending');
+			
+			$content = $result['sms_content'];
+			$userName = $result['user_name'];
+			
+			$sqlQuery = "INSERT INTO glb_sms_pending
+				(id, source_id, user_name, mobile_number, sms_content, sms_type, priority, last_update_date, last_updated_by, creation_date, created_by, active)
+				VALUES (\"$counter\", \"BK-FEEMS\", \"$userName\", \"".$result['mobile_number']."\", \"$content\", \"LRESER22\", \"1\", \"".date('c')."\", \"LUSERS0\", \"".date('c')."\", \"LUSERS0\", \"y\")";
+			$this->processQuery($sqlQuery, $counter);
+			
+			echo $counter." ".$userName." ".$result['mobile_number']."<br />";
+			++$i;
+		}
+		$this->sendAdminMessages($content, 'BK-FEEMS');		
+	}
 }
 
 ?>

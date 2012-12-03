@@ -1,3 +1,4 @@
+
 var valid = new validate();
 var formGlobalPath = getFormGlobalPath();
 
@@ -53,7 +54,7 @@ function checkUserSessionStatus(){
                 showLoginForm();
             }
             else{
-                var timer = 60000;
+            	var timer = parseInt(output[0])*1000 + 1000;
                 setTimeout(checkUserSessionStatus, timer);
             }
         }

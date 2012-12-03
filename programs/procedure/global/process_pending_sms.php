@@ -14,6 +14,7 @@
 	curl_setopt($ch, CURLOPT_POST, true);
 			
 	$pendingIds = $sms->getPendingSMSIds();
+	$i = 0;
 	foreach ($pendingIds as $pendingId){
 		$details = $sms->getTableIdDetails($pendingId);
 		$data = array(
@@ -32,6 +33,9 @@
 			$sms->setProcessedSMS($sourceId, $output, $details['user_name'], $details['mobile_number'], $details['sms_content'], $details['sms_type'], $details['priority'], 'awaiting confirmation');
 			$sms->dropPendingSms($pendingId);
 		}	
+		++$i;
+		if($i == 100)
+			break;
 	}
 	
 	curl_close($ch);

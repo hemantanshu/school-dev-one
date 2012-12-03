@@ -33,7 +33,9 @@ $body->startBody ( 'global', 'LMENUL0', 'Index Page' );
 				if ($i > 10)
 					break;
 				$details = $menuTask->getTableIdDetails ( $menuTaskId );
-				echo "<a href=\"#\" onclick=\"loadPageIntoDisplay('" . $details ['menu_url'] . "')\"><li>" . $details ['comments'] . "</li></a>";
+				$url = $menuTask->getBaseServer().$details['menu_url']."?referenceId=".$menuTaskId;
+				echo "<li><a href=\"#\" onclick=\"loadPageIntoDisplay('" . $url . "')\">" . $details ['comments'] . "</a></li>";
+				
 				++ $i;
 			}
 			if ($i == 0)
@@ -50,11 +52,11 @@ $body->startBody ( 'global', 'LMENUL0', 'Index Page' );
 				if ($i > 10)
 					break;
 				$details = $menuTask->getTableIdDetails ( $menuTaskId );
-				echo "<a href=\"#\" onclick=\"loadPageIntoDisplay('" . $details ['menu_url'] . "')\"><li>" . $details ['comments'] . "</li></a>";
+				echo "<li>" . $details ['comments'] . "</li>";
 				++ $i;
 			}
 			if ($i == 0)
-				echo "No Pending Task";
+				echo "No Task Completed";
 			?>
 		</ul>
 	</div>
@@ -116,9 +118,7 @@ $body->startBody ( 'global', 'LMENUL0', 'Index Page' );
 		</table>
 	</fieldset>
 </div>
-
 <?php
 $body->endBody ( 'global', 'LMENUL0' );
 $body->endMainBody ();
-
 ?>

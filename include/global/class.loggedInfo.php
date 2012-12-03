@@ -34,6 +34,7 @@ class loggedInfo extends sqlFunction {
 			}
 			$this->userLog ( $result [0], 'y' );
 			$_SESSION ['session_timer'] = $this->getGlobalVariable ( 'login_timer' );
+			
 			$_SESSION [$this->getLoginSessionIdentifier ()] = $result [0];
 			
 			$_SESSION ['lastActivityTime'] = time ();
@@ -57,7 +58,7 @@ class loggedInfo extends sqlFunction {
 	
 	public function isUserLogged($flag = true) {
 		if (isset ( $_SESSION [$this->getLoginSessionIdentifier ()] ) && isset ( $_SESSION ['lastActivityTime'] )) {
-			if ((time () - $_SESSION ['lastActivityTime']) <= $_SESSION ['session_timer'] / 1000) {
+			if ((time () - $_SESSION ['lastActivityTime']) <= $_SESSION ['session_timer']) {
 				return true;
 			}
 		}
